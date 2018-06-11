@@ -40,21 +40,27 @@ class MainViewController: UIViewController {
         MTBBarcodeScanner.requestCameraPermission(success: { success in
             if success {
                 do {
-                    try self.scanner?.startScanning(resultBlock: { codes in
+                    try self.scanner?.startScanning(resultBlock: { [weak self] codes in
+                        guard let self1 = self else {
+                            return
+                        }
                         if let codes = codes {
                             for code in codes {
-                                if self.qrScanAllowed {
-                                    self.qrScanAllowed = false
+                                if self1.qrScanAllowed {
+                                    self1.qrScanAllowed = false
                                     let urlValue = code.stringValue!
                                     print("Found code: \(urlValue)")
                                     // TODO: urlValue 로 연결 [ urlValue = /qr/{station_admin_id}/{index}/{destination_station} ]
-                                    let urlDestination = "\(urlValue)/\(self.destinationStationName)"
+                                    let urlDestination = "\(urlValue)/\(self1.destinationStationName)"
                                     print("urlDestination:\(urlDestination)")
                                     let encodedUrl = urlDestination.addingPercentEncoding(withAllowedCharacters: NSCharacterSet.urlQueryAllowed)!
                                     if let url = URL(string: encodedUrl) {
                                         
                                         print("valid url")
-                                        Alamofire.request(url).responseJSON(completionHandler: { (response) in
+                                        Alamofire.request(url).responseJSON(completionHandler: { [weak self] (response) in
+                                            guard let self2 = self else {
+                                                return
+                                            }
                                             if response.result.isSuccess {
                                                 if let value = response.result.value {
                                                     let json = JSON(value)
@@ -66,34 +72,37 @@ class MainViewController: UIViewController {
                                                     print("stationName: \(stationName)")
                                                     print("direction: \(direction)")
                                                 
-                                                    self.toGo = Shortest(startStation: stationName, direction: direction)
-                                                    guard let toGo = self.toGo else {
+                                                    self2.toGo = Shortest(startStation: stationName, direction: direction)
+                                                    guard let toGo = self2.toGo else {
                                                         print("toGo nil")
                                                         return
                                                     }
                                                     print("startStation: \(toGo.startStation)")
                                                     print("direction: \(toGo.direction)")
                                                     DispatchQueue.main.async { [weak self] in
-                                                        self?.departureLabel.text = toGo.startStation
-                                                        switch self?.toGo?.direction {
+                                                        guard let self3 = self else {
+                                                            return
+                                                        }
+                                                        self3.departureLabel.text = toGo.startStation
+                                                        switch self3.toGo?.direction {
                                                         case .LEFT?:
-                                                            self?.leftImage.image = UIImage(named: "RedLeft")
+                                                            self3.leftImage.image = UIImage(named: "RedLeft")
                                                         case .RIGHT?:
-                                                            self?.leftImage.image = UIImage(named: "RedRight")
+                                                            self3.rightImage.image = UIImage(named: "RedRight")
                                                         default:
                                                             break
                                                         }
                                                     }
-                                                    self.qrScanAllowed = true
+                                                    self2.qrScanAllowed = true
                                                 }
                                             } else {
                                                 print("Network ERROR")
-                                                self.qrScanAllowed = true
+                                                self1.qrScanAllowed = true
                                             }
                                         })
                                     } else {
                                         print("invalid url")
-                                        self.qrScanAllowed = true
+                                        self1.qrScanAllowed = true
                                     }
                                 }
                             }
