@@ -1,0 +1,30 @@
+PODS:
+  - Alamofire (4.5.1)
+  - Alamofire-SwiftyJSON (3.0.0):
+    - Alamofire (~> 4.5)
+    - SwiftyJSON (~> 4.0.0)
+  - MTBBarcodeScanner (5.0.3)
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Alamofire-SwiftyJSON
+  - MTBBarcodeScanner
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Alamofire-SwiftyJSON
+    - MTBBarcodeScanner
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  Alamofire-SwiftyJSON: 2b3649d57dc7bb2880fb8b86f8bb969397666916
+  MTBBarcodeScanner: 3ce0f1b0085ef00c726ded663c490a63b29c9aa5
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: 093b4243f6c877168b95896dae28da476e2f7145
+
+COCOAPODS: 1.5.3

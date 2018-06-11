@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		903541C0555F4D979D89A581 /* Pods_GaongilroMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F679C4D35C8A94A832E1977D /* Pods_GaongilroMobile.framework */; };
 		CA5063EA1FEE0FAC000DF4E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5063E91FEE0FAC000DF4E7 /* AppDelegate.swift */; };
-		CA5063EC1FEE0FAC000DF4E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5063EB1FEE0FAC000DF4E7 /* ViewController.swift */; };
+		CA5063EC1FEE0FAC000DF4E7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5063EB1FEE0FAC000DF4E7 /* MainViewController.swift */; };
 		CA5063EF1FEE0FAC000DF4E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5063ED1FEE0FAC000DF4E7 /* Main.storyboard */; };
 		CA5063F11FEE0FAC000DF4E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA5063F01FEE0FAC000DF4E7 /* Assets.xcassets */; };
 		CA5063F41FEE0FAD000DF4E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5063F21FEE0FAD000DF4E7 /* LaunchScreen.storyboard */; };
+		CAAD8FA320CE3DE400768788 /* Shortest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAD8FA220CE3DE400768788 /* Shortest.swift */; };
+		CAB2244F200CD09F00D7F436 /* DestinationInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB2244E200CD09F00D7F436 /* DestinationInputViewController.swift */; };
+		CAB22453200D95D300D7F436 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB22452200D95D300D7F436 /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B8B3F868C1121FBE2C70E7FB /* Pods-GaongilroMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaongilroMobile.release.xcconfig"; path = "Pods/Target Support Files/Pods-GaongilroMobile/Pods-GaongilroMobile.release.xcconfig"; sourceTree = "<group>"; };
 		CA5063E61FEE0FAC000DF4E7 /* GaongilroMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaongilroMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA5063E91FEE0FAC000DF4E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CA5063EB1FEE0FAC000DF4E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA5063EB1FEE0FAC000DF4E7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CA5063EE1FEE0FAC000DF4E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA5063F01FEE0FAC000DF4E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA5063F31FEE0FAD000DF4E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA5063F51FEE0FAD000DF4E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAAD8FA220CE3DE400768788 /* Shortest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shortest.swift; sourceTree = "<group>"; };
+		CAB2244E200CD09F00D7F436 /* DestinationInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationInputViewController.swift; sourceTree = "<group>"; };
+		CAB22452200D95D300D7F436 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		EDC20D0EC02DB1E34ABD9F0C /* Pods-GaongilroMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaongilroMobile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GaongilroMobile/Pods-GaongilroMobile.debug.xcconfig"; sourceTree = "<group>"; };
+		F679C4D35C8A94A832E1977D /* Pods_GaongilroMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GaongilroMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				903541C0555F4D979D89A581 /* Pods_GaongilroMobile.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		313EB95663550BFDADD20514 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDC20D0EC02DB1E34ABD9F0C /* Pods-GaongilroMobile.debug.xcconfig */,
+				B8B3F868C1121FBE2C70E7FB /* Pods-GaongilroMobile.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CA5063DD1FEE0FAC000DF4E7 = {
 			isa = PBXGroup;
 			children = (
 				CA5063E81FEE0FAC000DF4E7 /* GaongilroMobile */,
 				CA5063E71FEE0FAC000DF4E7 /* Products */,
+				313EB95663550BFDADD20514 /* Pods */,
+				EA33744E889F7D5957FC0591 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +76,25 @@
 		CA5063E81FEE0FAC000DF4E7 /* GaongilroMobile */ = {
 			isa = PBXGroup;
 			children = (
+				CAB22452200D95D300D7F436 /* API.swift */,
 				CA5063E91FEE0FAC000DF4E7 /* AppDelegate.swift */,
-				CA5063EB1FEE0FAC000DF4E7 /* ViewController.swift */,
+				CAB2244E200CD09F00D7F436 /* DestinationInputViewController.swift */,
+				CA5063EB1FEE0FAC000DF4E7 /* MainViewController.swift */,
 				CA5063ED1FEE0FAC000DF4E7 /* Main.storyboard */,
 				CA5063F01FEE0FAC000DF4E7 /* Assets.xcassets */,
 				CA5063F21FEE0FAD000DF4E7 /* LaunchScreen.storyboard */,
 				CA5063F51FEE0FAD000DF4E7 /* Info.plist */,
+				CAAD8FA220CE3DE400768788 /* Shortest.swift */,
 			);
 			path = GaongilroMobile;
+			sourceTree = "<group>";
+		};
+		EA33744E889F7D5957FC0591 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F679C4D35C8A94A832E1977D /* Pods_GaongilroMobile.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA5063F81FEE0FAD000DF4E7 /* Build configuration list for PBXNativeTarget "GaongilroMobile" */;
 			buildPhases = (
+				5B896A34EFE1D1B9EF4F731F /* [CP] Check Pods Manifest.lock */,
 				CA5063E21FEE0FAC000DF4E7 /* Sources */,
 				CA5063E31FEE0FAC000DF4E7 /* Frameworks */,
 				CA5063E41FEE0FAC000DF4E7 /* Resources */,
+				03AB060C41C660E2103A3F4B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,13 +166,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03AB060C41C660E2103A3F4B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GaongilroMobile/Pods-GaongilroMobile-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-SwiftyJSON/Alamofire_SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/MTBBarcodeScanner/MTBBarcodeScanner.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire_SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MTBBarcodeScanner.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GaongilroMobile/Pods-GaongilroMobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B896A34EFE1D1B9EF4F731F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GaongilroMobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CA5063E21FEE0FAC000DF4E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA5063EC1FEE0FAC000DF4E7 /* ViewController.swift in Sources */,
+				CA5063EC1FEE0FAC000DF4E7 /* MainViewController.swift in Sources */,
 				CA5063EA1FEE0FAC000DF4E7 /* AppDelegate.swift in Sources */,
+				CAB22453200D95D300D7F436 /* API.swift in Sources */,
+				CAAD8FA320CE3DE400768788 /* Shortest.swift in Sources */,
+				CAB2244F200CD09F00D7F436 /* DestinationInputViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +355,7 @@
 		};
 		CA5063F91FEE0FAD000DF4E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDC20D0EC02DB1E34ABD9F0C /* Pods-GaongilroMobile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +371,7 @@
 		};
 		CA5063FA1FEE0FAD000DF4E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8B3F868C1121FBE2C70E7FB /* Pods-GaongilroMobile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
