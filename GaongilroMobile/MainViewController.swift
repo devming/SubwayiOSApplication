@@ -15,6 +15,8 @@ class MainViewController: UIViewController {
     
     var qrScanAllowed = true
     
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
+    
     @IBOutlet var previewView: UIView!
     var scanner: MTBBarcodeScanner?
     
@@ -31,7 +33,7 @@ class MainViewController: UIViewController {
         
         scanner = MTBBarcodeScanner(previewView: previewView)
         print("self.destinationStationName: \(self.destinationStationName)")
-        self.destinationLabel.text = self.destinationStationName
+        self.destinationLabel.text = "\(self.destinationStationName) (도착)"
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -56,8 +58,12 @@ class MainViewController: UIViewController {
                                     let encodedUrl = urlDestination.addingPercentEncoding(withAllowedCharacters: NSCharacterSet.urlQueryAllowed)!
                                     if let url = URL(string: encodedUrl) {
                                         
+                                        DispatchQueue.main.async { [weak self] in
+                                            self?.activityIndicator.startAnimating()
+                                        }
                                         print("valid url")
                                         Alamofire.request(url).responseJSON(completionHandler: { [weak self] (response) in
+                                            
                                             guard let self2 = self else {
                                                 return
                                             }
@@ -83,21 +89,29 @@ class MainViewController: UIViewController {
                                                         guard let self3 = self else {
                                                             return
                                                         }
-                                                        self3.departureLabel.text = toGo.startStation
+                                                        self3.departureLabel.text = "\(toGo.startStation) (출발)"
                                                         switch self3.toGo?.direction {
                                                         case .LEFT?:
                                                             self3.leftImage.image = UIImage(named: "RedLeft")
+                                                            self3.rightImage.image = UIImage(named: "GrayRight")
                                                         case .RIGHT?:
+                                                            self3.leftImage.image = UIImage(named: "GrayLeft")
                                                             self3.rightImage.image = UIImage(named: "RedRight")
                                                         default:
                                                             break
                                                         }
                                                     }
                                                     self2.qrScanAllowed = true
+                                                    DispatchQueue.main.async { [weak self] in
+                                                        self?.activityIndicator.stopAnimating()
+                                                    }
                                                 }
                                             } else {
                                                 print("Network ERROR")
                                                 self1.qrScanAllowed = true
+                                                DispatchQueue.main.async { [weak self] in
+                                                    self?.activityIndicator.stopAnimating()
+                                                }
                                             }
                                         })
                                     } else {
