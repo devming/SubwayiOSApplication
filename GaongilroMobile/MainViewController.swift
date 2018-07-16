@@ -13,8 +13,6 @@ import Alamofire_SwiftyJSON
 
 class MainViewController: UIViewController {
     
-    var qrScanAllowed = true
-    
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
     @IBOutlet var previewView: UIView!
@@ -26,19 +24,50 @@ class MainViewController: UIViewController {
     @IBOutlet weak var rightImage: UIImageView!
     
     var destinationStationName: String = ""
-    var toGo: Shortest?
+    var shortestPathInfo: Shortest?
+    
+    var onOffFlag = true
+    
+    @IBAction func onOffTapped(_ sender: Any) {
+        
+        if onOffFlag {
+            scanning()
+        } else {
+            scanner?.stopScanning()
+        }
+        onOffFlag = !onOffFlag
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         scanner = MTBBarcodeScanner(previewView: previewView)
-        print("self.destinationStationName: \(self.destinationStationName)")
         self.destinationLabel.text = "\(self.destinationStationName) (도착)"
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        guard let scanner = self.scanner else {
+            return super.viewWillDisappear(animated)
+        }
+        
+        if scanner.isScanning() {
+            scanner.stopScanning()
+        }
+        
+        super.viewWillDisappear(animated)
+    }
+    
+    func setDestinationLabel(destinationStationName name: String) {
+        self.destinationStationName = name
+        
+    }
+    
+    func scanning() {
         MTBBarcodeScanner.requestCameraPermission(success: { success in
             if success {
                 do {
@@ -48,78 +77,72 @@ class MainViewController: UIViewController {
                         }
                         if let codes = codes {
                             for code in codes {
-                                if self1.qrScanAllowed {
-                                    self1.qrScanAllowed = false
-                                    let urlValue = code.stringValue!
-                                    print("Found code: \(urlValue)")
-                                    // TODO: urlValue 로 연결 [ urlValue = /qr/{station_admin_id}/{index}/{destination_station} ]
-                                    let urlDestination = "\(urlValue)/\(self1.destinationStationName)"
-                                    print("urlDestination:\(urlDestination)")
-                                    let encodedUrl = urlDestination.addingPercentEncoding(withAllowedCharacters: NSCharacterSet.urlQueryAllowed)!
-                                    if let url = URL(string: encodedUrl) {
+                                let urlValue = code.stringValue!
+                                print("Found code: \(urlValue)")
+                                // TODO: urlValue 로 연결 [ urlValue = /qr/{station_admin_id}/{index}/{destination_station} ]
+                                let urlDestination = "\(urlValue)/\(self1.destinationStationName)"
+                                print("urlDestination:\(urlDestination)")
+                                let encodedUrl = urlDestination.addingPercentEncoding(withAllowedCharacters: NSCharacterSet.urlQueryAllowed)!
+                                if let url = URL(string: encodedUrl) {
+                                    
+                                    DispatchQueue.main.async { [weak self] in
+                                        self?.activityIndicator.startAnimating()
+                                    }
+                                    print("valid url")
+                                    Alamofire.request(url).responseJSON(completionHandler: { [weak self] (response) in
                                         
-                                        DispatchQueue.main.async { [weak self] in
-                                            self?.activityIndicator.startAnimating()
+                                        guard let self2 = self else {
+                                            return
                                         }
-                                        print("valid url")
-                                        Alamofire.request(url).responseJSON(completionHandler: { [weak self] (response) in
-                                            
-                                            guard let self2 = self else {
-                                                return
-                                            }
-                                            if response.result.isSuccess {
-                                                if let value = response.result.value {
-                                                    let json = JSON(value)
-                                                    let stationName = json["stationName"].stringValue
-                                                    guard let direction = Shortest.Direction(rawValue: json["direction"].stringValue) else {
-                                                        print("direction converting error")
-                                                        return
-                                                    }
-                                                    print("stationName: \(stationName)")
-                                                    print("direction: \(direction)")
+                                        if response.result.isSuccess {
+                                            if let value = response.result.value {
+                                                let json = JSON(value)
+                                                let stationName = json["stationName"].stringValue
+                                                guard let direction = Shortest.Direction(rawValue: json["direction"].stringValue) else {
+                                                    print("direction converting error")
+                                                    return
+                                                }
                                                 
-                                                    self2.toGo = Shortest(startStation: stationName, direction: direction)
-                                                    guard let toGo = self2.toGo else {
-                                                        print("toGo nil")
+                                                self2.shortestPathInfo = Shortest(startStation: stationName, direction: direction)
+                                                guard let toGo = self2.shortestPathInfo else {
+                                                    print("toGo nil")
+                                                    return
+                                                }
+                                                DispatchQueue.main.async { [weak self] in
+                                                    guard let self3 = self else {
                                                         return
                                                     }
-                                                    print("startStation: \(toGo.startStation)")
-                                                    print("direction: \(toGo.direction)")
-                                                    DispatchQueue.main.async { [weak self] in
-                                                        guard let self3 = self else {
-                                                            return
-                                                        }
-                                                        self3.departureLabel.text = "\(toGo.startStation) (출발)"
-                                                        switch self3.toGo?.direction {
-                                                        case .LEFT?:
-                                                            self3.leftImage.image = UIImage(named: "RedLeft")
-                                                            self3.rightImage.image = UIImage(named: "GrayRight")
-                                                        case .RIGHT?:
-                                                            self3.leftImage.image = UIImage(named: "GrayLeft")
-                                                            self3.rightImage.image = UIImage(named: "RedRight")
-                                                        default:
-                                                            break
-                                                        }
-                                                    }
-                                                    self2.qrScanAllowed = true
-                                                    DispatchQueue.main.async { [weak self] in
-                                                        self?.activityIndicator.stopAnimating()
+                                                    self3.departureLabel.text = "\(toGo.startStation) (출발)"
+                                                    switch self3.shortestPathInfo?.direction {
+                                                    case .LEFT?:
+                                                        self3.leftImage.image = UIImage(named: "RedLeft")
+                                                        self3.rightImage.image = UIImage(named: "GrayRight")
+                                                    case .RIGHT?:
+                                                        self3.leftImage.image = UIImage(named: "GrayLeft")
+                                                        self3.rightImage.image = UIImage(named: "RedRight")
+                                                    default:
+                                                        break
                                                     }
                                                 }
-                                            } else {
-                                                print("Network ERROR")
-                                                self1.qrScanAllowed = true
+                                                
+                                                self2.onOffFlag = false
                                                 DispatchQueue.main.async { [weak self] in
+                                                    self?.scanner?.stopScanning()
                                                     self?.activityIndicator.stopAnimating()
                                                 }
                                             }
-                                        })
-                                    } else {
-                                        print("invalid url")
-                                        self1.qrScanAllowed = true
-                                    }
+                                        } else {
+                                            print("Network ERROR")
+                                            DispatchQueue.main.async { [weak self] in
+                                                self?.activityIndicator.stopAnimating()
+                                            }
+                                        }
+                                    })
+                                } else {
+                                    print("invalid url")
                                 }
                             }
+                            
                         }
                     })
                 } catch {
@@ -136,17 +159,6 @@ class MainViewController: UIViewController {
                 self.present(alertController, animated: true, completion: nil)
             }
         })
-    }
-    
-    override func viewWillDisappear(_ animated: Bool) {
-        self.scanner?.stopScanning()
-        
-        super.viewWillDisappear(animated)
-    }
-    
-    func setDestinationLabel(destinationStationName name: String) {
-        self.destinationStationName = name
-        
     }
     
 }
