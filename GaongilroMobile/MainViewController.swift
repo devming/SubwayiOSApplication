@@ -22,17 +22,22 @@ class MainViewController: UIViewController {
     @IBOutlet weak var destinationLabel: UILabel!
     @IBOutlet weak var leftImage: UIImageView!
     @IBOutlet weak var rightImage: UIImageView!
+    @IBOutlet weak var descriptionLabel: UILabel!
     
     var destinationStationName: String = ""
     var shortestPathInfo: Shortest?
     
     var onOffFlag = true
     
+    let searchController = UISearchController(searchResultsController: nil)
+    
     @IBAction func onOffTapped(_ sender: Any) {
         
         if onOffFlag {
+            descriptionLabel.isHidden = true
             scanning()
         } else {
+            descriptionLabel.isHidden = false
             scanner?.stopScanning()
         }
         onOffFlag = !onOffFlag
@@ -40,6 +45,14 @@ class MainViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        // Setup the Search Controller
+        searchController.searchResultsUpdater = self
+        searchController.obscuresBackgroundDuringPresentation = false
+        searchController.searchBar.placeholder = "검색"
+        navigationItem.searchController = searchController
+        definesPresentationContext = true
         
         scanner = MTBBarcodeScanner(previewView: previewView)
         self.destinationLabel.text = "\(self.destinationStationName) (도착)"
@@ -127,6 +140,8 @@ class MainViewController: UIViewController {
                                                 
                                                 self2.onOffFlag = false
                                                 DispatchQueue.main.async { [weak self] in
+                                                   
+                                                    self?.descriptionLabel.isHidden = false
                                                     self?.scanner?.stopScanning()
                                                     self?.activityIndicator.stopAnimating()
                                                 }
@@ -160,5 +175,13 @@ class MainViewController: UIViewController {
             }
         })
     }
+    
+}
+
+extension MainViewController: UISearchResultsUpdating {
+    func updateSearchResults(for searchController: UISearchController) {
+        
+    }
+    
     
 }
