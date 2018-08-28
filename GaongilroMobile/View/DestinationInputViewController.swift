@@ -16,10 +16,7 @@ class DestinationInputViewController: UIViewController {
         super.viewDidLoad()
     }
     
-    
     @IBAction func enterButtonTapped(_ sender: UIButton) {
-        
-//        self.checkStationValidation()
         
         self.performSegue(withIdentifier: "main", sender: sender)
     }

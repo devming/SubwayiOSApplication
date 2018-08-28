@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		903541C0555F4D979D89A581 /* Pods_GaongilroMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F679C4D35C8A94A832E1977D /* Pods_GaongilroMobile.framework */; };
+		CA3D1B6A213510A400267F6B /* StationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3D1B69213510A400267F6B /* StationInfo.swift */; };
 		CA5063EA1FEE0FAC000DF4E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5063E91FEE0FAC000DF4E7 /* AppDelegate.swift */; };
 		CA5063EC1FEE0FAC000DF4E7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5063EB1FEE0FAC000DF4E7 /* MainViewController.swift */; };
 		CA5063EF1FEE0FAC000DF4E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5063ED1FEE0FAC000DF4E7 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		B8B3F868C1121FBE2C70E7FB /* Pods-GaongilroMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaongilroMobile.release.xcconfig"; path = "Pods/Target Support Files/Pods-GaongilroMobile/Pods-GaongilroMobile.release.xcconfig"; sourceTree = "<group>"; };
+		CA3D1B69213510A400267F6B /* StationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationInfo.swift; sourceTree = "<group>"; };
 		CA5063E61FEE0FAC000DF4E7 /* GaongilroMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaongilroMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA5063E91FEE0FAC000DF4E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA5063EB1FEE0FAC000DF4E7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -29,7 +31,7 @@
 		CA5063F51FEE0FAD000DF4E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CAAD8FA220CE3DE400768788 /* Shortest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shortest.swift; sourceTree = "<group>"; };
 		CAB2244E200CD09F00D7F436 /* DestinationInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationInputViewController.swift; sourceTree = "<group>"; };
-		CAB22452200D95D300D7F436 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		CAB22452200D95D300D7F436 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = API.swift; path = "../New Group/API.swift"; sourceTree = "<group>"; };
 		EDC20D0EC02DB1E34ABD9F0C /* Pods-GaongilroMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaongilroMobile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GaongilroMobile/Pods-GaongilroMobile.debug.xcconfig"; sourceTree = "<group>"; };
 		F679C4D35C8A94A832E1977D /* Pods_GaongilroMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GaongilroMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -55,6 +57,32 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		CA3D1B6721350EE800267F6B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CAB2244E200CD09F00D7F436 /* DestinationInputViewController.swift */,
+				CA5063EB1FEE0FAC000DF4E7 /* MainViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CA3D1B682135108700267F6B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CAAD8FA220CE3DE400768788 /* Shortest.swift */,
+				CA3D1B69213510A400267F6B /* StationInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CA3D1B6B213510F900267F6B /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				CAB22452200D95D300D7F436 /* API.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		CA5063DD1FEE0FAC000DF4E7 = {
 			isa = PBXGroup;
 			children = (
@@ -76,11 +104,10 @@
 		CA5063E81FEE0FAC000DF4E7 /* GaongilroMobile */ = {
 			isa = PBXGroup;
 			children = (
-				CAB22452200D95D300D7F436 /* API.swift */,
-				CAAD8FA220CE3DE400768788 /* Shortest.swift */,
+				CA3D1B6B213510F900267F6B /* Util */,
+				CA3D1B682135108700267F6B /* Model */,
+				CA3D1B6721350EE800267F6B /* View */,
 				CA5063E91FEE0FAC000DF4E7 /* AppDelegate.swift */,
-				CAB2244E200CD09F00D7F436 /* DestinationInputViewController.swift */,
-				CA5063EB1FEE0FAC000DF4E7 /* MainViewController.swift */,
 				CA5063ED1FEE0FAC000DF4E7 /* Main.storyboard */,
 				CA5063F01FEE0FAC000DF4E7 /* Assets.xcassets */,
 				CA5063F21FEE0FAD000DF4E7 /* LaunchScreen.storyboard */,
@@ -218,6 +245,7 @@
 			files = (
 				CA5063EC1FEE0FAC000DF4E7 /* MainViewController.swift in Sources */,
 				CA5063EA1FEE0FAC000DF4E7 /* AppDelegate.swift in Sources */,
+				CA3D1B6A213510A400267F6B /* StationInfo.swift in Sources */,
 				CAB22453200D95D300D7F436 /* API.swift in Sources */,
 				CAAD8FA320CE3DE400768788 /* Shortest.swift in Sources */,
 				CAB2244F200CD09F00D7F436 /* DestinationInputViewController.swift in Sources */,
@@ -361,6 +389,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HGQ9YZ4HTR;
 				INFOPLIST_FILE = GaongilroMobile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devming.GaongilroMobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -377,6 +406,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HGQ9YZ4HTR;
 				INFOPLIST_FILE = GaongilroMobile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devming.GaongilroMobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";

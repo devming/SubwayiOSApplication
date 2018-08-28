@@ -8,8 +8,9 @@
 
 import Foundation
 
-class API {
-    
+protocol API {
+
+    func getDirection(stationName: String)
 //    static func valueForAPIKey(keyname: String) -> String {
 //        // Get the file path for keys.plist
 //        let filePath = Bundle.main.path(forResource: "Info", ofType: "plist")
