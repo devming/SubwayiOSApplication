@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		903541C0555F4D979D89A581 /* Pods_GaongilroMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F679C4D35C8A94A832E1977D /* Pods_GaongilroMobile.framework */; };
-		CA3D1B6A213510A400267F6B /* StationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3D1B69213510A400267F6B /* StationInfo.swift */; };
+		CA3D1B6A213510A400267F6B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3D1B69213510A400267F6B /* Model.swift */; };
+		CA3D1B6D2135238F00267F6B /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3D1B6C2135238F00267F6B /* SearchTableViewCell.swift */; };
+		CA3D1B702135AF3700267F6B /* SubwayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3D1B6F2135AF3700267F6B /* SubwayManager.swift */; };
 		CA5063EA1FEE0FAC000DF4E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5063E91FEE0FAC000DF4E7 /* AppDelegate.swift */; };
 		CA5063EC1FEE0FAC000DF4E7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5063EB1FEE0FAC000DF4E7 /* MainViewController.swift */; };
 		CA5063EF1FEE0FAC000DF4E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5063ED1FEE0FAC000DF4E7 /* Main.storyboard */; };
@@ -21,7 +23,9 @@
 
 /* Begin PBXFileReference section */
 		B8B3F868C1121FBE2C70E7FB /* Pods-GaongilroMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaongilroMobile.release.xcconfig"; path = "Pods/Target Support Files/Pods-GaongilroMobile/Pods-GaongilroMobile.release.xcconfig"; sourceTree = "<group>"; };
-		CA3D1B69213510A400267F6B /* StationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationInfo.swift; sourceTree = "<group>"; };
+		CA3D1B69213510A400267F6B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		CA3D1B6C2135238F00267F6B /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		CA3D1B6F2135AF3700267F6B /* SubwayManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubwayManager.swift; sourceTree = "<group>"; };
 		CA5063E61FEE0FAC000DF4E7 /* GaongilroMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaongilroMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA5063E91FEE0FAC000DF4E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA5063EB1FEE0FAC000DF4E7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +66,7 @@
 			children = (
 				CAB2244E200CD09F00D7F436 /* DestinationInputViewController.swift */,
 				CA5063EB1FEE0FAC000DF4E7 /* MainViewController.swift */,
+				CA3D1B6C2135238F00267F6B /* SearchTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -70,7 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				CAAD8FA220CE3DE400768788 /* Shortest.swift */,
-				CA3D1B69213510A400267F6B /* StationInfo.swift */,
+				CA3D1B69213510A400267F6B /* Model.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -81,6 +86,14 @@
 				CAB22452200D95D300D7F436 /* API.swift */,
 			);
 			path = Util;
+			sourceTree = "<group>";
+		};
+		CA3D1B6E2135AF2200267F6B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CA3D1B6F2135AF3700267F6B /* SubwayManager.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		CA5063DD1FEE0FAC000DF4E7 = {
@@ -104,6 +117,7 @@
 		CA5063E81FEE0FAC000DF4E7 /* GaongilroMobile */ = {
 			isa = PBXGroup;
 			children = (
+				CA3D1B6E2135AF2200267F6B /* ViewModel */,
 				CA3D1B6B213510F900267F6B /* Util */,
 				CA3D1B682135108700267F6B /* Model */,
 				CA3D1B6721350EE800267F6B /* View */,
@@ -245,10 +259,12 @@
 			files = (
 				CA5063EC1FEE0FAC000DF4E7 /* MainViewController.swift in Sources */,
 				CA5063EA1FEE0FAC000DF4E7 /* AppDelegate.swift in Sources */,
-				CA3D1B6A213510A400267F6B /* StationInfo.swift in Sources */,
+				CA3D1B6A213510A400267F6B /* Model.swift in Sources */,
 				CAB22453200D95D300D7F436 /* API.swift in Sources */,
+				CA3D1B702135AF3700267F6B /* SubwayManager.swift in Sources */,
 				CAAD8FA320CE3DE400768788 /* Shortest.swift in Sources */,
 				CAB2244F200CD09F00D7F436 /* DestinationInputViewController.swift in Sources */,
+				CA3D1B6D2135238F00267F6B /* SearchTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

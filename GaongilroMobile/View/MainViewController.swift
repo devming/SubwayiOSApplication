@@ -14,10 +14,7 @@ import Alamofire_SwiftyJSON
 class MainViewController: UIViewController {
     
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
-    
-    @IBOutlet var previewView: UIView!
-    var scanner: MTBBarcodeScanner?
-    
+    @IBOutlet weak var previewView: UIView!
     @IBOutlet weak var departureLabel: UILabel!
     @IBOutlet weak var destinationLabel: UILabel!
     @IBOutlet weak var leftImage: UIImageView!
@@ -25,11 +22,10 @@ class MainViewController: UIViewController {
     @IBOutlet weak var cameraEnablingButton: UIButton!
     @IBOutlet weak var descriptionLabel: UILabel!
     
+    var scanner: MTBBarcodeScanner?
     var destinationStationName: String = ""
     var shortestPathInfo: Shortest?
-    
     var onOffFlag = true
-    
     let searchController = UISearchController(searchResultsController: nil)
     
     @IBAction func onOffTapped(_ sender: Any) {
@@ -47,7 +43,7 @@ class MainViewController: UIViewController {
         definesPresentationContext = true
         
         self.scanner = MTBBarcodeScanner(previewView: self.previewView)
-        self.destinationLabel.text = "\(self.destinationStationName) (도착)"
+        self.destinationLabel.text = "To: \(self.destinationStationName)"
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -65,86 +61,6 @@ class MainViewController: UIViewController {
             scanner.stopScanning()
         }
     }
-    
-    func setDestinationLabel(destinationStationName name: String) {
-        self.destinationStationName = name
-    }
-    
-    func scanning() {
-        MTBBarcodeScanner.requestCameraPermission(success: { [weak self] success in
-            if !success {
-                self?.showConfirmationAlert(alertTitle: "Scanning Unavailable", alertMessage: "This app does not have permission to access the camera")
-                return
-            }
-            
-            do {
-                try self?.scanner?.startScanning { [weak self] codes in
-                    guard let `self` = self, let code = codes?.first else {
-                        return
-                    }
-                    guard let urlValue = code.stringValue else {
-                        return
-                    }
-                    let urlDestination = "\(urlValue)/\(self.destinationStationName)"
-                    guard let encodedUrl = urlDestination.addingPercentEncoding(withAllowedCharacters: NSCharacterSet.urlQueryAllowed),
-                        let url = URL(string: encodedUrl) else {
-                            return
-                    }
-                    
-                    self.startIndicator()
-                    self.onOffFlag = self.toggleScanning(flag: self.onOffFlag)
-                    
-                    print("valid url")
-                    Alamofire.request(url).responseJSON { [weak self] response in
-                        
-                        guard let `self` = self else {
-                            return
-                        }
-                        
-                        guard !response.result.isSuccess, let value = response.result.value else {
-                            self.showConfirmationAlert(alertTitle: "Error", alertMessage: "Network Error")
-                            self.stopIndicator()
-                            return
-                        }
-                        
-                        let json = JSON(value)
-                        let stationName = json["stationName"].stringValue
-                        guard let direction = Shortest.Direction(rawValue: json["direction"].stringValue) else {
-                            self.showConfirmationAlert(alertTitle: "Error", alertMessage: "Direction Parsing Error")
-                            self.stopIndicator()
-                            return
-                        }
-                        
-                        self.shortestPathInfo = Shortest(startStation: stationName, direction: direction)
-                        guard let toGo = self.shortestPathInfo else {
-                            self.showConfirmationAlert(alertTitle: "Error", alertMessage: "toGo is nil")
-                            self.stopIndicator()
-                            return
-                        }
-                        
-                        DispatchQueue.main.async { [weak self] in
-                            self?.departureLabel.text = "\(toGo.startStation) (출발)"
-                            switch self?.shortestPathInfo?.direction {
-                            case .LEFT?:
-                                self?.leftImage.image = UIImage(named: "ic_red_left")
-                                self?.rightImage.image = UIImage(named: "ic_gray_right")
-                            case .RIGHT?:
-                                self?.leftImage.image = UIImage(named: "ic_gray_left")
-                                self?.rightImage.image = UIImage(named: "ic_red_right")
-                            default:
-                                break
-                            }
-                        }
-                        
-                        self.stopIndicator()
-                    }
-                }
-            } catch {
-                self?.showConfirmationAlert(alertTitle: "Error", alertMessage: "Unable to start scanning")
-            }
-        })
-    }
-    
 }
 
 extension MainViewController: UISearchBarDelegate {
@@ -208,5 +124,90 @@ extension MainViewController {
         }
         self.descriptionLabel.isHidden = self.cameraEnablingButton.isHidden
         return !flag
+    }
+    
+    func getJsonData() {
+        if let assets = NSDataAsset(name: "subway", bundle: Bundle.main), let lines = try? JSONDecoder().decode(SubwayLine.self, from: assets.data) {
+            SubwayManager.shared = lines
+        }
+    }
+    
+    func setDestinationLabel(destinationStationName name: String) {
+        self.destinationStationName = name
+    }
+    
+    func scanning() {
+        MTBBarcodeScanner.requestCameraPermission(success: { [weak self] success in
+            if !success {
+                self?.showConfirmationAlert(alertTitle: "Scanning Unavailable", alertMessage: "This app does not have permission to access the camera")
+                return
+            }
+            
+            do {
+                try self?.scanner?.startScanning { [weak self] codes in
+                    guard let `self` = self, let code = codes?.first else {
+                        return
+                    }
+                    guard let urlValue = code.stringValue else {
+                        return
+                    }
+                    let urlDestination = "\(urlValue)/\(self.destinationStationName)"
+                    guard let encodedUrl = urlDestination.addingPercentEncoding(withAllowedCharacters: NSCharacterSet.urlQueryAllowed),
+                        let url = URL(string: encodedUrl) else {
+                            return
+                    }
+                    
+                    self.startIndicator()
+                    self.onOffFlag = self.toggleScanning(flag: self.onOffFlag)
+                    
+                    print("valid url")
+                    Alamofire.request(url).responseJSON { [weak self] response in
+                        
+                        guard let `self` = self else {
+                            return
+                        }
+                        
+                        guard !response.result.isSuccess, let value = response.result.value else {
+                            self.showConfirmationAlert(alertTitle: "Error", alertMessage: "Network Error")
+                            self.stopIndicator()
+                            return
+                        }
+                        
+                        let json = JSON(value)
+                        let stationName = json["stationName"].stringValue
+                        guard let direction = Shortest.Direction(rawValue: json["direction"].stringValue) else {
+                            self.showConfirmationAlert(alertTitle: "Error", alertMessage: "Direction Parsing Error")
+                            self.stopIndicator()
+                            return
+                        }
+                        
+                        self.shortestPathInfo = Shortest(startStation: stationName, direction: direction)
+                        guard let toGo = self.shortestPathInfo else {
+                            self.showConfirmationAlert(alertTitle: "Error", alertMessage: "toGo is nil")
+                            self.stopIndicator()
+                            return
+                        }
+                        
+                        DispatchQueue.main.async { [weak self] in
+                            self?.departureLabel.text = "From: \(toGo.startStation)"
+                            switch self?.shortestPathInfo?.direction {
+                            case .LEFT?:
+                                self?.leftImage.image = UIImage(named: "ic_red_left")
+                                self?.rightImage.image = UIImage(named: "ic_gray_right")
+                            case .RIGHT?:
+                                self?.leftImage.image = UIImage(named: "ic_gray_left")
+                                self?.rightImage.image = UIImage(named: "ic_red_right")
+                            default:
+                                break
+                            }
+                        }
+                        
+                        self.stopIndicator()
+                    }
+                }
+            } catch {
+                self?.showConfirmationAlert(alertTitle: "Error", alertMessage: "Unable to start scanning")
+            }
+        })
     }
 }

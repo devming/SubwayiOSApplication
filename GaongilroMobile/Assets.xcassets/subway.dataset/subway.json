@@ -1,0 +1,4795 @@
+{
+  "line1": [
+    {
+      "STATION_CD": "1916",
+      "STATION_NM": "소요산",
+      "LINE_NUM": "1",
+      "FR_CODE": "100",
+      "STATION_NM_ENG": "Soyosan"
+    },
+    {
+      "STATION_CD": "1915",
+      "STATION_NM": "동두천",
+      "LINE_NUM": "1",
+      "FR_CODE": "101",
+      "STATION_NM_ENG": "Dongducheon"
+    },
+    {
+      "STATION_CD": "1914",
+      "STATION_NM": "보산",
+      "LINE_NUM": "1",
+      "FR_CODE": "102",
+      "STATION_NM_ENG": "Bosan"
+    },
+    {
+      "STATION_CD": "1913",
+      "STATION_NM": "동두천중앙",
+      "LINE_NUM": "1",
+      "FR_CODE": "103",
+      "STATION_NM_ENG": "Dongducheonjungang"
+    },
+    {
+      "STATION_CD": "1912",
+      "STATION_NM": "지행",
+      "LINE_NUM": "1",
+      "FR_CODE": "104",
+      "STATION_NM_ENG": "Jihaeng"
+    },
+    {
+      "STATION_CD": "1911",
+      "STATION_NM": "덕정",
+      "LINE_NUM": "1",
+      "FR_CODE": "105",
+      "STATION_NM_ENG": "Deokjeong"
+    },
+    {
+      "STATION_CD": "1910",
+      "STATION_NM": "덕계",
+      "LINE_NUM": "1",
+      "FR_CODE": "106",
+      "STATION_NM_ENG": "Deokgye"
+    },
+    {
+      "STATION_CD": "1909",
+      "STATION_NM": "양주",
+      "LINE_NUM": "1",
+      "FR_CODE": "107",
+      "STATION_NM_ENG": "Yangju"
+    },
+    {
+      "STATION_CD": "1908",
+      "STATION_NM": "녹양",
+      "LINE_NUM": "1",
+      "FR_CODE": "108",
+      "STATION_NM_ENG": "Nogyang"
+    },
+    {
+      "STATION_CD": "1907",
+      "STATION_NM": "가능",
+      "LINE_NUM": "1",
+      "FR_CODE": "109",
+      "STATION_NM_ENG": "Ganeung"
+    },
+    {
+      "STATION_CD": "1906",
+      "STATION_NM": "의정부",
+      "LINE_NUM": "1",
+      "FR_CODE": "110",
+      "STATION_NM_ENG": "Uijeongbu"
+    },
+    {
+      "STATION_CD": "1905",
+      "STATION_NM": "회룡",
+      "LINE_NUM": "1",
+      "FR_CODE": "111",
+      "STATION_NM_ENG": "Hoeryong"
+    },
+    {
+      "STATION_CD": "1904",
+      "STATION_NM": "망월사",
+      "LINE_NUM": "1",
+      "FR_CODE": "112",
+      "STATION_NM_ENG": "Mangwolsa"
+    },
+    {
+      "STATION_CD": "1903",
+      "STATION_NM": "도봉산",
+      "LINE_NUM": "1",
+      "FR_CODE": "113",
+      "STATION_NM_ENG": "Dobongsan"
+    },
+    {
+      "STATION_CD": "1902",
+      "STATION_NM": "도봉",
+      "LINE_NUM": "1",
+      "FR_CODE": "114",
+      "STATION_NM_ENG": "Dobong"
+    },
+    {
+      "STATION_CD": "1901",
+      "STATION_NM": "방학",
+      "LINE_NUM": "1",
+      "FR_CODE": "115",
+      "STATION_NM_ENG": "Banghak"
+    },
+    {
+      "STATION_CD": "1022",
+      "STATION_NM": "창동",
+      "LINE_NUM": "1",
+      "FR_CODE": "116",
+      "STATION_NM_ENG": "Chang-dong"
+    },
+    {
+      "STATION_CD": "1021",
+      "STATION_NM": "녹천",
+      "LINE_NUM": "1",
+      "FR_CODE": "117",
+      "STATION_NM_ENG": "Nokcheon"
+    },
+    {
+      "STATION_CD": "1020",
+      "STATION_NM": "월계",
+      "LINE_NUM": "1",
+      "FR_CODE": "118",
+      "STATION_NM_ENG": "Wolgye"
+    },
+    {
+      "STATION_CD": "1019",
+      "STATION_NM": "광운대",
+      "LINE_NUM": "1",
+      "FR_CODE": "119",
+      "STATION_NM_ENG": "Kwangwoon University"
+    },
+    {
+      "STATION_CD": "1018",
+      "STATION_NM": "석계",
+      "LINE_NUM": "1",
+      "FR_CODE": "120",
+      "STATION_NM_ENG": "Seokgye"
+    },
+    {
+      "STATION_CD": "1017",
+      "STATION_NM": "신이문",
+      "LINE_NUM": "1",
+      "FR_CODE": "121",
+      "STATION_NM_ENG": "Sinimun"
+    },
+    {
+      "STATION_CD": "1016",
+      "STATION_NM": "외대앞",
+      "LINE_NUM": "1",
+      "FR_CODE": "122",
+      "STATION_NM_ENG": "Hankuk University of Foreign Studies"
+    },
+    {
+      "STATION_CD": "1015",
+      "STATION_NM": "회기",
+      "LINE_NUM": "1",
+      "FR_CODE": "123",
+      "STATION_NM_ENG": "Hoegi"
+    },
+    {
+      "STATION_CD": "0158",
+      "STATION_NM": "청량리",
+      "LINE_NUM": "1",
+      "FR_CODE": "124",
+      "STATION_NM_ENG": "Cheongnyangni"
+    },
+    {
+      "STATION_CD": "0157",
+      "STATION_NM": "제기동",
+      "LINE_NUM": "1",
+      "FR_CODE": "125",
+      "STATION_NM_ENG": "Jegi-dong"
+    },
+    {
+      "STATION_CD": "0156",
+      "STATION_NM": "신설동",
+      "LINE_NUM": "1",
+      "FR_CODE": "126",
+      "STATION_NM_ENG": "Sinseol-dong"
+    },
+    {
+      "STATION_CD": "0159",
+      "STATION_NM": "동묘앞",
+      "LINE_NUM": "1",
+      "FR_CODE": "127",
+      "STATION_NM_ENG": "Dongmyo"
+    },
+    {
+      "STATION_CD": "0155",
+      "STATION_NM": "동대문",
+      "LINE_NUM": "1",
+      "FR_CODE": "128",
+      "STATION_NM_ENG": "Dongdaemun"
+    },
+    {
+      "STATION_CD": "0154",
+      "STATION_NM": "종로5가",
+      "LINE_NUM": "1",
+      "FR_CODE": "129",
+      "STATION_NM_ENG": "Jongno 5(o)-ga"
+    },
+    {
+      "STATION_CD": "0153",
+      "STATION_NM": "종로3가",
+      "LINE_NUM": "1",
+      "FR_CODE": "130",
+      "STATION_NM_ENG": "Jongno 3(sam)-ga"
+    },
+    {
+      "STATION_CD": "0152",
+      "STATION_NM": "종각",
+      "LINE_NUM": "1",
+      "FR_CODE": "131",
+      "STATION_NM_ENG": "Jonggak"
+    },
+    {
+      "STATION_CD": "0151",
+      "STATION_NM": "시청",
+      "LINE_NUM": "1",
+      "FR_CODE": "132",
+      "STATION_NM_ENG": "City Hall"
+    },
+    {
+      "STATION_CD": "0150",
+      "STATION_NM": "서울",
+      "LINE_NUM": "1",
+      "FR_CODE": "133",
+      "STATION_NM_ENG": "Seoul"
+    },
+    {
+      "STATION_CD": "1002",
+      "STATION_NM": "남영",
+      "LINE_NUM": "1",
+      "FR_CODE": "134",
+      "STATION_NM_ENG": "Namyeong"
+    },
+    {
+      "STATION_CD": "1003",
+      "STATION_NM": "용산",
+      "LINE_NUM": "1",
+      "FR_CODE": "135",
+      "STATION_NM_ENG": "Yongsan"
+    },
+    {
+      "STATION_CD": "1004",
+      "STATION_NM": "노량진",
+      "LINE_NUM": "1",
+      "FR_CODE": "136",
+      "STATION_NM_ENG": "Noryangjin"
+    },
+    {
+      "STATION_CD": "1005",
+      "STATION_NM": "대방",
+      "LINE_NUM": "1",
+      "FR_CODE": "137",
+      "STATION_NM_ENG": "Daebang"
+    },
+    {
+      "STATION_CD": "1032",
+      "STATION_NM": "신길",
+      "LINE_NUM": "1",
+      "FR_CODE": "138",
+      "STATION_NM_ENG": "Singil"
+    },
+    {
+      "STATION_CD": "1006",
+      "STATION_NM": "영등포",
+      "LINE_NUM": "1",
+      "FR_CODE": "139",
+      "STATION_NM_ENG": "Yeongdeungpo"
+    },
+    {
+      "STATION_CD": "1007",
+      "STATION_NM": "신도림",
+      "LINE_NUM": "1",
+      "FR_CODE": "140",
+      "STATION_NM_ENG": "Sindorim"
+    },
+    {
+      "STATION_CD": "1701",
+      "STATION_NM": "구로",
+      "LINE_NUM": "1",
+      "FR_CODE": "141",
+      "STATION_NM_ENG": "Guro"
+    },
+    {
+      "STATION_CD": "1813",
+      "STATION_NM": "구일",
+      "LINE_NUM": "1",
+      "FR_CODE": "142",
+      "STATION_NM_ENG": "Guil"
+    },
+    {
+      "STATION_CD": "1801",
+      "STATION_NM": "개봉",
+      "LINE_NUM": "1",
+      "FR_CODE": "143",
+      "STATION_NM_ENG": "Gaebong"
+    },
+    {
+      "STATION_CD": "1802",
+      "STATION_NM": "오류동",
+      "LINE_NUM": "1",
+      "FR_CODE": "144",
+      "STATION_NM_ENG": "Oryu-dong"
+    },
+    {
+      "STATION_CD": "1821",
+      "STATION_NM": "온수",
+      "LINE_NUM": "1",
+      "FR_CODE": "145",
+      "STATION_NM_ENG": "Onsu"
+    },
+    {
+      "STATION_CD": "1803",
+      "STATION_NM": "역곡",
+      "LINE_NUM": "1",
+      "FR_CODE": "146",
+      "STATION_NM_ENG": "Yeokgok"
+    },
+    {
+      "STATION_CD": "1814",
+      "STATION_NM": "소사",
+      "LINE_NUM": "1",
+      "FR_CODE": "147",
+      "STATION_NM_ENG": "Sosa"
+    },
+    {
+      "STATION_CD": "1804",
+      "STATION_NM": "부천",
+      "LINE_NUM": "1",
+      "FR_CODE": "148",
+      "STATION_NM_ENG": "Bucheon"
+    },
+    {
+      "STATION_CD": "1822",
+      "STATION_NM": "중동",
+      "LINE_NUM": "1",
+      "FR_CODE": "149",
+      "STATION_NM_ENG": "Jung-dong"
+    },
+    {
+      "STATION_CD": "1805",
+      "STATION_NM": "송내",
+      "LINE_NUM": "1",
+      "FR_CODE": "150",
+      "STATION_NM_ENG": "Songnae"
+    },
+    {
+      "STATION_CD": "1815",
+      "STATION_NM": "부개",
+      "LINE_NUM": "1",
+      "FR_CODE": "151",
+      "STATION_NM_ENG": "Bugae"
+    },
+    {
+      "STATION_CD": "1806",
+      "STATION_NM": "부평",
+      "LINE_NUM": "1",
+      "FR_CODE": "152",
+      "STATION_NM_ENG": "Bupyeong"
+    },
+    {
+      "STATION_CD": "1807",
+      "STATION_NM": "백운",
+      "LINE_NUM": "1",
+      "FR_CODE": "153",
+      "STATION_NM_ENG": "Baegun"
+    },
+    {
+      "STATION_CD": "1808",
+      "STATION_NM": "동암",
+      "LINE_NUM": "1",
+      "FR_CODE": "154",
+      "STATION_NM_ENG": "Dongam"
+    },
+    {
+      "STATION_CD": "1816",
+      "STATION_NM": "간석",
+      "LINE_NUM": "1",
+      "FR_CODE": "155",
+      "STATION_NM_ENG": "Ganseok"
+    },
+    {
+      "STATION_CD": "1809",
+      "STATION_NM": "주안",
+      "LINE_NUM": "1",
+      "FR_CODE": "156",
+      "STATION_NM_ENG": "Juan"
+    },
+    {
+      "STATION_CD": "1823",
+      "STATION_NM": "도화",
+      "LINE_NUM": "1",
+      "FR_CODE": "157",
+      "STATION_NM_ENG": "Dohwa"
+    },
+    {
+      "STATION_CD": "1810",
+      "STATION_NM": "제물포",
+      "LINE_NUM": "1",
+      "FR_CODE": "158",
+      "STATION_NM_ENG": "Jemulpo"
+    },
+    {
+      "STATION_CD": "1817",
+      "STATION_NM": "도원",
+      "LINE_NUM": "1",
+      "FR_CODE": "159",
+      "STATION_NM_ENG": "Dowon"
+    },
+    {
+      "STATION_CD": "1811",
+      "STATION_NM": "동인천",
+      "LINE_NUM": "1",
+      "FR_CODE": "160",
+      "STATION_NM_ENG": "Dongincheon"
+    },
+    {
+      "STATION_CD": "1812",
+      "STATION_NM": "인천",
+      "LINE_NUM": "1",
+      "FR_CODE": "161",
+      "STATION_NM_ENG": "Incheon"
+    },
+    {
+      "STATION_CD": "1702",
+      "STATION_NM": "가산디지털단지",
+      "LINE_NUM": "1",
+      "FR_CODE": "P142",
+      "STATION_NM_ENG": "Gasan Digital Complex"
+    },
+    {
+      "STATION_CD": "1714",
+      "STATION_NM": "독산",
+      "LINE_NUM": "1",
+      "FR_CODE": "P143",
+      "STATION_NM_ENG": "Doksan"
+    },
+    {
+      "STATION_CD": "1703",
+      "STATION_NM": "금천구청",
+      "LINE_NUM": "1",
+      "FR_CODE": "P144",
+      "STATION_NM_ENG": "Geumcheon-gu Office"
+    },
+    {
+      "STATION_CD": "1750",
+      "STATION_NM": "광명",
+      "LINE_NUM": "1",
+      "FR_CODE": "P144-1",
+      "STATION_NM_ENG": "Gwangmyeong"
+    },
+    {
+      "STATION_CD": "1704",
+      "STATION_NM": "석수",
+      "LINE_NUM": "1",
+      "FR_CODE": "P145",
+      "STATION_NM_ENG": "Seoksu"
+    },
+    {
+      "STATION_CD": "1705",
+      "STATION_NM": "관악",
+      "LINE_NUM": "1",
+      "FR_CODE": "P146",
+      "STATION_NM_ENG": "Gwanak"
+    },
+    {
+      "STATION_CD": "1706",
+      "STATION_NM": "안양",
+      "LINE_NUM": "1",
+      "FR_CODE": "P147",
+      "STATION_NM_ENG": "Anyang"
+    },
+    {
+      "STATION_CD": "1707",
+      "STATION_NM": "명학",
+      "LINE_NUM": "1",
+      "FR_CODE": "P148",
+      "STATION_NM_ENG": "Myeonghak"
+    },
+    {
+      "STATION_CD": "1708",
+      "STATION_NM": "금정",
+      "LINE_NUM": "1",
+      "FR_CODE": "P149",
+      "STATION_NM_ENG": "Geumjeong"
+    },
+    {
+      "STATION_CD": "1709",
+      "STATION_NM": "군포",
+      "LINE_NUM": "1",
+      "FR_CODE": "P150",
+      "STATION_NM_ENG": "Gunpo"
+    },
+    {
+      "STATION_CD": "1729",
+      "STATION_NM": "당정",
+      "LINE_NUM": "1",
+      "FR_CODE": "P151",
+      "STATION_NM_ENG": "Dangjeong"
+    },
+    {
+      "STATION_CD": "1710",
+      "STATION_NM": "의왕",
+      "LINE_NUM": "1",
+      "FR_CODE": "P152",
+      "STATION_NM_ENG": "Uiwang"
+    },
+    {
+      "STATION_CD": "1711",
+      "STATION_NM": "성균관대",
+      "LINE_NUM": "1",
+      "FR_CODE": "P153",
+      "STATION_NM_ENG": "Sungkyunkwan University"
+    },
+    {
+      "STATION_CD": "1712",
+      "STATION_NM": "화서",
+      "LINE_NUM": "1",
+      "FR_CODE": "P154",
+      "STATION_NM_ENG": "Hwaseo"
+    },
+    {
+      "STATION_CD": "1713",
+      "STATION_NM": "수원",
+      "LINE_NUM": "1",
+      "FR_CODE": "P155",
+      "STATION_NM_ENG": "Suwon"
+    },
+    {
+      "STATION_CD": "1715",
+      "STATION_NM": "세류",
+      "LINE_NUM": "1",
+      "FR_CODE": "P156",
+      "STATION_NM_ENG": "Seryu"
+    },
+    {
+      "STATION_CD": "1716",
+      "STATION_NM": "병점",
+      "LINE_NUM": "1",
+      "FR_CODE": "P157",
+      "STATION_NM_ENG": "Byeongjeom"
+    },
+    {
+      "STATION_CD": "1749",
+      "STATION_NM": "서동탄",
+      "LINE_NUM": "1",
+      "FR_CODE": "P157-1",
+      "STATION_NM_ENG": "Seodongtan"
+    },
+    {
+      "STATION_CD": "1717",
+      "STATION_NM": "세마",
+      "LINE_NUM": "1",
+      "FR_CODE": "P158",
+      "STATION_NM_ENG": "Sema"
+    },
+    {
+      "STATION_CD": "1718",
+      "STATION_NM": "오산대",
+      "LINE_NUM": "1",
+      "FR_CODE": "P159",
+      "STATION_NM_ENG": "Osan College"
+    },
+    {
+      "STATION_CD": "1719",
+      "STATION_NM": "오산",
+      "LINE_NUM": "1",
+      "FR_CODE": "P160",
+      "STATION_NM_ENG": "Osan"
+    },
+    {
+      "STATION_CD": "1720",
+      "STATION_NM": "진위",
+      "LINE_NUM": "1",
+      "FR_CODE": "P161",
+      "STATION_NM_ENG": "Jinwi"
+    },
+    {
+      "STATION_CD": "1721",
+      "STATION_NM": "송탄",
+      "LINE_NUM": "1",
+      "FR_CODE": "P162",
+      "STATION_NM_ENG": "Songtan"
+    },
+    {
+      "STATION_CD": "1722",
+      "STATION_NM": "서정리",
+      "LINE_NUM": "1",
+      "FR_CODE": "P163",
+      "STATION_NM_ENG": "Seojeong-ri"
+    },
+    {
+      "STATION_CD": "1723",
+      "STATION_NM": "지제",
+      "LINE_NUM": "1",
+      "FR_CODE": "P164",
+      "STATION_NM_ENG": "Jije"
+    },
+    {
+      "STATION_CD": "1724",
+      "STATION_NM": "평택",
+      "LINE_NUM": "1",
+      "FR_CODE": "P165",
+      "STATION_NM_ENG": "Pyeongtaek"
+    },
+    {
+      "STATION_CD": "1725",
+      "STATION_NM": "성환",
+      "LINE_NUM": "1",
+      "FR_CODE": "P166",
+      "STATION_NM_ENG": "Seonghwan"
+    },
+    {
+      "STATION_CD": "1726",
+      "STATION_NM": "직산",
+      "LINE_NUM": "1",
+      "FR_CODE": "P167",
+      "STATION_NM_ENG": "Jiksan"
+    },
+    {
+      "STATION_CD": "1727",
+      "STATION_NM": "두정",
+      "LINE_NUM": "1",
+      "FR_CODE": "P168",
+      "STATION_NM_ENG": "Dujeong"
+    },
+    {
+      "STATION_CD": "1728",
+      "STATION_NM": "천안",
+      "LINE_NUM": "1",
+      "FR_CODE": "P169",
+      "STATION_NM_ENG": "Cheonan"
+    },
+    {
+      "STATION_CD": "1401",
+      "STATION_NM": "봉명",
+      "LINE_NUM": "1",
+      "FR_CODE": "P170",
+      "STATION_NM_ENG": "Bongmyeong"
+    },
+    {
+      "STATION_CD": "1402",
+      "STATION_NM": "쌍용(나사렛대)",
+      "LINE_NUM": "1",
+      "FR_CODE": "P171",
+      "STATION_NM_ENG": "Ssangyong(Korea Nazarene University)"
+    },
+    {
+      "STATION_CD": "1403",
+      "STATION_NM": "아산",
+      "LINE_NUM": "1",
+      "FR_CODE": "P172",
+      "STATION_NM_ENG": "Cheonan-Asan"
+    },
+    {
+      "STATION_CD": "1405",
+      "STATION_NM": "배방",
+      "LINE_NUM": "1",
+      "FR_CODE": "P174",
+      "STATION_NM_ENG": "Baebang"
+    },
+    {
+      "STATION_CD": "1407",
+      "STATION_NM": "온양온천",
+      "LINE_NUM": "1",
+      "FR_CODE": "P176",
+      "STATION_NM_ENG": "Onyangoncheon"
+    },
+    {
+      "STATION_CD": "1408",
+      "STATION_NM": "신창",
+      "LINE_NUM": "1",
+      "FR_CODE": "P177",
+      "STATION_NM_ENG": "Sinchang"
+    }
+  ],
+  "line2": [
+    {
+      "FR_CODE": "201",
+      "LINE_NUM": "2",
+      "STATION_CD": "0201",
+      "STATION_NM": "시청",
+      "STATION_NM_ENG": "City Hall"
+    },
+    {
+      "FR_CODE": "202",
+      "LINE_NUM": "2",
+      "STATION_CD": "0202",
+      "STATION_NM": "을지로입구",
+      "STATION_NM_ENG": "Euljiro 1-ga"
+    },
+    {
+      "FR_CODE": "203",
+      "LINE_NUM": "2",
+      "STATION_CD": "0203",
+      "STATION_NM": "을지로3가",
+      "STATION_NM_ENG": "Euljiro 3-ga"
+    },
+    {
+      "FR_CODE": "204",
+      "LINE_NUM": "2",
+      "STATION_CD": "0204",
+      "STATION_NM": "을지로4가",
+      "STATION_NM_ENG": "Euljiro 4-ga"
+    },
+    {
+      "FR_CODE": "205",
+      "LINE_NUM": "2",
+      "STATION_CD": "0205",
+      "STATION_NM": "동대문역사문화공원",
+      "STATION_NM_ENG": "Dongdaemun History & Culture Park"
+    },
+    {
+      "FR_CODE": "206",
+      "LINE_NUM": "2",
+      "STATION_CD": "0206",
+      "STATION_NM": "신당",
+      "STATION_NM_ENG": "Sindang"
+    },
+    {
+      "FR_CODE": "207",
+      "LINE_NUM": "2",
+      "STATION_CD": "0207",
+      "STATION_NM": "상왕십리",
+      "STATION_NM_ENG": "Sangwangsimni"
+    },
+    {
+      "FR_CODE": "208",
+      "LINE_NUM": "2",
+      "STATION_CD": "0208",
+      "STATION_NM": "왕십리",
+      "STATION_NM_ENG": "Wangsimni"
+    },
+    {
+      "FR_CODE": "209",
+      "LINE_NUM": "2",
+      "STATION_CD": "0209",
+      "STATION_NM": "한양대",
+      "STATION_NM_ENG": "Hanyang University"
+    },
+    {
+      "FR_CODE": "210",
+      "LINE_NUM": "2",
+      "STATION_CD": "0210",
+      "STATION_NM": "뚝섬",
+      "STATION_NM_ENG": "Ttukseom"
+    },
+    {
+      "FR_CODE": "211",
+      "LINE_NUM": "2",
+      "STATION_CD": "0211",
+      "STATION_NM": "성수",
+      "STATION_NM_ENG": "Seongsu"
+    },
+    {
+      "FR_CODE": "212",
+      "LINE_NUM": "2",
+      "STATION_CD": "0212",
+      "STATION_NM": "건대입구",
+      "STATION_NM_ENG": "Konkuk University"
+    },
+    {
+      "FR_CODE": "213",
+      "LINE_NUM": "2",
+      "STATION_CD": "0213",
+      "STATION_NM": "구의",
+      "STATION_NM_ENG": "Guui"
+    },
+    {
+      "FR_CODE": "214",
+      "LINE_NUM": "2",
+      "STATION_CD": "0214",
+      "STATION_NM": "강변",
+      "STATION_NM_ENG": "Gangbyeon"
+    },
+    {
+      "FR_CODE": "215",
+      "LINE_NUM": "2",
+      "STATION_CD": "0215",
+      "STATION_NM": "잠실나루",
+      "STATION_NM_ENG": "Jamsillaru"
+    },
+    {
+      "FR_CODE": "216",
+      "LINE_NUM": "2",
+      "STATION_CD": "0216",
+      "STATION_NM": "잠실",
+      "STATION_NM_ENG": "Jamsil"
+    },
+    {
+      "FR_CODE": "217",
+      "LINE_NUM": "2",
+      "STATION_CD": "0217",
+      "STATION_NM": "잠실새내",
+      "STATION_NM_ENG": "Jamsilsaenae"
+    },
+    {
+      "FR_CODE": "218",
+      "LINE_NUM": "2",
+      "STATION_CD": "0218",
+      "STATION_NM": "종합운동장",
+      "STATION_NM_ENG": "Sports Complex"
+    },
+    {
+      "FR_CODE": "219",
+      "LINE_NUM": "2",
+      "STATION_CD": "0219",
+      "STATION_NM": "삼성",
+      "STATION_NM_ENG": "Samseong"
+    },
+    {
+      "FR_CODE": "220",
+      "LINE_NUM": "2",
+      "STATION_CD": "0220",
+      "STATION_NM": "선릉",
+      "STATION_NM_ENG": "Seolleung"
+    },
+    {
+      "FR_CODE": "221",
+      "LINE_NUM": "2",
+      "STATION_CD": "0221",
+      "STATION_NM": "역삼",
+      "STATION_NM_ENG": "Yeoksam"
+    },
+    {
+      "FR_CODE": "222",
+      "LINE_NUM": "2",
+      "STATION_CD": "0222",
+      "STATION_NM": "강남",
+      "STATION_NM_ENG": "Gangnam"
+    },
+    {
+      "FR_CODE": "223",
+      "LINE_NUM": "2",
+      "STATION_CD": "0223",
+      "STATION_NM": "교대",
+      "STATION_NM_ENG": "Seoul National University of Education"
+    },
+    {
+      "FR_CODE": "224",
+      "LINE_NUM": "2",
+      "STATION_CD": "0224",
+      "STATION_NM": "서초",
+      "STATION_NM_ENG": "Seocho"
+    },
+    {
+      "FR_CODE": "225",
+      "LINE_NUM": "2",
+      "STATION_CD": "0225",
+      "STATION_NM": "방배",
+      "STATION_NM_ENG": "Bangbae"
+    },
+    {
+      "FR_CODE": "226",
+      "LINE_NUM": "2",
+      "STATION_CD": "0226",
+      "STATION_NM": "사당",
+      "STATION_NM_ENG": "Sadang"
+    },
+    {
+      "FR_CODE": "227",
+      "LINE_NUM": "2",
+      "STATION_CD": "0227",
+      "STATION_NM": "낙성대",
+      "STATION_NM_ENG": "Nakseongdae"
+    },
+    {
+      "FR_CODE": "228",
+      "LINE_NUM": "2",
+      "STATION_CD": "0228",
+      "STATION_NM": "서울대입구",
+      "STATION_NM_ENG": "Seoul National University"
+    },
+    {
+      "FR_CODE": "229",
+      "LINE_NUM": "2",
+      "STATION_CD": "0229",
+      "STATION_NM": "봉천",
+      "STATION_NM_ENG": "Bongcheon"
+    },
+    {
+      "FR_CODE": "230",
+      "LINE_NUM": "2",
+      "STATION_CD": "0230",
+      "STATION_NM": "신림",
+      "STATION_NM_ENG": "Sillim"
+    },
+    {
+      "FR_CODE": "231",
+      "LINE_NUM": "2",
+      "STATION_CD": "0231",
+      "STATION_NM": "신대방",
+      "STATION_NM_ENG": "Sindaebang"
+    },
+    {
+      "FR_CODE": "232",
+      "LINE_NUM": "2",
+      "STATION_CD": "0232",
+      "STATION_NM": "구로디지털단지",
+      "STATION_NM_ENG": "Guro Digital Complex"
+    },
+    {
+      "FR_CODE": "233",
+      "LINE_NUM": "2",
+      "STATION_CD": "0233",
+      "STATION_NM": "대림",
+      "STATION_NM_ENG": "Daerim"
+    },
+    {
+      "FR_CODE": "234",
+      "LINE_NUM": "2",
+      "STATION_CD": "0234",
+      "STATION_NM": "신도림",
+      "STATION_NM_ENG": "Sindorim"
+    },
+    {
+      "FR_CODE": "235",
+      "LINE_NUM": "2",
+      "STATION_CD": "0235",
+      "STATION_NM": "문래",
+      "STATION_NM_ENG": "Mullae"
+    },
+    {
+      "FR_CODE": "236",
+      "LINE_NUM": "2",
+      "STATION_CD": "0236",
+      "STATION_NM": "영등포구청",
+      "STATION_NM_ENG": "Yeongdeungpo-gu Office"
+    },
+    {
+      "FR_CODE": "237",
+      "LINE_NUM": "2",
+      "STATION_CD": "0237",
+      "STATION_NM": "당산",
+      "STATION_NM_ENG": "Dangsan"
+    },
+    {
+      "FR_CODE": "238",
+      "LINE_NUM": "2",
+      "STATION_CD": "0238",
+      "STATION_NM": "합정",
+      "STATION_NM_ENG": "Hapjeong"
+    },
+    {
+      "FR_CODE": "239",
+      "LINE_NUM": "2",
+      "STATION_CD": "0239",
+      "STATION_NM": "홍대입구",
+      "STATION_NM_ENG": "Hongik University"
+    },
+    {
+      "FR_CODE": "240",
+      "LINE_NUM": "2",
+      "STATION_CD": "0240",
+      "STATION_NM": "신촌",
+      "STATION_NM_ENG": "Sinchon"
+    },
+    {
+      "FR_CODE": "241",
+      "LINE_NUM": "2",
+      "STATION_CD": "0241",
+      "STATION_NM": "이대",
+      "STATION_NM_ENG": "Ewha Womans University"
+    },
+    {
+      "FR_CODE": "242",
+      "LINE_NUM": "2",
+      "STATION_CD": "0242",
+      "STATION_NM": "아현",
+      "STATION_NM_ENG": "Ahyeon"
+    },
+    {
+      "FR_CODE": "243",
+      "LINE_NUM": "2",
+      "STATION_CD": "0243",
+      "STATION_NM": "충정로",
+      "STATION_NM_ENG": "Chungjeongno"
+    },
+    {
+      "STATION_CD": "0244",
+      "STATION_NM": "용답",
+      "LINE_NUM": "2",
+      "FR_CODE": "211-1",
+      "STATION_NM_ENG": "Yongdap"
+    },
+    {
+      "STATION_CD": "0245",
+      "STATION_NM": "신답",
+      "LINE_NUM": "2",
+      "FR_CODE": "211-2",
+      "STATION_NM_ENG": "Sindap"
+    },
+    {
+      "STATION_CD": "0250",
+      "STATION_NM": "용두",
+      "LINE_NUM": "2",
+      "FR_CODE": "211-3",
+      "STATION_NM_ENG": "Yongdu"
+    },
+    {
+      "STATION_CD": "0246",
+      "STATION_NM": "신설동",
+      "LINE_NUM": "2",
+      "FR_CODE": "211-4",
+      "STATION_NM_ENG": "Sinseol-dong"
+    },
+    {
+      "STATION_CD": "0247",
+      "STATION_NM": "도림천",
+      "LINE_NUM": "2",
+      "FR_CODE": "234-1",
+      "STATION_NM_ENG": "Dorimcheon"
+    },
+    {
+      "STATION_CD": "0248",
+      "STATION_NM": "양천구청",
+      "LINE_NUM": "2",
+      "FR_CODE": "234-2",
+      "STATION_NM_ENG": "Yangcheon-gu Office"
+    },
+    {
+      "STATION_CD": "0249",
+      "STATION_NM": "신정네거리",
+      "LINE_NUM": "2",
+      "FR_CODE": "234-3",
+      "STATION_NM_ENG": "Sinjeongnegeori"
+    },
+    {
+      "STATION_CD": "0260",
+      "STATION_NM": "까치산",
+      "LINE_NUM": "2",
+      "FR_CODE": "234-4",
+      "STATION_NM_ENG": "Kkachisan"
+    }
+  ],
+  "line3": [
+    {
+      "FR_CODE": "310",
+      "LINE_NUM": "3",
+      "STATION_CD": "1958",
+      "STATION_NM": "대화",
+      "STATION_NM_ENG": "Daehwa"
+    },
+    {
+      "FR_CODE": "311",
+      "LINE_NUM": "3",
+      "STATION_CD": "1957",
+      "STATION_NM": "주엽",
+      "STATION_NM_ENG": "Juyeop"
+    },
+    {
+      "FR_CODE": "312",
+      "LINE_NUM": "3",
+      "STATION_CD": "1956",
+      "STATION_NM": "정발산",
+      "STATION_NM_ENG": "Jeongbalsan"
+    },
+    {
+      "FR_CODE": "313",
+      "LINE_NUM": "3",
+      "STATION_CD": "1955",
+      "STATION_NM": "마두",
+      "STATION_NM_ENG": "Madu"
+    },
+    {
+      "FR_CODE": "314",
+      "LINE_NUM": "3",
+      "STATION_CD": "1954",
+      "STATION_NM": "백석",
+      "STATION_NM_ENG": "Baekseok"
+    },
+    {
+      "FR_CODE": "315",
+      "LINE_NUM": "3",
+      "STATION_CD": "1953",
+      "STATION_NM": "대곡",
+      "STATION_NM_ENG": "Daegok"
+    },
+    {
+      "FR_CODE": "316",
+      "LINE_NUM": "3",
+      "STATION_CD": "1952",
+      "STATION_NM": "화정",
+      "STATION_NM_ENG": "Hwajeong"
+    },
+    {
+      "FR_CODE": "317",
+      "LINE_NUM": "3",
+      "STATION_CD": "1951",
+      "STATION_NM": "원당",
+      "STATION_NM_ENG": "Wondang"
+    },
+    {
+      "FR_CODE": "309",
+      "LINE_NUM": "3",
+      "STATION_CD": "1948",
+      "STATION_NM": "원흥",
+      "STATION_NM_ENG": "Wonheung"
+    },
+    {
+      "FR_CODE": "318",
+      "LINE_NUM": "3",
+      "STATION_CD": "1950",
+      "STATION_NM": "삼송",
+      "STATION_NM_ENG": "Samsong"
+    },
+    {
+      "FR_CODE": "319",
+      "LINE_NUM": "3",
+      "STATION_CD": "0309",
+      "STATION_NM": "지축",
+      "STATION_NM_ENG": "Jichuk"
+    },
+    {
+      "FR_CODE": "320",
+      "LINE_NUM": "3",
+      "STATION_CD": "0310",
+      "STATION_NM": "구파발",
+      "STATION_NM_ENG": "Gupabal"
+    },
+    {
+      "FR_CODE": "321",
+      "LINE_NUM": "3",
+      "STATION_CD": "0311",
+      "STATION_NM": "연신내",
+      "STATION_NM_ENG": "Yeonsinnae"
+    },
+    {
+      "FR_CODE": "322",
+      "LINE_NUM": "3",
+      "STATION_CD": "0312",
+      "STATION_NM": "불광",
+      "STATION_NM_ENG": "Bulgwang"
+    },
+    {
+      "FR_CODE": "323",
+      "LINE_NUM": "3",
+      "STATION_CD": "0313",
+      "STATION_NM": "녹번",
+      "STATION_NM_ENG": "Nokbeon"
+    },
+    {
+      "FR_CODE": "324",
+      "LINE_NUM": "3",
+      "STATION_CD": "0314",
+      "STATION_NM": "홍제",
+      "STATION_NM_ENG": "Hongje"
+    },
+    {
+      "FR_CODE": "325",
+      "LINE_NUM": "3",
+      "STATION_CD": "0315",
+      "STATION_NM": "무악재",
+      "STATION_NM_ENG": "Muakjae"
+    },
+    {
+      "FR_CODE": "326",
+      "LINE_NUM": "3",
+      "STATION_CD": "0316",
+      "STATION_NM": "독립문",
+      "STATION_NM_ENG": "Dongnimmun"
+    },
+    {
+      "FR_CODE": "327",
+      "LINE_NUM": "3",
+      "STATION_CD": "0317",
+      "STATION_NM": "경복궁",
+      "STATION_NM_ENG": "Gyeongbokgung"
+    },
+    {
+      "FR_CODE": "328",
+      "LINE_NUM": "3",
+      "STATION_CD": "0318",
+      "STATION_NM": "안국",
+      "STATION_NM_ENG": "Anguk"
+    },
+    {
+      "FR_CODE": "329",
+      "LINE_NUM": "3",
+      "STATION_CD": "0319",
+      "STATION_NM": "종로3가",
+      "STATION_NM_ENG": "Jongno 3(sam)-ga"
+    },
+    {
+      "FR_CODE": "330",
+      "LINE_NUM": "3",
+      "STATION_CD": "0320",
+      "STATION_NM": "을지로3가",
+      "STATION_NM_ENG": "Euljiro 3(sam)-ga"
+    },
+    {
+      "FR_CODE": "331",
+      "LINE_NUM": "3",
+      "STATION_CD": "0321",
+      "STATION_NM": "충무로",
+      "STATION_NM_ENG": "Chungmuro"
+    },
+    {
+      "FR_CODE": "332",
+      "LINE_NUM": "3",
+      "STATION_CD": "0322",
+      "STATION_NM": "동대입구",
+      "STATION_NM_ENG": "Dongguk University"
+    },
+    {
+      "FR_CODE": "333",
+      "LINE_NUM": "3",
+      "STATION_CD": "0323",
+      "STATION_NM": "약수",
+      "STATION_NM_ENG": "Yaksu"
+    },
+    {
+      "FR_CODE": "334",
+      "LINE_NUM": "3",
+      "STATION_CD": "0324",
+      "STATION_NM": "금호",
+      "STATION_NM_ENG": "Geumho"
+    },
+    {
+      "FR_CODE": "335",
+      "LINE_NUM": "3",
+      "STATION_CD": "0325",
+      "STATION_NM": "옥수",
+      "STATION_NM_ENG": "Oksu"
+    },
+    {
+      "FR_CODE": "336",
+      "LINE_NUM": "3",
+      "STATION_CD": "0326",
+      "STATION_NM": "압구정",
+      "STATION_NM_ENG": "Apgujeong"
+    },
+    {
+      "FR_CODE": "337",
+      "LINE_NUM": "3",
+      "STATION_CD": "0327",
+      "STATION_NM": "신사",
+      "STATION_NM_ENG": "Sinsa"
+    },
+    {
+      "FR_CODE": "338",
+      "LINE_NUM": "3",
+      "STATION_CD": "0328",
+      "STATION_NM": "잠원",
+      "STATION_NM_ENG": "Jamwon"
+    },
+    {
+      "FR_CODE": "339",
+      "LINE_NUM": "3",
+      "STATION_CD": "0329",
+      "STATION_NM": "고속터미널",
+      "STATION_NM_ENG": "Express Bus Terminal"
+    },
+    {
+      "FR_CODE": "340",
+      "LINE_NUM": "3",
+      "STATION_CD": "0330",
+      "STATION_NM": "교대",
+      "STATION_NM_ENG": "Seoul National University of Education"
+    },
+    {
+      "FR_CODE": "341",
+      "LINE_NUM": "3",
+      "STATION_CD": "0331",
+      "STATION_NM": "남부터미널",
+      "STATION_NM_ENG": "Nambu Bus Terminal"
+    },
+    {
+      "FR_CODE": "342",
+      "LINE_NUM": "3",
+      "STATION_CD": "0332",
+      "STATION_NM": "양재",
+      "STATION_NM_ENG": "Yangjae"
+    },
+    {
+      "FR_CODE": "343",
+      "LINE_NUM": "3",
+      "STATION_CD": "0333",
+      "STATION_NM": "매봉",
+      "STATION_NM_ENG": "Maebong"
+    },
+    {
+      "FR_CODE": "344",
+      "LINE_NUM": "3",
+      "STATION_CD": "0334",
+      "STATION_NM": "도곡",
+      "STATION_NM_ENG": "Dogok"
+    },
+    {
+      "FR_CODE": "345",
+      "LINE_NUM": "3",
+      "STATION_CD": "0335",
+      "STATION_NM": "대치",
+      "STATION_NM_ENG": "Daechi"
+    },
+    {
+      "FR_CODE": "346",
+      "LINE_NUM": "3",
+      "STATION_CD": "0336",
+      "STATION_NM": "학여울",
+      "STATION_NM_ENG": "Hangnyeoul"
+    },
+    {
+      "FR_CODE": "347",
+      "LINE_NUM": "3",
+      "STATION_CD": "0337",
+      "STATION_NM": "대청",
+      "STATION_NM_ENG": "Daecheong"
+    },
+    {
+      "FR_CODE": "348",
+      "LINE_NUM": "3",
+      "STATION_CD": "0338",
+      "STATION_NM": "일원",
+      "STATION_NM_ENG": "Irwon"
+    },
+    {
+      "FR_CODE": "349",
+      "LINE_NUM": "3",
+      "STATION_CD": "0339",
+      "STATION_NM": "수서",
+      "STATION_NM_ENG": "Suseo"
+    },
+    {
+      "FR_CODE": "350",
+      "LINE_NUM": "3",
+      "STATION_CD": "0340",
+      "STATION_NM": "가락시장",
+      "STATION_NM_ENG": "Garak Market"
+    },
+    {
+      "FR_CODE": "351",
+      "LINE_NUM": "3",
+      "STATION_CD": "0341",
+      "STATION_NM": "경찰병원",
+      "STATION_NM_ENG": "National Police Hospital"
+    },
+    {
+      "FR_CODE": "352",
+      "LINE_NUM": "3",
+      "STATION_CD": "0342",
+      "STATION_NM": "오금",
+      "STATION_NM_ENG": "Ogeum"
+    }
+  ],
+  "line4": [
+    {
+      "FR_CODE": "409",
+      "LINE_NUM": "4",
+      "STATION_CD": "0409",
+      "STATION_NM": "당고개",
+      "STATION_NM_ENG": "Danggogae"
+    },
+    {
+      "FR_CODE": "410",
+      "LINE_NUM": "4",
+      "STATION_CD": "0410",
+      "STATION_NM": "상계",
+      "STATION_NM_ENG": "Sanggye"
+    },
+    {
+      "FR_CODE": "411",
+      "LINE_NUM": "4",
+      "STATION_CD": "0411",
+      "STATION_NM": "노원",
+      "STATION_NM_ENG": "Nowon"
+    },
+    {
+      "FR_CODE": "412",
+      "LINE_NUM": "4",
+      "STATION_CD": "0412",
+      "STATION_NM": "창동",
+      "STATION_NM_ENG": "Chang-dong"
+    },
+    {
+      "FR_CODE": "413",
+      "LINE_NUM": "4",
+      "STATION_CD": "0413",
+      "STATION_NM": "쌍문",
+      "STATION_NM_ENG": "Ssangmun"
+    },
+    {
+      "FR_CODE": "414",
+      "LINE_NUM": "4",
+      "STATION_CD": "0414",
+      "STATION_NM": "수유",
+      "STATION_NM_ENG": "Suyu"
+    },
+    {
+      "FR_CODE": "415",
+      "LINE_NUM": "4",
+      "STATION_CD": "0415",
+      "STATION_NM": "미아",
+      "STATION_NM_ENG": "Mia"
+    },
+    {
+      "FR_CODE": "416",
+      "LINE_NUM": "4",
+      "STATION_CD": "0416",
+      "STATION_NM": "미아사거리",
+      "STATION_NM_ENG": "Miasageori"
+    },
+    {
+      "FR_CODE": "417",
+      "LINE_NUM": "4",
+      "STATION_CD": "0417",
+      "STATION_NM": "길음",
+      "STATION_NM_ENG": "Gireum"
+    },
+    {
+      "FR_CODE": "418",
+      "LINE_NUM": "4",
+      "STATION_CD": "0418",
+      "STATION_NM": "성신여대입구",
+      "STATION_NM_ENG": "Sungshin Women`s University"
+    },
+    {
+      "FR_CODE": "419",
+      "LINE_NUM": "4",
+      "STATION_CD": "0419",
+      "STATION_NM": "한성대입구",
+      "STATION_NM_ENG": "Hansung University"
+    },
+    {
+      "FR_CODE": "420",
+      "LINE_NUM": "4",
+      "STATION_CD": "0420",
+      "STATION_NM": "혜화",
+      "STATION_NM_ENG": "Hyehwa"
+    },
+    {
+      "FR_CODE": "421",
+      "LINE_NUM": "4",
+      "STATION_CD": "0421",
+      "STATION_NM": "동대문",
+      "STATION_NM_ENG": "Dongdaemun"
+    },
+    {
+      "FR_CODE": "422",
+      "LINE_NUM": "4",
+      "STATION_CD": "0422",
+      "STATION_NM": "동대문역사문화공원",
+      "STATION_NM_ENG": "Dongdaemun History & Culture Park"
+    },
+    {
+      "FR_CODE": "423",
+      "LINE_NUM": "4",
+      "STATION_CD": "0423",
+      "STATION_NM": "충무로",
+      "STATION_NM_ENG": "Chungmuro"
+    },
+    {
+      "FR_CODE": "424",
+      "LINE_NUM": "4",
+      "STATION_CD": "0424",
+      "STATION_NM": "명동",
+      "STATION_NM_ENG": "Myeong-dong"
+    },
+    {
+      "FR_CODE": "425",
+      "LINE_NUM": "4",
+      "STATION_CD": "0425",
+      "STATION_NM": "회현",
+      "STATION_NM_ENG": "Hoehyeon"
+    },
+    {
+      "FR_CODE": "426",
+      "LINE_NUM": "4",
+      "STATION_CD": "0426",
+      "STATION_NM": "서울",
+      "STATION_NM_ENG": "Seoul"
+    },
+    {
+      "FR_CODE": "427",
+      "LINE_NUM": "4",
+      "STATION_CD": "0427",
+      "STATION_NM": "숙대입구",
+      "STATION_NM_ENG": "Sookmyung Women`s University"
+    },
+    {
+      "FR_CODE": "428",
+      "LINE_NUM": "4",
+      "STATION_CD": "0428",
+      "STATION_NM": "삼각지",
+      "STATION_NM_ENG": "Samgakji"
+    },
+    {
+      "FR_CODE": "429",
+      "LINE_NUM": "4",
+      "STATION_CD": "0429",
+      "STATION_NM": "신용산",
+      "STATION_NM_ENG": "Sinyongsan"
+    },
+    {
+      "FR_CODE": "430",
+      "LINE_NUM": "4",
+      "STATION_CD": "0430",
+      "STATION_NM": "이촌",
+      "STATION_NM_ENG": "Ichon"
+    },
+    {
+      "FR_CODE": "431",
+      "LINE_NUM": "4",
+      "STATION_CD": "0431",
+      "STATION_NM": "동작",
+      "STATION_NM_ENG": "Dongjak"
+    },
+    {
+      "FR_CODE": "432",
+      "LINE_NUM": "4",
+      "STATION_CD": "0432",
+      "STATION_NM": "총신대입구(이수)",
+      "STATION_NM_ENG": "Isu"
+    },
+    {
+      "FR_CODE": "433",
+      "LINE_NUM": "4",
+      "STATION_CD": "0433",
+      "STATION_NM": "사당",
+      "STATION_NM_ENG": "Sadang"
+    },
+    {
+      "FR_CODE": "434",
+      "LINE_NUM": "4",
+      "STATION_CD": "0434",
+      "STATION_NM": "남태령",
+      "STATION_NM_ENG": "Namtaeryeong"
+    },
+    {
+      "FR_CODE": "435",
+      "LINE_NUM": "4",
+      "STATION_CD": "1450",
+      "STATION_NM": "선바위",
+      "STATION_NM_ENG": "Seonbawi"
+    },
+    {
+      "FR_CODE": "436",
+      "LINE_NUM": "4",
+      "STATION_CD": "1451",
+      "STATION_NM": "경마공원",
+      "STATION_NM_ENG": "Seoul Racecourse Park"
+    },
+    {
+      "FR_CODE": "437",
+      "LINE_NUM": "4",
+      "STATION_CD": "1452",
+      "STATION_NM": "대공원",
+      "STATION_NM_ENG": "Seoul Grand Park"
+    },
+    {
+      "FR_CODE": "438",
+      "LINE_NUM": "4",
+      "STATION_CD": "1453",
+      "STATION_NM": "과천",
+      "STATION_NM_ENG": "Gwacheon"
+    },
+    {
+      "FR_CODE": "439",
+      "LINE_NUM": "4",
+      "STATION_CD": "1454",
+      "STATION_NM": "정부과천청사",
+      "STATION_NM_ENG": "Government Complex Gwacheon"
+    },
+    {
+      "FR_CODE": "440",
+      "LINE_NUM": "4",
+      "STATION_CD": "1455",
+      "STATION_NM": "인덕원",
+      "STATION_NM_ENG": "Indeogwon"
+    },
+    {
+      "FR_CODE": "441",
+      "LINE_NUM": "4",
+      "STATION_CD": "1456",
+      "STATION_NM": "평촌",
+      "STATION_NM_ENG": "Pyeongchon"
+    },
+    {
+      "FR_CODE": "442",
+      "LINE_NUM": "4",
+      "STATION_CD": "1457",
+      "STATION_NM": "범계",
+      "STATION_NM_ENG": "Beomgye"
+    },
+    {
+      "FR_CODE": "443",
+      "LINE_NUM": "4",
+      "STATION_CD": "1458",
+      "STATION_NM": "금정",
+      "STATION_NM_ENG": "Geumjeong"
+    },
+    {
+      "FR_CODE": "444",
+      "LINE_NUM": "4",
+      "STATION_CD": "1751",
+      "STATION_NM": "산본",
+      "STATION_NM_ENG": "Sanbon"
+    },
+    {
+      "FR_CODE": "445",
+      "LINE_NUM": "4",
+      "STATION_CD": "1763",
+      "STATION_NM": "수리산",
+      "STATION_NM_ENG": "Surisan"
+    },
+    {
+      "FR_CODE": "446",
+      "LINE_NUM": "4",
+      "STATION_CD": "1752",
+      "STATION_NM": "대야미",
+      "STATION_NM_ENG": "Daeyami"
+    },
+    {
+      "FR_CODE": "447",
+      "LINE_NUM": "4",
+      "STATION_CD": "1753",
+      "STATION_NM": "반월",
+      "STATION_NM_ENG": "Banwol"
+    },
+    {
+      "FR_CODE": "448",
+      "LINE_NUM": "4",
+      "STATION_CD": "1754",
+      "STATION_NM": "상록수",
+      "STATION_NM_ENG": "Sangnoksu"
+    },
+    {
+      "FR_CODE": "449",
+      "LINE_NUM": "4",
+      "STATION_CD": "1755",
+      "STATION_NM": "한대앞",
+      "STATION_NM_ENG": "Hanyang University at Ansan"
+    },
+    {
+      "FR_CODE": "450",
+      "LINE_NUM": "4",
+      "STATION_CD": "1756",
+      "STATION_NM": "중앙",
+      "STATION_NM_ENG": "Jungang"
+    },
+    {
+      "FR_CODE": "451",
+      "LINE_NUM": "4",
+      "STATION_CD": "1757",
+      "STATION_NM": "고잔",
+      "STATION_NM_ENG": "Gojan"
+    },
+    {
+      "FR_CODE": "452",
+      "LINE_NUM": "4",
+      "STATION_CD": "1758",
+      "STATION_NM": "초지",
+      "STATION_NM_ENG": "Choji"
+    },
+    {
+      "FR_CODE": "453",
+      "LINE_NUM": "4",
+      "STATION_CD": "1759",
+      "STATION_NM": "안산",
+      "STATION_NM_ENG": "Ansan"
+    },
+    {
+      "FR_CODE": "454",
+      "LINE_NUM": "4",
+      "STATION_CD": "1760",
+      "STATION_NM": "신길온천",
+      "STATION_NM_ENG": "Singil Oncheon"
+    },
+    {
+      "FR_CODE": "455",
+      "LINE_NUM": "4",
+      "STATION_CD": "1761",
+      "STATION_NM": "정왕",
+      "STATION_NM_ENG": "Jeongwang"
+    },
+    {
+      "FR_CODE": "456",
+      "LINE_NUM": "4",
+      "STATION_CD": "1762",
+      "STATION_NM": "오이도",
+      "STATION_NM_ENG": "Oido"
+    }
+  ],
+  "line5": [
+    {
+      "FR_CODE": "510",
+      "LINE_NUM": "5",
+      "STATION_CD": "2511",
+      "STATION_NM": "방화",
+      "STATION_NM_ENG": "Banghwa"
+    },
+    {
+      "FR_CODE": "511",
+      "LINE_NUM": "5",
+      "STATION_CD": "2512",
+      "STATION_NM": "개화산",
+      "STATION_NM_ENG": "Gaehwasan"
+    },
+    {
+      "FR_CODE": "512",
+      "LINE_NUM": "5",
+      "STATION_CD": "2513",
+      "STATION_NM": "김포공항",
+      "STATION_NM_ENG": "Gimpo International Airport"
+    },
+    {
+      "FR_CODE": "513",
+      "LINE_NUM": "5",
+      "STATION_CD": "2514",
+      "STATION_NM": "송정",
+      "STATION_NM_ENG": "Songjeong"
+    },
+    {
+      "FR_CODE": "514",
+      "LINE_NUM": "5",
+      "STATION_CD": "2515",
+      "STATION_NM": "마곡",
+      "STATION_NM_ENG": "Magok"
+    },
+    {
+      "FR_CODE": "515",
+      "LINE_NUM": "5",
+      "STATION_CD": "2516",
+      "STATION_NM": "발산",
+      "STATION_NM_ENG": "Balsan"
+    },
+    {
+      "FR_CODE": "516",
+      "LINE_NUM": "5",
+      "STATION_CD": "2517",
+      "STATION_NM": "우장산",
+      "STATION_NM_ENG": "Ujangsan"
+    },
+    {
+      "FR_CODE": "517",
+      "LINE_NUM": "5",
+      "STATION_CD": "2518",
+      "STATION_NM": "화곡",
+      "STATION_NM_ENG": "Hwagok"
+    },
+    {
+      "FR_CODE": "518",
+      "LINE_NUM": "5",
+      "STATION_CD": "2519",
+      "STATION_NM": "까치산",
+      "STATION_NM_ENG": "Kkachisan"
+    },
+    {
+      "FR_CODE": "519",
+      "LINE_NUM": "5",
+      "STATION_CD": "2520",
+      "STATION_NM": "신정",
+      "STATION_NM_ENG": "Sinjeong"
+    },
+    {
+      "FR_CODE": "520",
+      "LINE_NUM": "5",
+      "STATION_CD": "2521",
+      "STATION_NM": "목동",
+      "STATION_NM_ENG": "Mok-dong"
+    },
+    {
+      "FR_CODE": "521",
+      "LINE_NUM": "5",
+      "STATION_CD": "2522",
+      "STATION_NM": "오목교",
+      "STATION_NM_ENG": "Omokgyo"
+    },
+    {
+      "FR_CODE": "522",
+      "LINE_NUM": "5",
+      "STATION_CD": "2523",
+      "STATION_NM": "양평",
+      "STATION_NM_ENG": "Yangpyeong"
+    },
+    {
+      "FR_CODE": "523",
+      "LINE_NUM": "5",
+      "STATION_CD": "2524",
+      "STATION_NM": "영등포구청",
+      "STATION_NM_ENG": "Yeongdeungpo-gu Office"
+    },
+    {
+      "FR_CODE": "524",
+      "LINE_NUM": "5",
+      "STATION_CD": "2525",
+      "STATION_NM": "영등포시장",
+      "STATION_NM_ENG": "Yeongdeungpo Market"
+    },
+    {
+      "FR_CODE": "525",
+      "LINE_NUM": "5",
+      "STATION_CD": "2526",
+      "STATION_NM": "신길",
+      "STATION_NM_ENG": "Singil"
+    },
+    {
+      "FR_CODE": "526",
+      "LINE_NUM": "5",
+      "STATION_CD": "2527",
+      "STATION_NM": "여의도",
+      "STATION_NM_ENG": "Yeouido"
+    },
+    {
+      "FR_CODE": "527",
+      "LINE_NUM": "5",
+      "STATION_CD": "2528",
+      "STATION_NM": "여의나루",
+      "STATION_NM_ENG": "Yeouinaru"
+    },
+    {
+      "FR_CODE": "528",
+      "LINE_NUM": "5",
+      "STATION_CD": "2529",
+      "STATION_NM": "마포",
+      "STATION_NM_ENG": "Mapo"
+    },
+    {
+      "FR_CODE": "529",
+      "LINE_NUM": "5",
+      "STATION_CD": "2530",
+      "STATION_NM": "공덕",
+      "STATION_NM_ENG": "Gongdeok"
+    },
+    {
+      "FR_CODE": "530",
+      "LINE_NUM": "5",
+      "STATION_CD": "2531",
+      "STATION_NM": "애오개",
+      "STATION_NM_ENG": "Aeogae"
+    },
+    {
+      "FR_CODE": "531",
+      "LINE_NUM": "5",
+      "STATION_CD": "2532",
+      "STATION_NM": "충정로",
+      "STATION_NM_ENG": "Chungjeongno"
+    },
+    {
+      "FR_CODE": "532",
+      "LINE_NUM": "5",
+      "STATION_CD": "2533",
+      "STATION_NM": "서대문",
+      "STATION_NM_ENG": "Seodaemun"
+    },
+    {
+      "FR_CODE": "533",
+      "LINE_NUM": "5",
+      "STATION_CD": "2534",
+      "STATION_NM": "광화문",
+      "STATION_NM_ENG": "Gwanghwamun"
+    },
+    {
+      "FR_CODE": "534",
+      "LINE_NUM": "5",
+      "STATION_CD": "2535",
+      "STATION_NM": "종로3가",
+      "STATION_NM_ENG": "Jongno 3-ga"
+    },
+    {
+      "FR_CODE": "535",
+      "LINE_NUM": "5",
+      "STATION_CD": "2536",
+      "STATION_NM": "을지로4가",
+      "STATION_NM_ENG": "Euljiro 4-ga"
+    },
+    {
+      "FR_CODE": "536",
+      "LINE_NUM": "5",
+      "STATION_CD": "2537",
+      "STATION_NM": "동대문역사문화공원",
+      "STATION_NM_ENG": "Dongdaemun History & Culture Park"
+    },
+    {
+      "FR_CODE": "537",
+      "LINE_NUM": "5",
+      "STATION_CD": "2538",
+      "STATION_NM": "청구",
+      "STATION_NM_ENG": "Cheonggu"
+    },
+    {
+      "FR_CODE": "538",
+      "LINE_NUM": "5",
+      "STATION_CD": "2539",
+      "STATION_NM": "신금호",
+      "STATION_NM_ENG": "Singeumho"
+    },
+    {
+      "FR_CODE": "539",
+      "LINE_NUM": "5",
+      "STATION_CD": "2540",
+      "STATION_NM": "행당",
+      "STATION_NM_ENG": "Haengdang"
+    },
+    {
+      "FR_CODE": "540",
+      "LINE_NUM": "5",
+      "STATION_CD": "2541",
+      "STATION_NM": "왕십리",
+      "STATION_NM_ENG": "Wangsimni"
+    },
+    {
+      "FR_CODE": "541",
+      "LINE_NUM": "5",
+      "STATION_CD": "2542",
+      "STATION_NM": "마장",
+      "STATION_NM_ENG": "Majang"
+    },
+    {
+      "FR_CODE": "542",
+      "LINE_NUM": "5",
+      "STATION_CD": "2543",
+      "STATION_NM": "답십리",
+      "STATION_NM_ENG": "Dapsimni"
+    },
+    {
+      "FR_CODE": "543",
+      "LINE_NUM": "5",
+      "STATION_CD": "2544",
+      "STATION_NM": "장한평",
+      "STATION_NM_ENG": "Janghanpyeong"
+    },
+    {
+      "FR_CODE": "544",
+      "LINE_NUM": "5",
+      "STATION_CD": "2545",
+      "STATION_NM": "군자",
+      "STATION_NM_ENG": "Gunja"
+    },
+    {
+      "FR_CODE": "545",
+      "LINE_NUM": "5",
+      "STATION_CD": "2546",
+      "STATION_NM": "아차산",
+      "STATION_NM_ENG": "Achasan"
+    },
+    {
+      "FR_CODE": "546",
+      "LINE_NUM": "5",
+      "STATION_CD": "2547",
+      "STATION_NM": "광나루",
+      "STATION_NM_ENG": "Gwangnaru"
+    },
+    {
+      "FR_CODE": "547",
+      "LINE_NUM": "5",
+      "STATION_CD": "2548",
+      "STATION_NM": "천호",
+      "STATION_NM_ENG": "Cheonho"
+    },
+    {
+      "FR_CODE": "548",
+      "LINE_NUM": "5",
+      "STATION_CD": "2549",
+      "STATION_NM": "강동",
+      "STATION_NM_ENG": "Gangdong"
+    },
+    {
+      "FR_CODE": "549",
+      "LINE_NUM": "5",
+      "STATION_CD": "2550",
+      "STATION_NM": "길동",
+      "STATION_NM_ENG": "Gil-dong"
+    },
+    {
+      "FR_CODE": "550",
+      "LINE_NUM": "5",
+      "STATION_CD": "2551",
+      "STATION_NM": "굽은다리",
+      "STATION_NM_ENG": "Gubeundari"
+    },
+    {
+      "FR_CODE": "551",
+      "LINE_NUM": "5",
+      "STATION_CD": "2552",
+      "STATION_NM": "명일",
+      "STATION_NM_ENG": "Myeongil"
+    },
+    {
+      "FR_CODE": "552",
+      "LINE_NUM": "5",
+      "STATION_CD": "2553",
+      "STATION_NM": "고덕",
+      "STATION_NM_ENG": "Godeok"
+    },
+    {
+      "FR_CODE": "553",
+      "LINE_NUM": "5",
+      "STATION_CD": "2554",
+      "STATION_NM": "상일동",
+      "STATION_NM_ENG": "Sangil-dong"
+    },
+    {
+      "STATION_CD": "2555",
+      "STATION_NM": "둔촌동",
+      "LINE_NUM": "5",
+      "FR_CODE": "P549",
+      "STATION_NM_ENG": "\tDunchon-dong"
+    },
+    {
+      "STATION_CD": "2556",
+      "STATION_NM": "올림픽공원",
+      "LINE_NUM": "5",
+      "FR_CODE": "P550",
+      "STATION_NM_ENG": "Olympic Park(Korea National Sport University)"
+    },
+    {
+      "STATION_CD": "2557",
+      "STATION_NM": "방이",
+      "LINE_NUM": "5",
+      "FR_CODE": "P551",
+      "STATION_NM_ENG": "Bangi"
+    },
+    {
+      "STATION_CD": "2558",
+      "STATION_NM": "오금",
+      "LINE_NUM": "5",
+      "FR_CODE": "P552",
+      "STATION_NM_ENG": "Ogeum"
+    },
+    {
+      "STATION_CD": "2559",
+      "STATION_NM": "개롱",
+      "LINE_NUM": "5",
+      "FR_CODE": "P553",
+      "STATION_NM_ENG": "Gaerong"
+    },
+    {
+      "STATION_CD": "2560",
+      "STATION_NM": "거여",
+      "LINE_NUM": "5",
+      "FR_CODE": "P554",
+      "STATION_NM_ENG": "\tGeoyeo"
+    },
+    {
+      "STATION_CD": "2561",
+      "STATION_NM": "마천",
+      "LINE_NUM": "5",
+      "FR_CODE": "P555",
+      "STATION_NM_ENG": "Macheon"
+    }
+  ],
+  "line6": [
+    {
+      "STATION_CD": "2611",
+      "STATION_NM": "응암",
+      "LINE_NUM": "6",
+      "FR_CODE": "610",
+      "STATION_NM_ENG": "Eungam"
+    },
+    {
+      "STATION_CD": "2612",
+      "STATION_NM": "역촌",
+      "LINE_NUM": "6",
+      "FR_CODE": "611",
+      "STATION_NM_ENG": "Yeokchon"
+    },
+    {
+      "STATION_CD": "2613",
+      "STATION_NM": "불광",
+      "LINE_NUM": "6",
+      "FR_CODE": "612",
+      "STATION_NM_ENG": "Bulgwang"
+    },
+    {
+      "STATION_CD": "2614",
+      "STATION_NM": "독바위",
+      "LINE_NUM": "6",
+      "FR_CODE": "613",
+      "STATION_NM_ENG": "Dokbawi"
+    },
+    {
+      "STATION_CD": "2615",
+      "STATION_NM": "연신내",
+      "LINE_NUM": "6",
+      "FR_CODE": "614",
+      "STATION_NM_ENG": "Yeonsinnae"
+    },
+    {
+      "STATION_CD": "2616",
+      "STATION_NM": "구산",
+      "LINE_NUM": "6",
+      "FR_CODE": "615",
+      "STATION_NM_ENG": "Gusan"
+    },
+    {
+      "STATION_CD": "2617",
+      "STATION_NM": "새절",
+      "LINE_NUM": "6",
+      "FR_CODE": "616",
+      "STATION_NM_ENG": "Saejeol"
+    },
+    {
+      "STATION_CD": "2618",
+      "STATION_NM": "증산",
+      "LINE_NUM": "6",
+      "FR_CODE": "617",
+      "STATION_NM_ENG": "Jeungsan"
+    },
+    {
+      "STATION_CD": "2619",
+      "STATION_NM": "디지털미디어시티",
+      "LINE_NUM": "6",
+      "FR_CODE": "618",
+      "STATION_NM_ENG": "Digital Media City"
+    },
+    {
+      "STATION_CD": "2620",
+      "STATION_NM": "월드컵경기장",
+      "LINE_NUM": "6",
+      "FR_CODE": "619",
+      "STATION_NM_ENG": "World Cup Stadium"
+    },
+    {
+      "STATION_CD": "2621",
+      "STATION_NM": "마포구청",
+      "LINE_NUM": "6",
+      "FR_CODE": "620",
+      "STATION_NM_ENG": "Mapo-gu Office"
+    },
+    {
+      "STATION_CD": "2622",
+      "STATION_NM": "망원",
+      "LINE_NUM": "6",
+      "FR_CODE": "621",
+      "STATION_NM_ENG": "Mangwon"
+    },
+    {
+      "STATION_CD": "2623",
+      "STATION_NM": "합정",
+      "LINE_NUM": "6",
+      "FR_CODE": "622",
+      "STATION_NM_ENG": "Hapjeong"
+    },
+    {
+      "STATION_CD": "2624",
+      "STATION_NM": "상수",
+      "LINE_NUM": "6",
+      "FR_CODE": "623",
+      "STATION_NM_ENG": "Sangsu"
+    },
+    {
+      "STATION_CD": "2625",
+      "STATION_NM": "광흥창",
+      "LINE_NUM": "6",
+      "FR_CODE": "624",
+      "STATION_NM_ENG": "Gwangheungchang"
+    },
+    {
+      "STATION_CD": "2626",
+      "STATION_NM": "대흥",
+      "LINE_NUM": "6",
+      "FR_CODE": "625",
+      "STATION_NM_ENG": "Daeheung"
+    },
+    {
+      "STATION_CD": "2627",
+      "STATION_NM": "공덕",
+      "LINE_NUM": "6",
+      "FR_CODE": "626",
+      "STATION_NM_ENG": "Gongdeok"
+    },
+    {
+      "STATION_CD": "2628",
+      "STATION_NM": "효창공원앞",
+      "LINE_NUM": "6",
+      "FR_CODE": "627",
+      "STATION_NM_ENG": "Hyochang Park"
+    },
+    {
+      "STATION_CD": "2629",
+      "STATION_NM": "삼각지",
+      "LINE_NUM": "6",
+      "FR_CODE": "628",
+      "STATION_NM_ENG": "Samgakji"
+    },
+    {
+      "STATION_CD": "2630",
+      "STATION_NM": "녹사평",
+      "LINE_NUM": "6",
+      "FR_CODE": "629",
+      "STATION_NM_ENG": "Noksapyeong"
+    },
+    {
+      "STATION_CD": "2631",
+      "STATION_NM": "이태원",
+      "LINE_NUM": "6",
+      "FR_CODE": "630",
+      "STATION_NM_ENG": "Itaewon"
+    },
+    {
+      "STATION_CD": "2632",
+      "STATION_NM": "한강진",
+      "LINE_NUM": "6",
+      "FR_CODE": "631",
+      "STATION_NM_ENG": "Hangangjin"
+    },
+    {
+      "STATION_CD": "2633",
+      "STATION_NM": "버티고개",
+      "LINE_NUM": "6",
+      "FR_CODE": "632",
+      "STATION_NM_ENG": "Beotigogae"
+    },
+    {
+      "STATION_CD": "2634",
+      "STATION_NM": "약수",
+      "LINE_NUM": "6",
+      "FR_CODE": "633",
+      "STATION_NM_ENG": "Yaksu"
+    },
+    {
+      "STATION_CD": "2635",
+      "STATION_NM": "청구",
+      "LINE_NUM": "6",
+      "FR_CODE": "634",
+      "STATION_NM_ENG": "Cheonggu"
+    },
+    {
+      "STATION_CD": "2636",
+      "STATION_NM": "신당",
+      "LINE_NUM": "6",
+      "FR_CODE": "635",
+      "STATION_NM_ENG": "Sindang"
+    },
+    {
+      "STATION_CD": "2637",
+      "STATION_NM": "동묘앞",
+      "LINE_NUM": "6",
+      "FR_CODE": "636",
+      "STATION_NM_ENG": "Dongmyo"
+    },
+    {
+      "STATION_CD": "2638",
+      "STATION_NM": "창신",
+      "LINE_NUM": "6",
+      "FR_CODE": "637",
+      "STATION_NM_ENG": "Changsin"
+    },
+    {
+      "STATION_CD": "2639",
+      "STATION_NM": "보문",
+      "LINE_NUM": "6",
+      "FR_CODE": "638",
+      "STATION_NM_ENG": "Bomun"
+    },
+    {
+      "STATION_CD": "2640",
+      "STATION_NM": "안암",
+      "LINE_NUM": "6",
+      "FR_CODE": "639",
+      "STATION_NM_ENG": "Anam"
+    },
+    {
+      "STATION_CD": "2641",
+      "STATION_NM": "고려대",
+      "LINE_NUM": "6",
+      "FR_CODE": "640",
+      "STATION_NM_ENG": "Korea University"
+    },
+    {
+      "STATION_CD": "2642",
+      "STATION_NM": "월곡",
+      "LINE_NUM": "6",
+      "FR_CODE": "641",
+      "STATION_NM_ENG": "Wolgok"
+    },
+    {
+      "STATION_CD": "2643",
+      "STATION_NM": "상월곡",
+      "LINE_NUM": "6",
+      "FR_CODE": "642",
+      "STATION_NM_ENG": "Sangwolgok"
+    },
+    {
+      "STATION_CD": "2644",
+      "STATION_NM": "돌곶이",
+      "LINE_NUM": "6",
+      "FR_CODE": "643",
+      "STATION_NM_ENG": "Dolgoji"
+    },
+    {
+      "STATION_CD": "2645",
+      "STATION_NM": "석계",
+      "LINE_NUM": "6",
+      "FR_CODE": "644",
+      "STATION_NM_ENG": "Seokgye"
+    },
+    {
+      "STATION_CD": "2646",
+      "STATION_NM": "태릉입구",
+      "LINE_NUM": "6",
+      "FR_CODE": "645",
+      "STATION_NM_ENG": "Taereung"
+    },
+    {
+      "STATION_CD": "2647",
+      "STATION_NM": "화랑대",
+      "LINE_NUM": "6",
+      "FR_CODE": "646",
+      "STATION_NM_ENG": "Hwarangdae"
+    },
+    {
+      "STATION_CD": "2648",
+      "STATION_NM": "봉화산",
+      "LINE_NUM": "6",
+      "FR_CODE": "647",
+      "STATION_NM_ENG": "Bonghwasan"
+    }
+  ],
+  "line7": [
+    {
+      "FR_CODE": "709",
+      "LINE_NUM": "7",
+      "STATION_CD": "2711",
+      "STATION_NM": "장암",
+      "STATION_NM_ENG": "Jangam"
+    },
+    {
+      "FR_CODE": "710",
+      "LINE_NUM": "7",
+      "STATION_CD": "2712",
+      "STATION_NM": "도봉산",
+      "STATION_NM_ENG": "Dobongsan"
+    },
+    {
+      "FR_CODE": "711",
+      "LINE_NUM": "7",
+      "STATION_CD": "2713",
+      "STATION_NM": "수락산",
+      "STATION_NM_ENG": "Suraksan"
+    },
+    {
+      "FR_CODE": "712",
+      "LINE_NUM": "7",
+      "STATION_CD": "2714",
+      "STATION_NM": "마들",
+      "STATION_NM_ENG": "Madeul"
+    },
+    {
+      "FR_CODE": "713",
+      "LINE_NUM": "7",
+      "STATION_CD": "2715",
+      "STATION_NM": "노원",
+      "STATION_NM_ENG": "Nowon"
+    },
+    {
+      "FR_CODE": "714",
+      "LINE_NUM": "7",
+      "STATION_CD": "2716",
+      "STATION_NM": "중계",
+      "STATION_NM_ENG": "Junggye"
+    },
+    {
+      "FR_CODE": "715",
+      "LINE_NUM": "7",
+      "STATION_CD": "2717",
+      "STATION_NM": "하계",
+      "STATION_NM_ENG": "Hagye"
+    },
+    {
+      "FR_CODE": "716",
+      "LINE_NUM": "7",
+      "STATION_CD": "2718",
+      "STATION_NM": "공릉",
+      "STATION_NM_ENG": "Gongneung"
+    },
+    {
+      "FR_CODE": "717",
+      "LINE_NUM": "7",
+      "STATION_CD": "2719",
+      "STATION_NM": "태릉입구",
+      "STATION_NM_ENG": "Taereung"
+    },
+    {
+      "FR_CODE": "718",
+      "LINE_NUM": "7",
+      "STATION_CD": "2720",
+      "STATION_NM": "먹골",
+      "STATION_NM_ENG": "Meokgol"
+    },
+    {
+      "FR_CODE": "719",
+      "LINE_NUM": "7",
+      "STATION_CD": "2721",
+      "STATION_NM": "중화",
+      "STATION_NM_ENG": "Junghwa"
+    },
+    {
+      "FR_CODE": "720",
+      "LINE_NUM": "7",
+      "STATION_CD": "2722",
+      "STATION_NM": "상봉",
+      "STATION_NM_ENG": "Sangbong"
+    },
+    {
+      "FR_CODE": "721",
+      "LINE_NUM": "7",
+      "STATION_CD": "2723",
+      "STATION_NM": "면목",
+      "STATION_NM_ENG": "Myeonmok"
+    },
+    {
+      "FR_CODE": "722",
+      "LINE_NUM": "7",
+      "STATION_CD": "2724",
+      "STATION_NM": "사가정",
+      "STATION_NM_ENG": "Sagajeong"
+    },
+    {
+      "FR_CODE": "723",
+      "LINE_NUM": "7",
+      "STATION_CD": "2725",
+      "STATION_NM": "용마산",
+      "STATION_NM_ENG": "Yongmasan"
+    },
+    {
+      "FR_CODE": "724",
+      "LINE_NUM": "7",
+      "STATION_CD": "2726",
+      "STATION_NM": "중곡",
+      "STATION_NM_ENG": "Junggok"
+    },
+    {
+      "FR_CODE": "725",
+      "LINE_NUM": "7",
+      "STATION_CD": "2727",
+      "STATION_NM": "군자",
+      "STATION_NM_ENG": "Gunja"
+    },
+    {
+      "FR_CODE": "726",
+      "LINE_NUM": "7",
+      "STATION_CD": "2728",
+      "STATION_NM": "어린이대공원",
+      "STATION_NM_ENG": "Children`s Grand Park"
+    },
+    {
+      "FR_CODE": "727",
+      "LINE_NUM": "7",
+      "STATION_CD": "2729",
+      "STATION_NM": "건대입구",
+      "STATION_NM_ENG": "Konkuk University"
+    },
+    {
+      "FR_CODE": "728",
+      "LINE_NUM": "7",
+      "STATION_CD": "2730",
+      "STATION_NM": "뚝섬유원지",
+      "STATION_NM_ENG": "Ttukseom Resort"
+    },
+    {
+      "FR_CODE": "729",
+      "LINE_NUM": "7",
+      "STATION_CD": "2731",
+      "STATION_NM": "청담",
+      "STATION_NM_ENG": "Cheongdam"
+    },
+    {
+      "FR_CODE": "730",
+      "LINE_NUM": "7",
+      "STATION_CD": "2732",
+      "STATION_NM": "강남구청",
+      "STATION_NM_ENG": "Gangnam-gu Office"
+    },
+    {
+      "FR_CODE": "731",
+      "LINE_NUM": "7",
+      "STATION_CD": "2733",
+      "STATION_NM": "학동",
+      "STATION_NM_ENG": "Hak-dong"
+    },
+    {
+      "FR_CODE": "732",
+      "LINE_NUM": "7",
+      "STATION_CD": "2734",
+      "STATION_NM": "논현",
+      "STATION_NM_ENG": "Nonhyeon"
+    },
+    {
+      "FR_CODE": "733",
+      "LINE_NUM": "7",
+      "STATION_CD": "2735",
+      "STATION_NM": "반포",
+      "STATION_NM_ENG": "Banpo"
+    },
+    {
+      "FR_CODE": "734",
+      "LINE_NUM": "7",
+      "STATION_CD": "2736",
+      "STATION_NM": "고속터미널",
+      "STATION_NM_ENG": "Express Bus Terminal"
+    },
+    {
+      "FR_CODE": "735",
+      "LINE_NUM": "7",
+      "STATION_CD": "2737",
+      "STATION_NM": "내방",
+      "STATION_NM_ENG": "Naebang"
+    },
+    {
+      "FR_CODE": "736",
+      "LINE_NUM": "7",
+      "STATION_CD": "2738",
+      "STATION_NM": "총신대입구(이수)",
+      "STATION_NM_ENG": "Isu"
+    },
+    {
+      "FR_CODE": "737",
+      "LINE_NUM": "7",
+      "STATION_CD": "2739",
+      "STATION_NM": "남성",
+      "STATION_NM_ENG": "Namseong"
+    },
+    {
+      "FR_CODE": "738",
+      "LINE_NUM": "7",
+      "STATION_CD": "2740",
+      "STATION_NM": "숭실대입구",
+      "STATION_NM_ENG": "Soongsil University"
+    },
+    {
+      "FR_CODE": "739",
+      "LINE_NUM": "7",
+      "STATION_CD": "2741",
+      "STATION_NM": "상도",
+      "STATION_NM_ENG": "Sangdo"
+    },
+    {
+      "FR_CODE": "740",
+      "LINE_NUM": "7",
+      "STATION_CD": "2742",
+      "STATION_NM": "장승배기",
+      "STATION_NM_ENG": "Jangseungbaegi"
+    },
+    {
+      "FR_CODE": "741",
+      "LINE_NUM": "7",
+      "STATION_CD": "2743",
+      "STATION_NM": "신대방삼거리",
+      "STATION_NM_ENG": "Sindaebangsamgeori"
+    },
+    {
+      "FR_CODE": "742",
+      "LINE_NUM": "7",
+      "STATION_CD": "2744",
+      "STATION_NM": "보라매",
+      "STATION_NM_ENG": "Boramae"
+    },
+    {
+      "FR_CODE": "743",
+      "LINE_NUM": "7",
+      "STATION_CD": "2745",
+      "STATION_NM": "신풍",
+      "STATION_NM_ENG": "Sinpung"
+    },
+    {
+      "FR_CODE": "744",
+      "LINE_NUM": "7",
+      "STATION_CD": "2746",
+      "STATION_NM": "대림",
+      "STATION_NM_ENG": "Daerim"
+    },
+    {
+      "FR_CODE": "745",
+      "LINE_NUM": "7",
+      "STATION_CD": "2747",
+      "STATION_NM": "남구로",
+      "STATION_NM_ENG": "Namguro"
+    },
+    {
+      "FR_CODE": "746",
+      "LINE_NUM": "7",
+      "STATION_CD": "2748",
+      "STATION_NM": "가산디지털단지",
+      "STATION_NM_ENG": "Gasan Digital Complex"
+    },
+    {
+      "FR_CODE": "747",
+      "LINE_NUM": "7",
+      "STATION_CD": "2749",
+      "STATION_NM": "철산",
+      "STATION_NM_ENG": "Cheolsan"
+    },
+    {
+      "FR_CODE": "748",
+      "LINE_NUM": "7",
+      "STATION_CD": "2750",
+      "STATION_NM": "광명사거리",
+      "STATION_NM_ENG": "Gwangmyeongsageori"
+    },
+    {
+      "FR_CODE": "749",
+      "LINE_NUM": "7",
+      "STATION_CD": "2751",
+      "STATION_NM": "천왕",
+      "STATION_NM_ENG": "Cheonwang"
+    },
+    {
+      "FR_CODE": "750",
+      "LINE_NUM": "7",
+      "STATION_CD": "2752",
+      "STATION_NM": "온수",
+      "STATION_NM_ENG": "Onsu"
+    },
+    {
+      "FR_CODE": "751",
+      "LINE_NUM": "7",
+      "STATION_CD": "2753",
+      "STATION_NM": "까치울",
+      "STATION_NM_ENG": "Kkachiul"
+    },
+    {
+      "FR_CODE": "752",
+      "LINE_NUM": "7",
+      "STATION_CD": "2754",
+      "STATION_NM": "부천종합운동장",
+      "STATION_NM_ENG": "Bucheon Stadium"
+    },
+    {
+      "FR_CODE": "753",
+      "LINE_NUM": "7",
+      "STATION_CD": "2755",
+      "STATION_NM": "춘의",
+      "STATION_NM_ENG": "Chunui"
+    },
+    {
+      "FR_CODE": "754",
+      "LINE_NUM": "7",
+      "STATION_CD": "2756",
+      "STATION_NM": "신중동",
+      "STATION_NM_ENG": "Sinjung-dong"
+    },
+    {
+      "FR_CODE": "755",
+      "LINE_NUM": "7",
+      "STATION_CD": "2757",
+      "STATION_NM": "부천시청",
+      "STATION_NM_ENG": "Bucheon City Hall"
+    },
+    {
+      "FR_CODE": "756",
+      "LINE_NUM": "7",
+      "STATION_CD": "2758",
+      "STATION_NM": "상동",
+      "STATION_NM_ENG": "Sang-dong"
+    },
+    {
+      "FR_CODE": "757",
+      "LINE_NUM": "7",
+      "STATION_CD": "2759",
+      "STATION_NM": "삼산체육관",
+      "STATION_NM_ENG": "Samsan Gymnasium"
+    },
+    {
+      "FR_CODE": "758",
+      "LINE_NUM": "7",
+      "STATION_CD": "2760",
+      "STATION_NM": "굴포천",
+      "STATION_NM_ENG": "Gulpocheon"
+    },
+    {
+      "FR_CODE": "759",
+      "LINE_NUM": "7",
+      "STATION_CD": "2761",
+      "STATION_NM": "부평구청",
+      "STATION_NM_ENG": "Bupyeong-gu Office"
+    }
+  ],
+  "line8": [
+    {
+      "FR_CODE": "810",
+      "LINE_NUM": "8",
+      "STATION_CD": "2811",
+      "STATION_NM": "암사",
+      "STATION_NM_ENG": "Amsa"
+    },
+    {
+      "FR_CODE": "811",
+      "LINE_NUM": "8",
+      "STATION_CD": "2812",
+      "STATION_NM": "천호",
+      "STATION_NM_ENG": "Cheonho"
+    },
+    {
+      "FR_CODE": "812",
+      "LINE_NUM": "8",
+      "STATION_CD": "2813",
+      "STATION_NM": "강동구청",
+      "STATION_NM_ENG": "Gangdong-gu Office"
+    },
+    {
+      "FR_CODE": "813",
+      "LINE_NUM": "8",
+      "STATION_CD": "2814",
+      "STATION_NM": "몽촌토성",
+      "STATION_NM_ENG": "Mongchontoseong"
+    },
+    {
+      "FR_CODE": "814",
+      "LINE_NUM": "8",
+      "STATION_CD": "2815",
+      "STATION_NM": "잠실",
+      "STATION_NM_ENG": "Jamsil"
+    },
+    {
+      "FR_CODE": "815",
+      "LINE_NUM": "8",
+      "STATION_CD": "2816",
+      "STATION_NM": "석촌",
+      "STATION_NM_ENG": "Seokchon"
+    },
+    {
+      "FR_CODE": "816",
+      "LINE_NUM": "8",
+      "STATION_CD": "2817",
+      "STATION_NM": "송파",
+      "STATION_NM_ENG": "Songpa"
+    },
+    {
+      "FR_CODE": "817",
+      "LINE_NUM": "8",
+      "STATION_CD": "2818",
+      "STATION_NM": "가락시장",
+      "STATION_NM_ENG": "Garak Market"
+    },
+    {
+      "FR_CODE": "818",
+      "LINE_NUM": "8",
+      "STATION_CD": "2819",
+      "STATION_NM": "문정",
+      "STATION_NM_ENG": "Munjeong"
+    },
+    {
+      "FR_CODE": "819",
+      "LINE_NUM": "8",
+      "STATION_CD": "2820",
+      "STATION_NM": "장지",
+      "STATION_NM_ENG": "Jangji"
+    },
+    {
+      "FR_CODE": "820",
+      "LINE_NUM": "8",
+      "STATION_CD": "2821",
+      "STATION_NM": "복정",
+      "STATION_NM_ENG": "Bokjeong"
+    },
+    {
+      "FR_CODE": "821",
+      "LINE_NUM": "8",
+      "STATION_CD": "2822",
+      "STATION_NM": "산성",
+      "STATION_NM_ENG": "Sanseong"
+    },
+    {
+      "FR_CODE": "822",
+      "LINE_NUM": "8",
+      "STATION_CD": "2823",
+      "STATION_NM": "남한산성입구",
+      "STATION_NM_ENG": "Namhansanseong"
+    },
+    {
+      "FR_CODE": "823",
+      "LINE_NUM": "8",
+      "STATION_CD": "2824",
+      "STATION_NM": "단대오거리",
+      "STATION_NM_ENG": "Dandaeogeori"
+    },
+    {
+      "FR_CODE": "824",
+      "LINE_NUM": "8",
+      "STATION_CD": "2825",
+      "STATION_NM": "신흥",
+      "STATION_NM_ENG": "Sinheung"
+    },
+    {
+      "FR_CODE": "825",
+      "LINE_NUM": "8",
+      "STATION_CD": "2826",
+      "STATION_NM": "수진",
+      "STATION_NM_ENG": "Sujin"
+    },
+    {
+      "FR_CODE": "826",
+      "LINE_NUM": "8",
+      "STATION_CD": "2827",
+      "STATION_NM": "모란",
+      "STATION_NM_ENG": "Moran"
+    }
+  ],
+  "line9": [
+    {
+      "FR_CODE": "901",
+      "LINE_NUM": "9",
+      "STATION_CD": "4101",
+      "STATION_NM": "개화",
+      "STATION_NM_ENG": "Gaehwa"
+    },
+    {
+      "FR_CODE": "902",
+      "LINE_NUM": "9",
+      "STATION_CD": "4102",
+      "STATION_NM": "김포공항",
+      "STATION_NM_ENG": "Gimpo International Airport"
+    },
+    {
+      "FR_CODE": "903",
+      "LINE_NUM": "9",
+      "STATION_CD": "4103",
+      "STATION_NM": "공항시장",
+      "STATION_NM_ENG": "Airport Market"
+    },
+    {
+      "FR_CODE": "904",
+      "LINE_NUM": "9",
+      "STATION_CD": "4104",
+      "STATION_NM": "신방화",
+      "STATION_NM_ENG": "Sinbanghwa"
+    },
+    {
+      "FR_CODE": "905",
+      "LINE_NUM": "9",
+      "STATION_CD": "4105",
+      "STATION_NM": "마곡나루",
+      "STATION_NM_ENG": "Magongnaru"
+    },
+    {
+      "FR_CODE": "906",
+      "LINE_NUM": "9",
+      "STATION_CD": "4106",
+      "STATION_NM": "양천향교",
+      "STATION_NM_ENG": "Yangcheon Hyanggyo"
+    },
+    {
+      "FR_CODE": "907",
+      "LINE_NUM": "9",
+      "STATION_CD": "4107",
+      "STATION_NM": "가양",
+      "STATION_NM_ENG": "Gayang"
+    },
+    {
+      "FR_CODE": "908",
+      "LINE_NUM": "9",
+      "STATION_CD": "4108",
+      "STATION_NM": "증미",
+      "STATION_NM_ENG": "Jeungmi"
+    },
+    {
+      "FR_CODE": "909",
+      "LINE_NUM": "9",
+      "STATION_CD": "4109",
+      "STATION_NM": "등촌",
+      "STATION_NM_ENG": "Deungchon"
+    },
+    {
+      "FR_CODE": "910",
+      "LINE_NUM": "9",
+      "STATION_CD": "4110",
+      "STATION_NM": "염창",
+      "STATION_NM_ENG": "Yeomchang"
+    },
+    {
+      "FR_CODE": "911",
+      "LINE_NUM": "9",
+      "STATION_CD": "4111",
+      "STATION_NM": "신목동",
+      "STATION_NM_ENG": "Sinmokdong"
+    },
+    {
+      "FR_CODE": "912",
+      "LINE_NUM": "9",
+      "STATION_CD": "4112",
+      "STATION_NM": "선유도",
+      "STATION_NM_ENG": "Seonyudo"
+    },
+    {
+      "FR_CODE": "913",
+      "LINE_NUM": "9",
+      "STATION_CD": "4113",
+      "STATION_NM": "당산",
+      "STATION_NM_ENG": "Dangsan"
+    },
+    {
+      "FR_CODE": "914",
+      "LINE_NUM": "9",
+      "STATION_CD": "4114",
+      "STATION_NM": "국회의사당",
+      "STATION_NM_ENG": "National Assembly"
+    },
+    {
+      "FR_CODE": "915",
+      "LINE_NUM": "9",
+      "STATION_CD": "4115",
+      "STATION_NM": "여의도",
+      "STATION_NM_ENG": "Yeouido"
+    },
+    {
+      "FR_CODE": "916",
+      "LINE_NUM": "9",
+      "STATION_CD": "4116",
+      "STATION_NM": "샛강",
+      "STATION_NM_ENG": "Saetgang"
+    },
+    {
+      "FR_CODE": "917",
+      "LINE_NUM": "9",
+      "STATION_CD": "4117",
+      "STATION_NM": "노량진",
+      "STATION_NM_ENG": "Noryangjin"
+    },
+    {
+      "FR_CODE": "918",
+      "LINE_NUM": "9",
+      "STATION_CD": "4118",
+      "STATION_NM": "노들",
+      "STATION_NM_ENG": "Nodeul"
+    },
+    {
+      "FR_CODE": "919",
+      "LINE_NUM": "9",
+      "STATION_CD": "4119",
+      "STATION_NM": "흑석",
+      "STATION_NM_ENG": "Heukseok"
+    },
+    {
+      "FR_CODE": "920",
+      "LINE_NUM": "9",
+      "STATION_CD": "4120",
+      "STATION_NM": "동작",
+      "STATION_NM_ENG": "Dongjak"
+    },
+    {
+      "FR_CODE": "921",
+      "LINE_NUM": "9",
+      "STATION_CD": "4121",
+      "STATION_NM": "구반포",
+      "STATION_NM_ENG": "Gubanpo"
+    },
+    {
+      "FR_CODE": "922",
+      "LINE_NUM": "9",
+      "STATION_CD": "4122",
+      "STATION_NM": "신반포",
+      "STATION_NM_ENG": "Sinbanpo"
+    },
+    {
+      "FR_CODE": "923",
+      "LINE_NUM": "9",
+      "STATION_CD": "4123",
+      "STATION_NM": "고속터미널",
+      "STATION_NM_ENG": "Express Bus Terminal"
+    },
+    {
+      "FR_CODE": "924",
+      "LINE_NUM": "9",
+      "STATION_CD": "4124",
+      "STATION_NM": "사평",
+      "STATION_NM_ENG": "Sapyeong"
+    },
+    {
+      "FR_CODE": "925",
+      "LINE_NUM": "9",
+      "STATION_CD": "4125",
+      "STATION_NM": "신논현",
+      "STATION_NM_ENG": "Sinnonhyeon"
+    },
+    {
+      "FR_CODE": "926",
+      "LINE_NUM": "9",
+      "STATION_CD": "4126",
+      "STATION_NM": "언주",
+      "STATION_NM_ENG": "Eonju"
+    },
+    {
+      "FR_CODE": "927",
+      "LINE_NUM": "9",
+      "STATION_CD": "4127",
+      "STATION_NM": "선정릉",
+      "STATION_NM_ENG": "Seonjeongneung"
+    },
+    {
+      "FR_CODE": "928",
+      "LINE_NUM": "9",
+      "STATION_CD": "4128",
+      "STATION_NM": "삼성중앙",
+      "STATION_NM_ENG": "Samseongjungang"
+    },
+    {
+      "FR_CODE": "929",
+      "LINE_NUM": "9",
+      "STATION_CD": "4129",
+      "STATION_NM": "봉은사",
+      "STATION_NM_ENG": "Bongeunsa"
+    },
+    {
+      "FR_CODE": "930",
+      "LINE_NUM": "9",
+      "STATION_CD": "4130",
+      "STATION_NM": "종합운동장",
+      "STATION_NM_ENG": "Sports Complex"
+    }
+  ],
+  "lineA": [
+    {
+      "STATION_CD": "1291",
+      "STATION_NM": "서울",
+      "LINE_NUM": "A",
+      "FR_CODE": "A01",
+      "STATION_NM_ENG": "Seoul"
+    },
+    {
+      "STATION_CD": "1292",
+      "STATION_NM": "공덕",
+      "LINE_NUM": "A",
+      "FR_CODE": "A02",
+      "STATION_NM_ENG": "Gongdeok"
+    },
+    {
+      "STATION_CD": "1293",
+      "STATION_NM": "홍대입구",
+      "LINE_NUM": "A",
+      "FR_CODE": "A03",
+      "STATION_NM_ENG": "Hongik University"
+    },
+    {
+      "STATION_CD": "1294",
+      "STATION_NM": "디지털미디어시티",
+      "LINE_NUM": "A",
+      "FR_CODE": "A04",
+      "STATION_NM_ENG": "Digital Media City"
+    },
+    {
+      "STATION_CD": "4207",
+      "STATION_NM": "김포공항",
+      "LINE_NUM": "A",
+      "FR_CODE": "A05",
+      "STATION_NM_ENG": "Gimpo Int`l Airport"
+    },
+    {
+      "STATION_CD": "4208",
+      "STATION_NM": "계양",
+      "LINE_NUM": "A",
+      "FR_CODE": "A06",
+      "STATION_NM_ENG": "Gyeyang"
+    },
+    {
+      "STATION_CD": "4209",
+      "STATION_NM": "검암",
+      "LINE_NUM": "A",
+      "FR_CODE": "A07",
+      "STATION_NM_ENG": "Geomam"
+    },
+    {
+      "STATION_CD": "4210",
+      "STATION_NM": "청라국제도시",
+      "LINE_NUM": "A",
+      "FR_CODE": "A071",
+      "STATION_NM_ENG": "Cheongna Int`l City"
+    },
+    {
+      "STATION_CD": "4217",
+      "STATION_NM": "영종",
+      "LINE_NUM": "A",
+      "FR_CODE": "A072",
+      "STATION_NM_ENG": "Yeongjong"
+    },
+    {
+      "STATION_CD": "4211",
+      "STATION_NM": "운서",
+      "LINE_NUM": "A",
+      "FR_CODE": "A08",
+      "STATION_NM_ENG": "Unseo"
+    },
+    {
+      "STATION_CD": "4212",
+      "STATION_NM": "공항화물청사",
+      "LINE_NUM": "A",
+      "FR_CODE": "A09",
+      "STATION_NM_ENG": "Incheon Int`l Airport Cargo Terminal"
+    },
+    {
+      "STATION_CD": "4213",
+      "STATION_NM": "인천국제공항",
+      "LINE_NUM": "A",
+      "FR_CODE": "A10",
+      "STATION_NM_ENG": "Incheon Int`l Airport Terminal 1"
+    }
+  ],
+  "lineB": [
+    {
+      "FR_CODE": "K210",
+      "LINE_NUM": "B",
+      "STATION_CD": "1845",
+      "STATION_NM": "왕십리",
+      "STATION_NM_ENG": "Wangsimni"
+    },
+    {
+      "FR_CODE": "K211",
+      "LINE_NUM": "B",
+      "STATION_CD": "1847",
+      "STATION_NM": "서울숲",
+      "STATION_NM_ENG": "Seoul Forest"
+    },
+    {
+      "FR_CODE": "K212",
+      "LINE_NUM": "B",
+      "STATION_CD": "1848",
+      "STATION_NM": "압구정로데오",
+      "STATION_NM_ENG": "Apgujeongrodeo"
+    },
+    {
+      "FR_CODE": "K213",
+      "LINE_NUM": "B",
+      "STATION_CD": "1849",
+      "STATION_NM": "강남구청",
+      "STATION_NM_ENG": "Gangnam-gu Office"
+    },
+    {
+      "FR_CODE": "K214",
+      "LINE_NUM": "B",
+      "STATION_CD": "1850",
+      "STATION_NM": "선정릉",
+      "STATION_NM_ENG": "Seonjeongneung"
+    },
+    {
+      "FR_CODE": "K215",
+      "LINE_NUM": "B",
+      "STATION_CD": "1023",
+      "STATION_NM": "선릉",
+      "STATION_NM_ENG": "Seolleung"
+    },
+    {
+      "FR_CODE": "K217",
+      "LINE_NUM": "B",
+      "STATION_CD": "1025",
+      "STATION_NM": "도곡",
+      "STATION_NM_ENG": "Hanti"
+    },
+    {
+      "FR_CODE": "K221",
+      "LINE_NUM": "B",
+      "STATION_CD": "1030",
+      "STATION_NM": "수서",
+      "STATION_NM_ENG": "Dogok"
+    },
+    {
+      "FR_CODE": "K222",
+      "LINE_NUM": "B",
+      "STATION_CD": "1031",
+      "STATION_NM": "복정",
+      "STATION_NM_ENG": "Guryong"
+    },
+    {
+      "FR_CODE": "K223",
+      "LINE_NUM": "B",
+      "STATION_CD": "1851",
+      "STATION_NM": "가천대",
+      "STATION_NM_ENG": "Gaepo-dong"
+    },
+    {
+      "FR_CODE": "K224",
+      "LINE_NUM": "B",
+      "STATION_CD": "1852",
+      "STATION_NM": "태평",
+      "STATION_NM_ENG": "Daemosan"
+    },
+    {
+      "FR_CODE": "K225",
+      "LINE_NUM": "B",
+      "STATION_CD": "1853",
+      "STATION_NM": "모란",
+      "STATION_NM_ENG": "Suseo"
+    },
+    {
+      "FR_CODE": "K226",
+      "LINE_NUM": "B",
+      "STATION_CD": "1854",
+      "STATION_NM": "야탑",
+      "STATION_NM_ENG": "Bokjeong"
+    },
+    {
+      "FR_CODE": "K227",
+      "LINE_NUM": "B",
+      "STATION_CD": "1860",
+      "STATION_NM": "이매",
+      "STATION_NM_ENG": "Gachon University"
+    },
+    {
+      "FR_CODE": "K228",
+      "LINE_NUM": "B",
+      "STATION_CD": "1855",
+      "STATION_NM": "서현",
+      "STATION_NM_ENG": "Taepyeong"
+    },
+    {
+      "FR_CODE": "K229",
+      "LINE_NUM": "B",
+      "STATION_CD": "1856",
+      "STATION_NM": "수내",
+      "STATION_NM_ENG": "Moran"
+    },
+    {
+      "FR_CODE": "K230",
+      "LINE_NUM": "B",
+      "STATION_CD": "1857",
+      "STATION_NM": "정자",
+      "STATION_NM_ENG": "Yatap"
+    },
+    {
+      "FR_CODE": "K231",
+      "LINE_NUM": "B",
+      "STATION_CD": "1858",
+      "STATION_NM": "미금",
+      "STATION_NM_ENG": "Imae"
+    },
+    {
+      "FR_CODE": "K232",
+      "LINE_NUM": "B",
+      "STATION_CD": "1859",
+      "STATION_NM": "오리",
+      "STATION_NM_ENG": "Seohyeon"
+    },
+    {
+      "FR_CODE": "K233",
+      "LINE_NUM": "B",
+      "STATION_CD": "1862",
+      "STATION_NM": "죽전",
+      "STATION_NM_ENG": "Sunae"
+    },
+    {
+      "FR_CODE": "K234",
+      "LINE_NUM": "B",
+      "STATION_CD": "1861",
+      "STATION_NM": "보정",
+      "STATION_NM_ENG": "Jeongja"
+    },
+    {
+      "FR_CODE": "K235",
+      "LINE_NUM": "B",
+      "STATION_CD": "1863",
+      "STATION_NM": "구성",
+      "STATION_NM_ENG": "Migeum"
+    },
+    {
+      "FR_CODE": "K236",
+      "LINE_NUM": "B",
+      "STATION_CD": "1864",
+      "STATION_NM": "신갈",
+      "STATION_NM_ENG": "Ori"
+    },
+    {
+      "FR_CODE": "K237",
+      "LINE_NUM": "B",
+      "STATION_CD": "1865",
+      "STATION_NM": "기흥",
+      "STATION_NM_ENG": "Jukjeon"
+    },
+    {
+      "FR_CODE": "K238",
+      "LINE_NUM": "B",
+      "STATION_CD": "1866",
+      "STATION_NM": "상갈",
+      "STATION_NM_ENG": "Bojeong"
+    },
+    {
+      "FR_CODE": "K239",
+      "LINE_NUM": "B",
+      "STATION_CD": "1867",
+      "STATION_NM": "청명",
+      "STATION_NM_ENG": "Guseong"
+    },
+    {
+      "FR_CODE": "K240",
+      "LINE_NUM": "B",
+      "STATION_CD": "1868",
+      "STATION_NM": "영통",
+      "STATION_NM_ENG": "Singal"
+    },
+    {
+      "FR_CODE": "K241",
+      "LINE_NUM": "B",
+      "STATION_CD": "1869",
+      "STATION_NM": "망포",
+      "STATION_NM_ENG": "Giheung"
+    },
+    {
+      "FR_CODE": "K242",
+      "LINE_NUM": "B",
+      "STATION_CD": "1870",
+      "STATION_NM": "매탄권선",
+      "STATION_NM_ENG": "Sanggal"
+    },
+    {
+      "FR_CODE": "K243",
+      "LINE_NUM": "B",
+      "STATION_CD": "1871",
+      "STATION_NM": "수원시청",
+      "STATION_NM_ENG": "Cheongmyeong"
+    },
+    {
+      "FR_CODE": "K244",
+      "LINE_NUM": "B",
+      "STATION_CD": "1872",
+      "STATION_NM": "매교",
+      "STATION_NM_ENG": "Yeongtong"
+    },
+    {
+      "FR_CODE": "K245",
+      "LINE_NUM": "B",
+      "STATION_CD": "1846",
+      "STATION_NM": "수원",
+      "STATION_NM_ENG": "Mangpo"
+    },
+    {
+      "FR_CODE": "k216",
+      "LINE_NUM": "B",
+      "STATION_CD": "1024",
+      "STATION_NM": "한티",
+      "STATION_NM_ENG": "Maetan-Gwonseon"
+    },
+    {
+      "FR_CODE": "k218",
+      "LINE_NUM": "B",
+      "STATION_CD": "1026",
+      "STATION_NM": "구룡",
+      "STATION_NM_ENG": "Suwon City Hall"
+    },
+    {
+      "FR_CODE": "k219",
+      "LINE_NUM": "B",
+      "STATION_CD": "1027",
+      "STATION_NM": "개포동",
+      "STATION_NM_ENG": "Maegyo"
+    },
+    {
+      "FR_CODE": "k220",
+      "LINE_NUM": "B",
+      "STATION_CD": "1028",
+      "STATION_NM": "대모산입구",
+      "STATION_NM_ENG": "Suwon"
+    }
+  ],
+  "lineE": [
+    {
+      "STATION_CD": "4501",
+      "STATION_NM": "기흥",
+      "LINE_NUM": "E",
+      "FR_CODE": "Y110",
+      "STATION_NM_ENG": "Giheung"
+    },
+    {
+      "STATION_CD": "4502",
+      "STATION_NM": "강남대",
+      "LINE_NUM": "E",
+      "FR_CODE": "Y111",
+      "STATION_NM_ENG": "Kangnam University"
+    },
+    {
+      "STATION_CD": "4503",
+      "STATION_NM": "지석",
+      "LINE_NUM": "E",
+      "FR_CODE": "Y112",
+      "STATION_NM_ENG": "Jiseok"
+    },
+    {
+      "STATION_CD": "4504",
+      "STATION_NM": "어정",
+      "LINE_NUM": "E",
+      "FR_CODE": "Y113",
+      "STATION_NM_ENG": "Eojong"
+    },
+    {
+      "STATION_CD": "4505",
+      "STATION_NM": "동백",
+      "LINE_NUM": "E",
+      "FR_CODE": "Y114",
+      "STATION_NM_ENG": "Dongbaek"
+    },
+    {
+      "STATION_CD": "4506",
+      "STATION_NM": "초당",
+      "LINE_NUM": "E",
+      "FR_CODE": "Y115",
+      "STATION_NM_ENG": "Chodang"
+    },
+    {
+      "STATION_CD": "4508",
+      "STATION_NM": "삼가",
+      "LINE_NUM": "E",
+      "FR_CODE": "Y116",
+      "STATION_NM_ENG": "Samga"
+    },
+    {
+      "STATION_CD": "4509",
+      "STATION_NM": "시청·용인대",
+      "LINE_NUM": "E",
+      "FR_CODE": "Y117",
+      "STATION_NM_ENG": "City Hall·Yongin University"
+    },
+    {
+      "STATION_CD": "4510",
+      "STATION_NM": "명지대",
+      "LINE_NUM": "E",
+      "FR_CODE": "Y118",
+      "STATION_NM_ENG": "Myeongji University"
+    },
+    {
+      "STATION_CD": "4511",
+      "STATION_NM": "김량장",
+      "LINE_NUM": "E",
+      "FR_CODE": "Y119",
+      "STATION_NM_ENG": "Gimnyangjang"
+    },
+    {
+      "STATION_CD": "4512",
+      "STATION_NM": "운동장·송담대",
+      "LINE_NUM": "E",
+      "FR_CODE": "Y120",
+      "STATION_NM_ENG": "Stadium·Songdam College"
+    },
+    {
+      "STATION_CD": "4513",
+      "STATION_NM": "고진",
+      "LINE_NUM": "E",
+      "FR_CODE": "Y121",
+      "STATION_NM_ENG": "Gojin"
+    },
+    {
+      "STATION_CD": "4514",
+      "STATION_NM": "보평",
+      "LINE_NUM": "E",
+      "FR_CODE": "Y123",
+      "STATION_NM_ENG": "Bopyeong"
+    },
+    {
+      "STATION_CD": "4515",
+      "STATION_NM": "둔전",
+      "LINE_NUM": "E",
+      "FR_CODE": "Y125",
+      "STATION_NM_ENG": "Dunjeon"
+    },
+    {
+      "STATION_CD": "4517",
+      "STATION_NM": "전대·에버랜드",
+      "LINE_NUM": "E",
+      "FR_CODE": "Y126",
+      "STATION_NM_ENG": "Jeondae·Everland"
+    }
+  ],
+  "lineG": [
+    {
+      "STATION_CD": "1305",
+      "STATION_NM": "청량리",
+      "LINE_NUM": "G",
+      "FR_CODE": "P116",
+      "STATION_NM_ENG": "Cheongnyangni"
+    },
+    {
+      "STATION_CD": "1306",
+      "STATION_NM": "회기",
+      "LINE_NUM": "G",
+      "FR_CODE": "P117",
+      "STATION_NM_ENG": "Hoegi"
+    },
+    {
+      "STATION_CD": "1307",
+      "STATION_NM": "중랑",
+      "LINE_NUM": "G",
+      "FR_CODE": "P118",
+      "STATION_NM_ENG": "Jungnang"
+    },
+    {
+      "STATION_CD": "1308",
+      "STATION_NM": "광운대",
+      "LINE_NUM": "G",
+      "FR_CODE": "P119",
+      "STATION_NM_ENG": "Kwangwoon University"
+    },
+    {
+      "STATION_CD": "1309",
+      "STATION_NM": "상봉",
+      "LINE_NUM": "G",
+      "FR_CODE": "P120",
+      "STATION_NM_ENG": "Sangbong"
+    },
+    {
+      "STATION_CD": "1310",
+      "STATION_NM": "망우",
+      "LINE_NUM": "G",
+      "FR_CODE": "P121",
+      "STATION_NM_ENG": "Mangu"
+    },
+    {
+      "STATION_CD": "1311",
+      "STATION_NM": "신내",
+      "LINE_NUM": "G",
+      "FR_CODE": "P122",
+      "STATION_NM_ENG": "Sinnae"
+    },
+    {
+      "STATION_CD": "1312",
+      "STATION_NM": "갈매",
+      "LINE_NUM": "G",
+      "FR_CODE": "P123",
+      "STATION_NM_ENG": "Galmae"
+    },
+    {
+      "STATION_CD": "1313",
+      "STATION_NM": "별내",
+      "LINE_NUM": "G",
+      "FR_CODE": "P124",
+      "STATION_NM_ENG": "Byeollae"
+    },
+    {
+      "STATION_CD": "1314",
+      "STATION_NM": "퇴계원",
+      "LINE_NUM": "G",
+      "FR_CODE": "P125",
+      "STATION_NM_ENG": "Toegyewon"
+    },
+    {
+      "STATION_CD": "1315",
+      "STATION_NM": "사릉",
+      "LINE_NUM": "G",
+      "FR_CODE": "P126",
+      "STATION_NM_ENG": "Sareung"
+    },
+    {
+      "STATION_CD": "1316",
+      "STATION_NM": "금곡",
+      "LINE_NUM": "G",
+      "FR_CODE": "P127",
+      "STATION_NM_ENG": "Geumgok"
+    },
+    {
+      "STATION_CD": "1317",
+      "STATION_NM": "평내호평",
+      "LINE_NUM": "G",
+      "FR_CODE": "P128",
+      "STATION_NM_ENG": "PyeongnaeHopyeong"
+    },
+    {
+      "STATION_CD": "1318",
+      "STATION_NM": "천마산",
+      "LINE_NUM": "G",
+      "FR_CODE": "P129",
+      "STATION_NM_ENG": "Cheonmasan"
+    },
+    {
+      "STATION_CD": "1319",
+      "STATION_NM": "마석",
+      "LINE_NUM": "G",
+      "FR_CODE": "P130",
+      "STATION_NM_ENG": "Maseok"
+    },
+    {
+      "STATION_CD": "1320",
+      "STATION_NM": "대성리",
+      "LINE_NUM": "G",
+      "FR_CODE": "P131",
+      "STATION_NM_ENG": "Daeseong-ri"
+    },
+    {
+      "STATION_CD": "1321",
+      "STATION_NM": "청평",
+      "LINE_NUM": "G",
+      "FR_CODE": "P132",
+      "STATION_NM_ENG": "Cheongpyeong"
+    },
+    {
+      "STATION_CD": "1322",
+      "STATION_NM": "상천",
+      "LINE_NUM": "G",
+      "FR_CODE": "P133",
+      "STATION_NM_ENG": "Sangcheon"
+    },
+    {
+      "STATION_CD": "1323",
+      "STATION_NM": "가평",
+      "LINE_NUM": "G",
+      "FR_CODE": "P134",
+      "STATION_NM_ENG": "Gapyeong"
+    },
+    {
+      "STATION_CD": "1324",
+      "STATION_NM": "굴봉산",
+      "LINE_NUM": "G",
+      "FR_CODE": "P135",
+      "STATION_NM_ENG": "Gulbongsan"
+    },
+    {
+      "STATION_CD": "1325",
+      "STATION_NM": "백양리",
+      "LINE_NUM": "G",
+      "FR_CODE": "P136",
+      "STATION_NM_ENG": "Baegyang-ri"
+    },
+    {
+      "STATION_CD": "1326",
+      "STATION_NM": "강촌",
+      "LINE_NUM": "G",
+      "FR_CODE": "P137",
+      "STATION_NM_ENG": "Gangchon"
+    },
+    {
+      "STATION_CD": "1327",
+      "STATION_NM": "김유정",
+      "LINE_NUM": "G",
+      "FR_CODE": "P138",
+      "STATION_NM_ENG": "Gimyujeong"
+    },
+    {
+      "STATION_CD": "1328",
+      "STATION_NM": "남춘천",
+      "LINE_NUM": "G",
+      "FR_CODE": "P139",
+      "STATION_NM_ENG": "Namchuncheon"
+    },
+    {
+      "STATION_CD": "1329",
+      "STATION_NM": "춘천",
+      "LINE_NUM": "G",
+      "FR_CODE": "P140",
+      "STATION_NM_ENG": "Chuncheon"
+    }
+  ],
+  "lineI": [
+    {
+      "FR_CODE": "I110",
+      "LINE_NUM": "I",
+      "STATION_CD": "3110",
+      "STATION_NM": "계양",
+      "STATION_NM_ENG": "Gyeyang"
+    },
+    {
+      "FR_CODE": "I111",
+      "LINE_NUM": "I",
+      "STATION_CD": "3111",
+      "STATION_NM": "귤현",
+      "STATION_NM_ENG": "Gyulhyeon"
+    },
+    {
+      "FR_CODE": "I112",
+      "LINE_NUM": "I",
+      "STATION_CD": "3112",
+      "STATION_NM": "박촌",
+      "STATION_NM_ENG": "Bakchon"
+    },
+    {
+      "FR_CODE": "I113",
+      "LINE_NUM": "I",
+      "STATION_CD": "3113",
+      "STATION_NM": "임학",
+      "STATION_NM_ENG": "Imhak"
+    },
+    {
+      "FR_CODE": "I114",
+      "LINE_NUM": "I",
+      "STATION_CD": "3114",
+      "STATION_NM": "계산",
+      "STATION_NM_ENG": "Gyesan"
+    },
+    {
+      "FR_CODE": "I115",
+      "LINE_NUM": "I",
+      "STATION_CD": "3115",
+      "STATION_NM": "경인교대입구",
+      "STATION_NM_ENG": "Gyeongin National University of Education"
+    },
+    {
+      "FR_CODE": "I116",
+      "LINE_NUM": "I",
+      "STATION_CD": "3116",
+      "STATION_NM": "작전",
+      "STATION_NM_ENG": "Jakjeon"
+    },
+    {
+      "FR_CODE": "I117",
+      "LINE_NUM": "I",
+      "STATION_CD": "3117",
+      "STATION_NM": "갈산",
+      "STATION_NM_ENG": "Galsan"
+    },
+    {
+      "FR_CODE": "I118",
+      "LINE_NUM": "I",
+      "STATION_CD": "3118",
+      "STATION_NM": "부평구청",
+      "STATION_NM_ENG": "Bupyeong-gu Office"
+    },
+    {
+      "FR_CODE": "I119",
+      "LINE_NUM": "I",
+      "STATION_CD": "3119",
+      "STATION_NM": "부평시장",
+      "STATION_NM_ENG": "Bupyeong Market"
+    },
+    {
+      "FR_CODE": "I120",
+      "LINE_NUM": "I",
+      "STATION_CD": "3120",
+      "STATION_NM": "부평",
+      "STATION_NM_ENG": "Bupyeong"
+    },
+    {
+      "FR_CODE": "I121",
+      "LINE_NUM": "I",
+      "STATION_CD": "3121",
+      "STATION_NM": "동수",
+      "STATION_NM_ENG": "Dongsu"
+    },
+    {
+      "FR_CODE": "I122",
+      "LINE_NUM": "I",
+      "STATION_CD": "3122",
+      "STATION_NM": "부평삼거리",
+      "STATION_NM_ENG": "Bupyeongsamgeori"
+    },
+    {
+      "FR_CODE": "I123",
+      "LINE_NUM": "I",
+      "STATION_CD": "3123",
+      "STATION_NM": "간석오거리",
+      "STATION_NM_ENG": "Ganseogogeori"
+    },
+    {
+      "FR_CODE": "I124",
+      "LINE_NUM": "I",
+      "STATION_CD": "3124",
+      "STATION_NM": "인천시청",
+      "STATION_NM_ENG": "Incheon City Hall"
+    },
+    {
+      "FR_CODE": "I125",
+      "LINE_NUM": "I",
+      "STATION_CD": "3125",
+      "STATION_NM": "예술회관",
+      "STATION_NM_ENG": "Arts Center"
+    },
+    {
+      "FR_CODE": "I126",
+      "LINE_NUM": "I",
+      "STATION_CD": "3126",
+      "STATION_NM": "인천터미널",
+      "STATION_NM_ENG": "Incheon Bus Terminal"
+    },
+    {
+      "FR_CODE": "I127",
+      "LINE_NUM": "I",
+      "STATION_CD": "3127",
+      "STATION_NM": "문학경기장",
+      "STATION_NM_ENG": "Munhak Sports Complex"
+    },
+    {
+      "FR_CODE": "I128",
+      "LINE_NUM": "I",
+      "STATION_CD": "3128",
+      "STATION_NM": "선학",
+      "STATION_NM_ENG": "Seonhak"
+    },
+    {
+      "FR_CODE": "I129",
+      "LINE_NUM": "I",
+      "STATION_CD": "3129",
+      "STATION_NM": "신연수",
+      "STATION_NM_ENG": "Sinyeonsu"
+    },
+    {
+      "FR_CODE": "I130",
+      "LINE_NUM": "I",
+      "STATION_CD": "3130",
+      "STATION_NM": "원인재",
+      "STATION_NM_ENG": "Woninjae"
+    },
+    {
+      "FR_CODE": "I131",
+      "LINE_NUM": "I",
+      "STATION_CD": "3131",
+      "STATION_NM": "동춘",
+      "STATION_NM_ENG": "Dongchun"
+    },
+    {
+      "FR_CODE": "I132",
+      "LINE_NUM": "I",
+      "STATION_CD": "3132",
+      "STATION_NM": "동막",
+      "STATION_NM_ENG": "Dongmak"
+    },
+    {
+      "FR_CODE": "I133",
+      "LINE_NUM": "I",
+      "STATION_CD": "3133",
+      "STATION_NM": "캠퍼스타운",
+      "STATION_NM_ENG": "Campus Town"
+    },
+    {
+      "FR_CODE": "I134",
+      "LINE_NUM": "I",
+      "STATION_CD": "3134",
+      "STATION_NM": "테크노파크",
+      "STATION_NM_ENG": "Technopark"
+    },
+    {
+      "FR_CODE": "I135",
+      "LINE_NUM": "I",
+      "STATION_CD": "3135",
+      "STATION_NM": "지식정보단지",
+      "STATION_NM_ENG": "BIT Zone"
+    },
+    {
+      "FR_CODE": "I136",
+      "LINE_NUM": "I",
+      "STATION_CD": "3136",
+      "STATION_NM": "인천대입구",
+      "STATION_NM_ENG": "University of Incheon"
+    },
+    {
+      "FR_CODE": "I137",
+      "LINE_NUM": "I",
+      "STATION_CD": "3137",
+      "STATION_NM": "센트럴파크",
+      "STATION_NM_ENG": "Central Park"
+    },
+    {
+      "FR_CODE": "I138",
+      "LINE_NUM": "I",
+      "STATION_CD": "3138",
+      "STATION_NM": "국제업무지구",
+      "STATION_NM_ENG": "International Business District"
+    }
+  ],
+  "lineI2": [
+    {
+      "FR_CODE": "I201",
+      "LINE_NUM": "I2",
+      "STATION_CD": "3201",
+      "STATION_NM": "검단오류",
+      "STATION_NM_ENG": "Geomdan Oryu"
+    },
+    {
+      "FR_CODE": "I202",
+      "LINE_NUM": "I2",
+      "STATION_CD": "3202",
+      "STATION_NM": "왕길",
+      "STATION_NM_ENG": "Wanggil"
+    },
+    {
+      "FR_CODE": "I203",
+      "LINE_NUM": "I2",
+      "STATION_CD": "3203",
+      "STATION_NM": "검단사거리",
+      "STATION_NM_ENG": "Geomdan Sageori"
+    },
+    {
+      "FR_CODE": "I204",
+      "LINE_NUM": "I2",
+      "STATION_CD": "3204",
+      "STATION_NM": "마전",
+      "STATION_NM_ENG": "Majeon"
+    },
+    {
+      "FR_CODE": "I205",
+      "LINE_NUM": "I2",
+      "STATION_CD": "3205",
+      "STATION_NM": "완정",
+      "STATION_NM_ENG": "Wanjeong"
+    },
+    {
+      "FR_CODE": "I206",
+      "LINE_NUM": "I2",
+      "STATION_CD": "3206",
+      "STATION_NM": "독정",
+      "STATION_NM_ENG": "Dokjeong"
+    },
+    {
+      "FR_CODE": "I207",
+      "LINE_NUM": "I2",
+      "STATION_CD": "3207",
+      "STATION_NM": "검암",
+      "STATION_NM_ENG": "Geomam"
+    },
+    {
+      "FR_CODE": "I208",
+      "LINE_NUM": "I2",
+      "STATION_CD": "3208",
+      "STATION_NM": "검바위",
+      "STATION_NM_ENG": "Geombawi"
+    },
+    {
+      "FR_CODE": "I209",
+      "LINE_NUM": "I2",
+      "STATION_CD": "3209",
+      "STATION_NM": "아시아드경기장",
+      "STATION_NM_ENG": "Asiad Stadium"
+    },
+    {
+      "FR_CODE": "I210",
+      "LINE_NUM": "I2",
+      "STATION_CD": "3210",
+      "STATION_NM": "서구청",
+      "STATION_NM_ENG": "Seo-gu Office"
+    },
+    {
+      "FR_CODE": "I211",
+      "LINE_NUM": "I2",
+      "STATION_CD": "3211",
+      "STATION_NM": "가정",
+      "STATION_NM_ENG": "Gajeong"
+    },
+    {
+      "FR_CODE": "I212",
+      "LINE_NUM": "I2",
+      "STATION_CD": "3212",
+      "STATION_NM": "가정중앙시장",
+      "STATION_NM_ENG": "Gajeong Jungang Market"
+    },
+    {
+      "FR_CODE": "I213",
+      "LINE_NUM": "I2",
+      "STATION_CD": "3213",
+      "STATION_NM": "석남",
+      "STATION_NM_ENG": "Seongnam"
+    },
+    {
+      "FR_CODE": "I214",
+      "LINE_NUM": "I2",
+      "STATION_CD": "3214",
+      "STATION_NM": "서부여성회관",
+      "STATION_NM_ENG": "West Woman`s Community Center"
+    },
+    {
+      "FR_CODE": "I215",
+      "LINE_NUM": "I2",
+      "STATION_CD": "3215",
+      "STATION_NM": "인천가좌",
+      "STATION_NM_ENG": "Incheon Gajwa"
+    },
+    {
+      "FR_CODE": "I216",
+      "LINE_NUM": "I2",
+      "STATION_CD": "3216",
+      "STATION_NM": "가재울",
+      "STATION_NM_ENG": "Gajaeul"
+    },
+    {
+      "FR_CODE": "I217",
+      "LINE_NUM": "I2",
+      "STATION_CD": "3217",
+      "STATION_NM": "주안국가산단",
+      "STATION_NM_ENG": "Juan National Industrial Complex"
+    },
+    {
+      "FR_CODE": "I218",
+      "LINE_NUM": "I2",
+      "STATION_CD": "3218",
+      "STATION_NM": "주안",
+      "STATION_NM_ENG": "Juan"
+    },
+    {
+      "FR_CODE": "I219",
+      "LINE_NUM": "I2",
+      "STATION_CD": "3219",
+      "STATION_NM": "시민공원",
+      "STATION_NM_ENG": "Citizens Park"
+    },
+    {
+      "FR_CODE": "I220",
+      "LINE_NUM": "I2",
+      "STATION_CD": "3220",
+      "STATION_NM": "석바위시장",
+      "STATION_NM_ENG": "Seokbawi Market"
+    },
+    {
+      "FR_CODE": "I221",
+      "LINE_NUM": "I2",
+      "STATION_CD": "3221",
+      "STATION_NM": "인천시청",
+      "STATION_NM_ENG": "Incheon City Hall"
+    },
+    {
+      "FR_CODE": "I222",
+      "LINE_NUM": "I2",
+      "STATION_CD": "3222",
+      "STATION_NM": "석천사거리",
+      "STATION_NM_ENG": "Seokcheon Sageori"
+    },
+    {
+      "FR_CODE": "I223",
+      "LINE_NUM": "I2",
+      "STATION_CD": "3223",
+      "STATION_NM": "모래내시장",
+      "STATION_NM_ENG": "Moraenae Market"
+    },
+    {
+      "FR_CODE": "I224",
+      "LINE_NUM": "I2",
+      "STATION_CD": "3224",
+      "STATION_NM": "만수",
+      "STATION_NM_ENG": "Mansu"
+    },
+    {
+      "FR_CODE": "I225",
+      "LINE_NUM": "I2",
+      "STATION_CD": "3225",
+      "STATION_NM": "남동구청",
+      "STATION_NM_ENG": "Namdong-gu Office"
+    },
+    {
+      "FR_CODE": "I226",
+      "LINE_NUM": "I2",
+      "STATION_CD": "3226",
+      "STATION_NM": "인천대공원",
+      "STATION_NM_ENG": "Incheon Grand Park"
+    },
+    {
+      "FR_CODE": "I227",
+      "LINE_NUM": "I2",
+      "STATION_CD": "3227",
+      "STATION_NM": "운연",
+      "STATION_NM_ENG": "Unyeon"
+    }
+  ],
+  "lineK": [
+    {
+      "STATION_CD": "1290",
+      "STATION_NM": "용산",
+      "LINE_NUM": "K",
+      "FR_CODE": "K110",
+      "STATION_NM_ENG": "Yongsan"
+    },
+    {
+      "STATION_CD": "1008",
+      "STATION_NM": "이촌",
+      "LINE_NUM": "K",
+      "FR_CODE": "K111",
+      "STATION_NM_ENG": "Ichon"
+    },
+    {
+      "STATION_CD": "1009",
+      "STATION_NM": "서빙고",
+      "LINE_NUM": "K",
+      "FR_CODE": "K112",
+      "STATION_NM_ENG": "Seobinggo"
+    },
+    {
+      "STATION_CD": "1010",
+      "STATION_NM": "한남",
+      "LINE_NUM": "K",
+      "FR_CODE": "K113",
+      "STATION_NM_ENG": "Hannam"
+    },
+    {
+      "STATION_CD": "1011",
+      "STATION_NM": "옥수",
+      "LINE_NUM": "K",
+      "FR_CODE": "K114",
+      "STATION_NM_ENG": "Oksu"
+    },
+    {
+      "STATION_CD": "1012",
+      "STATION_NM": "응봉",
+      "LINE_NUM": "K",
+      "FR_CODE": "K115",
+      "STATION_NM_ENG": "Eungbong"
+    },
+    {
+      "STATION_CD": "1013",
+      "STATION_NM": "왕십리",
+      "LINE_NUM": "K",
+      "FR_CODE": "K116",
+      "STATION_NM_ENG": "Wangsimni"
+    },
+    {
+      "STATION_CD": "1014",
+      "STATION_NM": "청량리",
+      "LINE_NUM": "K",
+      "FR_CODE": "K117",
+      "STATION_NM_ENG": "Cheongnyangni"
+    },
+    {
+      "STATION_CD": "1200",
+      "STATION_NM": "회기",
+      "LINE_NUM": "K",
+      "FR_CODE": "K118",
+      "STATION_NM_ENG": "Hoegi"
+    },
+    {
+      "STATION_CD": "1201",
+      "STATION_NM": "중랑",
+      "LINE_NUM": "K",
+      "FR_CODE": "K119",
+      "STATION_NM_ENG": "Jungnang"
+    },
+    {
+      "STATION_CD": "1202",
+      "STATION_NM": "상봉",
+      "LINE_NUM": "K",
+      "FR_CODE": "K120",
+      "STATION_NM_ENG": "Sangbong"
+    },
+    {
+      "STATION_CD": "1203",
+      "STATION_NM": "망우",
+      "LINE_NUM": "K",
+      "FR_CODE": "K121",
+      "STATION_NM_ENG": "Mangu"
+    },
+    {
+      "STATION_CD": "1204",
+      "STATION_NM": "양원",
+      "LINE_NUM": "K",
+      "FR_CODE": "K122",
+      "STATION_NM_ENG": "Yangwon"
+    },
+    {
+      "STATION_CD": "1205",
+      "STATION_NM": "구리",
+      "LINE_NUM": "K",
+      "FR_CODE": "K123",
+      "STATION_NM_ENG": "Guri"
+    },
+    {
+      "STATION_CD": "1206",
+      "STATION_NM": "도농",
+      "LINE_NUM": "K",
+      "FR_CODE": "K124",
+      "STATION_NM_ENG": "Donong"
+    },
+    {
+      "STATION_CD": "1207",
+      "STATION_NM": "양정",
+      "LINE_NUM": "K",
+      "FR_CODE": "K125",
+      "STATION_NM_ENG": "Yangjeong"
+    },
+    {
+      "STATION_CD": "1208",
+      "STATION_NM": "덕소",
+      "LINE_NUM": "K",
+      "FR_CODE": "K126",
+      "STATION_NM_ENG": "Deokso"
+    },
+    {
+      "STATION_CD": "1209",
+      "STATION_NM": "도심",
+      "LINE_NUM": "K",
+      "FR_CODE": "K127",
+      "STATION_NM_ENG": "Dosim"
+    },
+    {
+      "STATION_CD": "1210",
+      "STATION_NM": "팔당",
+      "LINE_NUM": "K",
+      "FR_CODE": "K128",
+      "STATION_NM_ENG": "Paldang"
+    },
+    {
+      "STATION_CD": "1211",
+      "STATION_NM": "운길산",
+      "LINE_NUM": "K",
+      "FR_CODE": "K129",
+      "STATION_NM_ENG": "Ungilsan"
+    },
+    {
+      "STATION_CD": "1212",
+      "STATION_NM": "양수",
+      "LINE_NUM": "K",
+      "FR_CODE": "K130",
+      "STATION_NM_ENG": "Yangsu"
+    },
+    {
+      "STATION_CD": "1213",
+      "STATION_NM": "신원",
+      "LINE_NUM": "K",
+      "FR_CODE": "K131",
+      "STATION_NM_ENG": "Sinwon"
+    },
+    {
+      "STATION_CD": "1214",
+      "STATION_NM": "국수",
+      "LINE_NUM": "K",
+      "FR_CODE": "K132",
+      "STATION_NM_ENG": "Guksu"
+    },
+    {
+      "STATION_CD": "1215",
+      "STATION_NM": "아신",
+      "LINE_NUM": "K",
+      "FR_CODE": "K133",
+      "STATION_NM_ENG": "Asin"
+    },
+    {
+      "STATION_CD": "1216",
+      "STATION_NM": "오빈",
+      "LINE_NUM": "K",
+      "FR_CODE": "K134",
+      "STATION_NM_ENG": "Obin"
+    },
+    {
+      "STATION_CD": "1217",
+      "STATION_NM": "양평(경의중앙선)",
+      "LINE_NUM": "K",
+      "FR_CODE": "K135",
+      "STATION_NM_ENG": "Yangpyeong"
+    },
+    {
+      "STATION_CD": "1218",
+      "STATION_NM": "원덕",
+      "LINE_NUM": "K",
+      "FR_CODE": "K136",
+      "STATION_NM_ENG": "Wondeok"
+    },
+    {
+      "STATION_CD": "1219",
+      "STATION_NM": "용문",
+      "LINE_NUM": "K",
+      "FR_CODE": "K137",
+      "STATION_NM_ENG": "Yongmun"
+    },
+    {
+      "STATION_CD": "1220",
+      "STATION_NM": "지평",
+      "LINE_NUM": "K",
+      "FR_CODE": "K138",
+      "STATION_NM_ENG": "Jipyeong"
+    },
+    {
+      "STATION_CD": "1262",
+      "STATION_NM": "공덕",
+      "LINE_NUM": "K",
+      "FR_CODE": "K312",
+      "STATION_NM_ENG": "Gongdeok"
+    },
+    {
+      "STATION_CD": "1263",
+      "STATION_NM": "서강대",
+      "LINE_NUM": "K",
+      "FR_CODE": "K313",
+      "STATION_NM_ENG": "Sogang University"
+    },
+    {
+      "STATION_CD": "1264",
+      "STATION_NM": "홍대입구",
+      "LINE_NUM": "K",
+      "FR_CODE": "K314",
+      "STATION_NM_ENG": "Hongik University"
+    },
+    {
+      "STATION_CD": "1265",
+      "STATION_NM": "가좌",
+      "LINE_NUM": "K",
+      "FR_CODE": "K315",
+      "STATION_NM_ENG": "Gajwa"
+    },
+    {
+      "STATION_CD": "1266",
+      "STATION_NM": "디지털미디어시티",
+      "LINE_NUM": "K",
+      "FR_CODE": "K316",
+      "STATION_NM_ENG": "Digital Media City"
+    },
+    {
+      "STATION_CD": "1267",
+      "STATION_NM": "수색",
+      "LINE_NUM": "K",
+      "FR_CODE": "K317",
+      "STATION_NM_ENG": "Susaek"
+    },
+    {
+      "STATION_CD": "1268",
+      "STATION_NM": "화전",
+      "LINE_NUM": "K",
+      "FR_CODE": "K318",
+      "STATION_NM_ENG": "Hwajeon"
+    },
+    {
+      "STATION_CD": "1269",
+      "STATION_NM": "강매",
+      "LINE_NUM": "K",
+      "FR_CODE": "K319",
+      "STATION_NM_ENG": "Gangmae"
+    },
+    {
+      "STATION_CD": "1270",
+      "STATION_NM": "행신",
+      "LINE_NUM": "K",
+      "FR_CODE": "K320",
+      "STATION_NM_ENG": "Haengsin"
+    },
+    {
+      "STATION_CD": "1271",
+      "STATION_NM": "능곡",
+      "LINE_NUM": "K",
+      "FR_CODE": "K321",
+      "STATION_NM_ENG": "Neunggok"
+    },
+    {
+      "STATION_CD": "1249",
+      "STATION_NM": "대곡",
+      "LINE_NUM": "K",
+      "FR_CODE": "K322",
+      "STATION_NM_ENG": "Daegok"
+    },
+    {
+      "STATION_CD": "1272",
+      "STATION_NM": "곡산",
+      "LINE_NUM": "K",
+      "FR_CODE": "K323",
+      "STATION_NM_ENG": "Goksan"
+    },
+    {
+      "STATION_CD": "1273",
+      "STATION_NM": "백마",
+      "LINE_NUM": "K",
+      "FR_CODE": "K324",
+      "STATION_NM_ENG": "Baengma"
+    },
+    {
+      "STATION_CD": "1274",
+      "STATION_NM": "풍산",
+      "LINE_NUM": "K",
+      "FR_CODE": "K325",
+      "STATION_NM_ENG": "Pungsan"
+    },
+    {
+      "STATION_CD": "1275",
+      "STATION_NM": "일산",
+      "LINE_NUM": "K",
+      "FR_CODE": "K326",
+      "STATION_NM_ENG": "Ilsan"
+    },
+    {
+      "STATION_CD": "1276",
+      "STATION_NM": "탄현",
+      "LINE_NUM": "K",
+      "FR_CODE": "K327",
+      "STATION_NM_ENG": "Tanhyeon"
+    },
+    {
+      "STATION_CD": "1277",
+      "STATION_NM": "야당",
+      "LINE_NUM": "K",
+      "FR_CODE": "K328",
+      "STATION_NM_ENG": "Yadang"
+    },
+    {
+      "STATION_CD": "1278",
+      "STATION_NM": "운정",
+      "LINE_NUM": "K",
+      "FR_CODE": "K329",
+      "STATION_NM_ENG": "Unjeong"
+    },
+    {
+      "STATION_CD": "1279",
+      "STATION_NM": "금릉",
+      "LINE_NUM": "K",
+      "FR_CODE": "K330",
+      "STATION_NM_ENG": "Geumneung"
+    },
+    {
+      "STATION_CD": "1280",
+      "STATION_NM": "금촌",
+      "LINE_NUM": "K",
+      "FR_CODE": "K331",
+      "STATION_NM_ENG": "Geumchon"
+    },
+    {
+      "STATION_CD": "1282",
+      "STATION_NM": "월롱",
+      "LINE_NUM": "K",
+      "FR_CODE": "K333",
+      "STATION_NM_ENG": "Wollong"
+    },
+    {
+      "STATION_CD": "1283",
+      "STATION_NM": "파주",
+      "LINE_NUM": "K",
+      "FR_CODE": "K334",
+      "STATION_NM_ENG": "Paju"
+    },
+    {
+      "STATION_CD": "1284",
+      "STATION_NM": "문산",
+      "LINE_NUM": "K",
+      "FR_CODE": "K335",
+      "STATION_NM_ENG": "Munsan"
+    },
+    {
+      "STATION_CD": "1261",
+      "STATION_NM": "효창공원앞",
+      "LINE_NUM": "K",
+      "FR_CODE": "K826",
+      "STATION_NM_ENG": "Hyochang Park"
+    },
+    {
+      "STATION_CD": "1252",
+      "STATION_NM": "신촌(경의중앙선)",
+      "LINE_NUM": "K",
+      "FR_CODE": "P312",
+      "STATION_NM_ENG": "Sinchon"
+    },
+    {
+      "STATION_CD": "1251",
+      "STATION_NM": "서울(경의중앙선)",
+      "LINE_NUM": "K",
+      "FR_CODE": "P313",
+      "STATION_NM_ENG": "Seoul"
+    }
+  ],
+  "lineKK": [
+    {
+      "STATION_CD": "1501",
+      "STATION_NM": "판교",
+      "LINE_NUM": "KK",
+      "FR_CODE": "K410",
+      "STATION_NM_ENG": "Pangyo"
+    },
+    {
+      "STATION_CD": "1502",
+      "STATION_NM": "이매",
+      "LINE_NUM": "KK",
+      "FR_CODE": "K411",
+      "STATION_NM_ENG": "Imae"
+    },
+    {
+      "STATION_CD": "1503",
+      "STATION_NM": "삼동",
+      "LINE_NUM": "KK",
+      "FR_CODE": "K412",
+      "STATION_NM_ENG": "Samdong"
+    },
+    {
+      "STATION_CD": "1504",
+      "STATION_NM": "경기광주",
+      "LINE_NUM": "KK",
+      "FR_CODE": "K413",
+      "STATION_NM_ENG": "Gyeonggi Gwangju"
+    },
+    {
+      "STATION_CD": "1505",
+      "STATION_NM": "초월",
+      "LINE_NUM": "KK",
+      "FR_CODE": "K414",
+      "STATION_NM_ENG": "Chowol"
+    },
+    {
+      "STATION_CD": "1506",
+      "STATION_NM": "곤지암",
+      "LINE_NUM": "KK",
+      "FR_CODE": "K415",
+      "STATION_NM_ENG": "Gonjiam"
+    },
+    {
+      "STATION_CD": "1507",
+      "STATION_NM": "신둔도예촌",
+      "LINE_NUM": "KK",
+      "FR_CODE": "K416",
+      "STATION_NM_ENG": "Sindundoyechon"
+    },
+    {
+      "STATION_CD": "1508",
+      "STATION_NM": "이천",
+      "LINE_NUM": "KK",
+      "FR_CODE": "K417",
+      "STATION_NM_ENG": "Icheon"
+    },
+    {
+      "STATION_CD": "1509",
+      "STATION_NM": "부발",
+      "LINE_NUM": "KK",
+      "FR_CODE": "K418",
+      "STATION_NM_ENG": "Bubal"
+    },
+    {
+      "STATION_CD": "1510",
+      "STATION_NM": "세종대왕릉",
+      "LINE_NUM": "KK",
+      "FR_CODE": "K419",
+      "STATION_NM_ENG": "Sejongdaewangneung"
+    },
+    {
+      "STATION_CD": "1511",
+      "STATION_NM": "여주",
+      "LINE_NUM": "KK",
+      "FR_CODE": "K420",
+      "STATION_NM_ENG": "Yeoju"
+    }
+  ],
+  "lineS": [
+    {
+      "STATION_CD": "4307",
+      "STATION_NM": "강남",
+      "LINE_NUM": "S",
+      "FR_CODE": "D7",
+      "STATION_NM_ENG": "Gangnam"
+    },
+    {
+      "STATION_CD": "4308",
+      "STATION_NM": "양재",
+      "LINE_NUM": "S",
+      "FR_CODE": "D8",
+      "STATION_NM_ENG": "Yangjae"
+    },
+    {
+      "STATION_CD": "4309",
+      "STATION_NM": "양재시민의숲",
+      "LINE_NUM": "S",
+      "FR_CODE": "D9",
+      "STATION_NM_ENG": "Yangjae Citizen`s Forest"
+    },
+    {
+      "STATION_CD": "4310",
+      "STATION_NM": "청계산입구",
+      "LINE_NUM": "S",
+      "FR_CODE": "D10",
+      "STATION_NM_ENG": "Cheonggyesan"
+    },
+    {
+      "STATION_CD": "4311",
+      "STATION_NM": "판교",
+      "LINE_NUM": "S",
+      "FR_CODE": "D11",
+      "STATION_NM_ENG": "Pangyo"
+    },
+    {
+      "STATION_CD": "4312",
+      "STATION_NM": "정자",
+      "LINE_NUM": "S",
+      "FR_CODE": "D12",
+      "STATION_NM_ENG": "Jeongja"
+    },
+    {
+      "STATION_CD": "4314",
+      "STATION_NM": "동천",
+      "LINE_NUM": "S",
+      "FR_CODE": "D14",
+      "STATION_NM_ENG": "Dongcheon"
+    },
+    {
+      "STATION_CD": "4315",
+      "STATION_NM": "수지구청",
+      "LINE_NUM": "S",
+      "FR_CODE": "D15",
+      "STATION_NM_ENG": "Suji-gu Office"
+    },
+    {
+      "STATION_CD": "4316",
+      "STATION_NM": "성복",
+      "LINE_NUM": "S",
+      "FR_CODE": "D16",
+      "STATION_NM_ENG": "Seongbok"
+    },
+    {
+      "STATION_CD": "4317",
+      "STATION_NM": "상현",
+      "LINE_NUM": "S",
+      "FR_CODE": "D17",
+      "STATION_NM_ENG": "Sanghyeon"
+    },
+    {
+      "STATION_CD": "4318",
+      "STATION_NM": "광교중앙",
+      "LINE_NUM": "S",
+      "FR_CODE": "D18",
+      "STATION_NM_ENG": "Gwanggyo Jungang"
+    },
+    {
+      "STATION_CD": "4319",
+      "STATION_NM": "광교",
+      "LINE_NUM": "S",
+      "FR_CODE": "D19",
+      "STATION_NM_ENG": "Gwanggyo"
+    }
+  ],
+  "lineSU": [
+    {
+      "STATION_CD": "1877",
+      "STATION_NM": "오이도",
+      "LINE_NUM": "SU",
+      "FR_CODE": "K250",
+      "STATION_NM_ENG": "Oido"
+    },
+    {
+      "STATION_CD": "1878",
+      "STATION_NM": "달월",
+      "LINE_NUM": "SU",
+      "FR_CODE": "K251",
+      "STATION_NM_ENG": "Darwol"
+    },
+    {
+      "STATION_CD": "1879",
+      "STATION_NM": "월곶",
+      "LINE_NUM": "SU",
+      "FR_CODE": "K252",
+      "STATION_NM_ENG": "Wolgot"
+    },
+    {
+      "STATION_CD": "1880",
+      "STATION_NM": "소래포구",
+      "LINE_NUM": "SU",
+      "FR_CODE": "K253",
+      "STATION_NM_ENG": "Soraepogu"
+    },
+    {
+      "STATION_CD": "1881",
+      "STATION_NM": "인천논현",
+      "LINE_NUM": "SU",
+      "FR_CODE": "K254",
+      "STATION_NM_ENG": "Incheon Nonhyeon"
+    },
+    {
+      "STATION_CD": "1882",
+      "STATION_NM": "호구포",
+      "LINE_NUM": "SU",
+      "FR_CODE": "K255",
+      "STATION_NM_ENG": "Hogupo"
+    },
+    {
+      "STATION_CD": "1883",
+      "STATION_NM": "남동인더스파크",
+      "LINE_NUM": "SU",
+      "FR_CODE": "K256",
+      "STATION_NM_ENG": "Namdong Induspark"
+    },
+    {
+      "STATION_CD": "1884",
+      "STATION_NM": "원인재",
+      "LINE_NUM": "SU",
+      "FR_CODE": "K257",
+      "STATION_NM_ENG": "Woninjae"
+    },
+    {
+      "STATION_CD": "1885",
+      "STATION_NM": "연수",
+      "LINE_NUM": "SU",
+      "FR_CODE": "K258",
+      "STATION_NM_ENG": "Yeonsu"
+    },
+    {
+      "STATION_CD": "1886",
+      "STATION_NM": "송도",
+      "LINE_NUM": "SU",
+      "FR_CODE": "K259",
+      "STATION_NM_ENG": "Songdo"
+    },
+    {
+      "STATION_CD": "1888",
+      "STATION_NM": "인하대",
+      "LINE_NUM": "SU",
+      "FR_CODE": "K261",
+      "STATION_NM_ENG": "Inha University"
+    },
+    {
+      "STATION_CD": "1889",
+      "STATION_NM": "숭의",
+      "LINE_NUM": "SU",
+      "FR_CODE": "K262",
+      "STATION_NM_ENG": "Sungui"
+    },
+    {
+      "STATION_CD": "1890",
+      "STATION_NM": "신포",
+      "LINE_NUM": "SU",
+      "FR_CODE": "K263",
+      "STATION_NM_ENG": "Sinpo"
+    },
+    {
+      "STATION_CD": "1891",
+      "STATION_NM": "인천",
+      "LINE_NUM": "SU",
+      "FR_CODE": "K264",
+      "STATION_NM_ENG": "Incheon"
+    }
+  ],
+  "lineU": [
+    {
+      "STATION_CD": "4601",
+      "STATION_NM": "발곡",
+      "LINE_NUM": "U",
+      "FR_CODE": "U110",
+      "STATION_NM_ENG": "Balgok"
+    },
+    {
+      "STATION_CD": "4602",
+      "STATION_NM": "회룡",
+      "LINE_NUM": "U",
+      "FR_CODE": "U111",
+      "STATION_NM_ENG": "Hoeryong"
+    },
+    {
+      "STATION_CD": "4603",
+      "STATION_NM": "범골",
+      "LINE_NUM": "U",
+      "FR_CODE": "U112",
+      "STATION_NM_ENG": "Beomgol"
+    },
+    {
+      "STATION_CD": "4604",
+      "STATION_NM": "경전철의정부",
+      "LINE_NUM": "U",
+      "FR_CODE": "U113",
+      "STATION_NM_ENG": "LRT Uijeongbu"
+    },
+    {
+      "STATION_CD": "4605",
+      "STATION_NM": "의정부시청",
+      "LINE_NUM": "U",
+      "FR_CODE": "U114",
+      "STATION_NM_ENG": "Uijeongbu City Hall"
+    },
+    {
+      "STATION_CD": "4606",
+      "STATION_NM": "흥선",
+      "LINE_NUM": "U",
+      "FR_CODE": "U115",
+      "STATION_NM_ENG": "Heungseon"
+    },
+    {
+      "STATION_CD": "4607",
+      "STATION_NM": "의정부중앙",
+      "LINE_NUM": "U",
+      "FR_CODE": "U117",
+      "STATION_NM_ENG": "Uijeongbu Jungang"
+    },
+    {
+      "STATION_CD": "4608",
+      "STATION_NM": "동오",
+      "LINE_NUM": "U",
+      "FR_CODE": "U118",
+      "STATION_NM_ENG": "Dong-o"
+    },
+    {
+      "STATION_CD": "4609",
+      "STATION_NM": "새말",
+      "LINE_NUM": "U",
+      "FR_CODE": "U119",
+      "STATION_NM_ENG": "Sae-mal"
+    },
+    {
+      "STATION_CD": "4610",
+      "STATION_NM": "경기도청북부청사",
+      "LINE_NUM": "U",
+      "FR_CODE": "U120",
+      "STATION_NM_ENG": "Gyeonggi Provincial Government Northern Office"
+    },
+    {
+      "STATION_CD": "4611",
+      "STATION_NM": "효자",
+      "LINE_NUM": "U",
+      "FR_CODE": "U121",
+      "STATION_NM_ENG": "Hyoja"
+    },
+    {
+      "STATION_CD": "4612",
+      "STATION_NM": "곤제",
+      "LINE_NUM": "U",
+      "FR_CODE": "U122",
+      "STATION_NM_ENG": "Gonjae"
+    },
+    {
+      "STATION_CD": "4613",
+      "STATION_NM": "어룡",
+      "LINE_NUM": "U",
+      "FR_CODE": "U123",
+      "STATION_NM_ENG": "Eoryong"
+    },
+    {
+      "STATION_CD": "4614",
+      "STATION_NM": "송산",
+      "LINE_NUM": "U",
+      "FR_CODE": "U124",
+      "STATION_NM_ENG": "Songsan"
+    },
+    {
+      "STATION_CD": "4615",
+      "STATION_NM": "탑석",
+      "LINE_NUM": "U",
+      "FR_CODE": "U125",
+      "STATION_NM_ENG": "Tapseok"
+    }
+  ]
+}
