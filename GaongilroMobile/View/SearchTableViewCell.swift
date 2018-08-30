@@ -12,4 +12,8 @@ class SearchTableViewCell: UITableViewCell {
 
     static let cellName = "searchCell"
 
+    @IBOutlet weak var lineImageView: UIImageView!
+    @IBOutlet weak var koreanStaionNameLabel: UILabel!
+    @IBOutlet weak var englishStaionNameLabel: UILabel!
+    @IBOutlet weak var frCodeLabel: UILabel!
 }
