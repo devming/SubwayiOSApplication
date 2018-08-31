@@ -47,7 +47,15 @@ class MainViewController: UIViewController {
         self.scanner = MTBBarcodeScanner(previewView: self.previewView)
         self.destinationLabel.text = "To: \(self.destinationStationName)"
         getJsonData()
+        
+        self.searchView.translatesAutoresizingMaskIntoConstraints = false
+        let leading = NSLayoutConstraint(item: self.searchView, attribute: .leading, relatedBy: .equal, toItem: self.view.safeAreaLayoutGuide.owningView, attribute: .leading, multiplier: 1.0, constant: 0)
+        let trailing = NSLayoutConstraint(item: self.searchView, attribute: .trailing, relatedBy: .equal, toItem: self.view.safeAreaLayoutGuide.owningView, attribute: .trailing, multiplier: 1.0, constant: 0)
+        let top = NSLayoutConstraint(item: self.searchView, attribute: .top, relatedBy: .equal, toItem: self.view.safeAreaLayoutGuide.owningView, attribute: .top, multiplier: 1.0, constant: 0)
+        let bottom = NSLayoutConstraint(item: self.searchView, attribute: .bottom, relatedBy: .equal, toItem: self.view.safeAreaLayoutGuide.owningView, attribute: .bottom, multiplier: 1.0, constant: 0)
         self.view.addSubview(self.searchView)
+        self.view.addConstraints([leading, trailing, top, bottom])
+        self.searchView.isHidden = true
     }
     
     override func viewDidAppear(_ animated: Bool) {
