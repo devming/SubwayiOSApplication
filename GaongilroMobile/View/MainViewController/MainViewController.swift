@@ -74,6 +74,12 @@ class MainViewController: UIViewController {
             scanner.stopScanning()
         }
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "info" {
+            segue.destination
+        }
+    }
 }
 
 extension MainViewController {

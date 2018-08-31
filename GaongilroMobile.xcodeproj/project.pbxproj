@@ -13,6 +13,8 @@
 		CA3D1B702135AF3700267F6B /* SubwayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3D1B6F2135AF3700267F6B /* SubwayManager.swift */; };
 		CA3D6C892137F42C00396BC1 /* UtilFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3D6C882137F42C00396BC1 /* UtilFunction.swift */; };
 		CA3D6C8B21385D2900396BC1 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3D6C8A21385D2900396BC1 /* API.swift */; };
+		CA3D6C8D2138DE7200396BC1 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3D6C8C2138DE7200396BC1 /* InfoViewController.swift */; };
+		CA3D6C8F2138DF0400396BC1 /* DetailInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3D6C8E2138DF0400396BC1 /* DetailInfoViewController.swift */; };
 		CA5063EA1FEE0FAC000DF4E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5063E91FEE0FAC000DF4E7 /* AppDelegate.swift */; };
 		CA5063EC1FEE0FAC000DF4E7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5063EB1FEE0FAC000DF4E7 /* MainViewController.swift */; };
 		CA5063EF1FEE0FAC000DF4E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5063ED1FEE0FAC000DF4E7 /* Main.storyboard */; };
@@ -30,6 +32,8 @@
 		CA3D1B6F2135AF3700267F6B /* SubwayManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubwayManager.swift; sourceTree = "<group>"; };
 		CA3D6C882137F42C00396BC1 /* UtilFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilFunction.swift; sourceTree = "<group>"; };
 		CA3D6C8A21385D2900396BC1 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		CA3D6C8C2138DE7200396BC1 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		CA3D6C8E2138DF0400396BC1 /* DetailInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInfoViewController.swift; sourceTree = "<group>"; };
 		CA5063E61FEE0FAC000DF4E7 /* GaongilroMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaongilroMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA5063E91FEE0FAC000DF4E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA5063EB1FEE0FAC000DF4E7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -69,7 +73,8 @@
 			isa = PBXGroup;
 			children = (
 				CAFF5ACB2137947000801F2B /* MainViewController */,
-				CA3D1B6C2135238F00267F6B /* SearchTableViewCell.swift */,
+				CA3D6C8C2138DE7200396BC1 /* InfoViewController.swift */,
+				CA3D6C8E2138DF0400396BC1 /* DetailInfoViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 		CAFF5ACB2137947000801F2B /* MainViewController */ = {
 			isa = PBXGroup;
 			children = (
+				CA3D1B6C2135238F00267F6B /* SearchTableViewCell.swift */,
 				CA5063EB1FEE0FAC000DF4E7 /* MainViewController.swift */,
 				CAFF5ACC2137948C00801F2B /* SearchControllerExtension.swift */,
 				CAFF5ACE2137957E00801F2B /* SearchTableViewExtension.swift */,
@@ -272,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA5063EC1FEE0FAC000DF4E7 /* MainViewController.swift in Sources */,
+				CA3D6C8D2138DE7200396BC1 /* InfoViewController.swift in Sources */,
 				CA5063EA1FEE0FAC000DF4E7 /* AppDelegate.swift in Sources */,
 				CA3D1B6A213510A400267F6B /* Model.swift in Sources */,
 				CAFF5ACD2137948C00801F2B /* SearchControllerExtension.swift in Sources */,
@@ -281,6 +288,7 @@
 				CAAD8FA320CE3DE400768788 /* Shortest.swift in Sources */,
 				CA3D1B6D2135238F00267F6B /* SearchTableViewCell.swift in Sources */,
 				CAFF5ACF2137957E00801F2B /* SearchTableViewExtension.swift in Sources */,
+				CA3D6C8F2138DF0400396BC1 /* DetailInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
