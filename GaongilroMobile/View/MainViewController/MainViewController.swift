@@ -10,11 +10,12 @@ import MTBBarcodeScanner
 import Alamofire
 import SwiftyJSON
 import Alamofire_SwiftyJSON
+import ARKit
 
 class MainViewController: UIViewController {
     
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
-    @IBOutlet weak var previewView: UIView!
+    @IBOutlet weak var previewView: ARSCNView!
     @IBOutlet weak var departureLabel: UILabel!
     @IBOutlet weak var destinationLabel: UILabel!
     @IBOutlet weak var leftImage: UIImageView!
@@ -24,12 +25,23 @@ class MainViewController: UIViewController {
     @IBOutlet weak var searchTableView: UITableView!
     @IBOutlet weak var searchView: UIView!
     
+    var sceneView: ARSCNView?
     var scanner: MTBBarcodeScanner?
     var destinationStationName = ""
     var onOffFlag = true
     let searchController = UISearchController(searchResultsController: nil)
     var shortestPathInfo: Shortest?
     var filteredSubwayList: SubwayLine?
+    
+    var imageNodeObject: SCNPlane?          // 이미지 오브젝트 내용물
+    let defaultImageScale = SCNVector3(3.5, 3.5, 3.5)
+    let defaultLeftImagePosition = SCNVector3(-0.6, 0.0, -0.6)
+    let defaultRightImagePosition = SCNVector3(0.6, 0.0, -0.6)
+    
+    enum Position {
+        case Left
+        case Right
+    }
     
     @IBAction func onOffTapped(_ sender: Any) {
         self.onOffFlag = toggleScanning(flag: self.onOffFlag)
@@ -56,6 +68,7 @@ class MainViewController: UIViewController {
         self.view.addSubview(self.searchView)
         self.view.addConstraints([leading, trailing, top, bottom])
         self.searchView.isHidden = true
+        
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -76,9 +89,9 @@ class MainViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "info" {
-            segue.destination
-        }
+//        if segue.identifier == "info" {
+//            segue.destination
+//        }
     }
 }
 
@@ -186,16 +199,26 @@ extension MainViewController {
                         
                         DispatchQueue.main.async { [weak self] in
                             self?.departureLabel.text = "From: \(toGo.startStation)"
+                            
                             switch self?.shortestPathInfo?.direction {
                             case .LEFT?:
                                 self?.leftImage.image = UIImage(named: "ic_red_left")
                                 self?.rightImage.image = UIImage(named: "ic_gray_right")
+                                
+                                if let left = self?.leftImage.image {
+                                    self?.makeARImage(image: left, position: .Left)
+                                }
                             case .RIGHT?:
                                 self?.leftImage.image = UIImage(named: "ic_gray_left")
                                 self?.rightImage.image = UIImage(named: "ic_red_right")
+                        
+                                if let right = self?.rightImage.image {
+                                    self?.makeARImage(image: right, position: .Right)
+                                }
                             default:
                                 break
                             }
+                            
                         }
                         
                         self.stopIndicator()
@@ -205,5 +228,35 @@ extension MainViewController {
                 self?.showConfirmationAlert(alertTitle: "Error", alertMessage: "Unable to start scanning")
             }
         })
+    }
+    
+    func makeARImage(image: UIImage, position: Position) {
+        self.previewView.session.run(ARWorldTrackingConfiguration())
+//        self.previewView.debugOptions = [ARSCNDebugOptions.showFeaturePoints, ARSCNDebugOptions.showWorldOrigin]
+        
+        let material = SCNMaterial()
+        material.isDoubleSided = true
+        material.diffuse.contents = image
+        material.lightingModel = .constant
+        let imagePlane = SCNPlane(width: (self.previewView?.bounds.width ?? 6000) / 10000, height: (self.previewView?.bounds.width ?? 6000) / 10000)
+//        let imagePlane = SCNPlane(width: 0.5, height: 0.5) // 얘는 정사각형으로 만들어야됨..
+        imagePlane.firstMaterial = material
+        self.imageNodeObject = imagePlane
+        
+        let imageNode = SCNNode(geometry: self.imageNodeObject)
+        imageNode.scale = self.defaultImageScale
+        
+        switch position {
+        case .Left:
+            imageNode.position = self.previewView?.pointOfView?.position ?? SCNVector3(0, 0, 0)
+        case .Right:
+            imageNode.position = self.previewView?.pointOfView?.position ?? SCNVector3(0, 0, 0)
+        }
+        
+        /// 추가된 컨텐츠 걸어놓기
+        //                                self?.sceneView?.pointOfView?.enumerateChildNodes { (node, _) in
+        //                                    node.removeFromParentNode()
+        //                                }
+        self.previewView?.scene.rootNode.addChildNode(imageNode)
     }
 }

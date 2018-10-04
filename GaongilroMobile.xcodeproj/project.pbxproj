@@ -21,6 +21,8 @@
 		CA5063F11FEE0FAC000DF4E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA5063F01FEE0FAC000DF4E7 /* Assets.xcassets */; };
 		CA5063F41FEE0FAD000DF4E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5063F21FEE0FAD000DF4E7 /* LaunchScreen.storyboard */; };
 		CAAD8FA320CE3DE400768788 /* Shortest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAD8FA220CE3DE400768788 /* Shortest.swift */; };
+		CAD7BBC2215E3979006661AF /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD7BBC1215E3979006661AF /* MenuViewController.swift */; };
+		CAD7BBC5215E3B5A006661AF /* MenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD7BBC4215E3B5A006661AF /* MenuCollectionViewCell.swift */; };
 		CAFF5ACD2137948C00801F2B /* SearchControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFF5ACC2137948C00801F2B /* SearchControllerExtension.swift */; };
 		CAFF5ACF2137957E00801F2B /* SearchTableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFF5ACE2137957E00801F2B /* SearchTableViewExtension.swift */; };
 /* End PBXBuildFile section */
@@ -42,6 +44,8 @@
 		CA5063F31FEE0FAD000DF4E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA5063F51FEE0FAD000DF4E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CAAD8FA220CE3DE400768788 /* Shortest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shortest.swift; sourceTree = "<group>"; };
+		CAD7BBC1215E3979006661AF /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		CAD7BBC4215E3B5A006661AF /* MenuCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCollectionViewCell.swift; sourceTree = "<group>"; };
 		CAFF5ACC2137948C00801F2B /* SearchControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchControllerExtension.swift; sourceTree = "<group>"; };
 		CAFF5ACE2137957E00801F2B /* SearchTableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewExtension.swift; sourceTree = "<group>"; };
 		EDC20D0EC02DB1E34ABD9F0C /* Pods-GaongilroMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaongilroMobile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GaongilroMobile/Pods-GaongilroMobile.debug.xcconfig"; sourceTree = "<group>"; };
@@ -72,6 +76,7 @@
 		CA3D1B6721350EE800267F6B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CAD7BBC3215E3B37006661AF /* MenuViewController */,
 				CAFF5ACB2137947000801F2B /* MainViewController */,
 				CA3D6C8C2138DE7200396BC1 /* InfoViewController.swift */,
 				CA3D6C8E2138DF0400396BC1 /* DetailInfoViewController.swift */,
@@ -137,6 +142,15 @@
 				CA5063F51FEE0FAD000DF4E7 /* Info.plist */,
 			);
 			path = GaongilroMobile;
+			sourceTree = "<group>";
+		};
+		CAD7BBC3215E3B37006661AF /* MenuViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CAD7BBC1215E3979006661AF /* MenuViewController.swift */,
+				CAD7BBC4215E3B5A006661AF /* MenuCollectionViewCell.swift */,
+			);
+			path = MenuViewController;
 			sourceTree = "<group>";
 		};
 		CAFF5ACB2137947000801F2B /* MainViewController */ = {
@@ -278,12 +292,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA5063EC1FEE0FAC000DF4E7 /* MainViewController.swift in Sources */,
+				CAD7BBC5215E3B5A006661AF /* MenuCollectionViewCell.swift in Sources */,
 				CA3D6C8D2138DE7200396BC1 /* InfoViewController.swift in Sources */,
 				CA5063EA1FEE0FAC000DF4E7 /* AppDelegate.swift in Sources */,
 				CA3D1B6A213510A400267F6B /* Model.swift in Sources */,
 				CAFF5ACD2137948C00801F2B /* SearchControllerExtension.swift in Sources */,
 				CA3D6C8B21385D2900396BC1 /* API.swift in Sources */,
 				CA3D6C892137F42C00396BC1 /* UtilFunction.swift in Sources */,
+				CAD7BBC2215E3979006661AF /* MenuViewController.swift in Sources */,
 				CA3D1B702135AF3700267F6B /* SubwayManager.swift in Sources */,
 				CAAD8FA320CE3DE400768788 /* Shortest.swift in Sources */,
 				CA3D1B6D2135238F00267F6B /* SearchTableViewCell.swift in Sources */,
@@ -426,7 +442,7 @@
 			baseConfigurationReference = EDC20D0EC02DB1E34ABD9F0C /* Pods-GaongilroMobile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = HGQ9YZ4HTR;
 				INFOPLIST_FILE = GaongilroMobile/Info.plist;
@@ -435,7 +451,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.devming.GaongilroMobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "8a31b151-e282-49c0-881f-7243583b1453";
-				PROVISIONING_PROFILE_SPECIFIER = GaongilroProvisioning;
+				PROVISIONING_PROFILE_SPECIFIER = GaongilroTest;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
