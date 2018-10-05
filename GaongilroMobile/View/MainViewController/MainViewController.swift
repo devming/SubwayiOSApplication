@@ -21,7 +21,6 @@ class MainViewController: UIViewController {
     @IBOutlet weak var leftImage: UIImageView!
     @IBOutlet weak var rightImage: UIImageView!
     @IBOutlet weak var cameraEnablingButton: UIButton!
-    @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var searchTableView: UITableView!
     @IBOutlet weak var searchView: UIView!
     
@@ -57,7 +56,7 @@ class MainViewController: UIViewController {
         definesPresentationContext = true
         
         self.scanner = MTBBarcodeScanner(previewView: self.previewView)
-        self.destinationLabel.text = "To: \(self.destinationStationName)"
+        
         getJsonData()
         
         self.searchView.translatesAutoresizingMaskIntoConstraints = false
@@ -93,6 +92,10 @@ class MainViewController: UIViewController {
 //            segue.destination
 //        }
     }
+    
+    @IBAction func helpTapped(_ sender: UIBarButtonItem) {
+        showConfirmationAlert(alertTitle: "사용 방법", alertMessage: "1. 검색창에 목적지역을 입력하세요.\n2. 카메라 아이콘을 누르고 QR코드를 스캔하세요.")
+    }
 }
 
 extension MainViewController {
@@ -106,7 +109,6 @@ extension MainViewController {
     func stopIndicator() {
         DispatchQueue.main.async { [weak self] in
             self?.cameraEnablingButton.isHidden = false
-            self?.descriptionLabel.isHidden = false
             self?.scanner?.stopScanning()
             self?.activityIndicator.stopAnimating()
             UIApplication.shared.isNetworkActivityIndicatorVisible = false
@@ -120,6 +122,13 @@ extension MainViewController {
         self.present(alertController, animated: true, completion: nil)
     }
     
+    func showActionSheet(alertTitle title: String, alertMessage message: String) {
+        let alertController = UIAlertController(title: title, message: message, preferredStyle: .actionSheet)
+        let action = UIAlertAction(title: "OK", style: .default, handler: nil)
+        alertController.addAction(action)
+        self.present(alertController, animated: true, completion: nil)
+    }
+    
     func toggleScanning(flag: Bool) -> Bool {
         if flag {
             self.cameraEnablingButton.isHidden = true
@@ -128,7 +137,6 @@ extension MainViewController {
             self.cameraEnablingButton.isHidden = false
             self.scanner?.stopScanning()
         }
-        self.descriptionLabel.isHidden = self.cameraEnablingButton.isHidden
         return !flag
     }
     
@@ -198,7 +206,7 @@ extension MainViewController {
                         }
                         
                         DispatchQueue.main.async { [weak self] in
-                            self?.departureLabel.text = "From: \(toGo.startStation)"
+                            self?.departureLabel.text = "\(toGo.startStation)"
                             
                             switch self?.shortestPathInfo?.direction {
                             case .LEFT?:
@@ -238,7 +246,7 @@ extension MainViewController {
         material.isDoubleSided = true
         material.diffuse.contents = image
         material.lightingModel = .constant
-        let imagePlane = SCNPlane(width: (self.previewView?.bounds.width ?? 6000) / 10000, height: (self.previewView?.bounds.width ?? 6000) / 10000)
+        let imagePlane = SCNPlane(width: (self.previewView?.bounds.width ?? 6000) / 15000, height: (self.previewView?.bounds.width ?? 6000) / 15000)
 //        let imagePlane = SCNPlane(width: 0.5, height: 0.5) // 얘는 정사각형으로 만들어야됨..
         imagePlane.firstMaterial = material
         self.imageNodeObject = imagePlane
@@ -248,9 +256,11 @@ extension MainViewController {
         
         switch position {
         case .Left:
-            imageNode.position = self.previewView?.pointOfView?.position ?? SCNVector3(0, 0, 0)
+            imageNode.position = (self.previewView?.pointOfView?.position) ?? SCNVector3(0, 0, 0)
+            imageNode.position.z -= 0.2
         case .Right:
             imageNode.position = self.previewView?.pointOfView?.position ?? SCNVector3(0, 0, 0)
+            imageNode.position.z -= 0.2
         }
         
         /// 추가된 컨텐츠 걸어놓기
@@ -260,3 +270,11 @@ extension MainViewController {
         self.previewView?.scene.rootNode.addChildNode(imageNode)
     }
 }
+
+/* TODO:
+ 1. 화장실일 경우
+ QR코드 등록을 새로 설정해서
+ 화장실왼쪽오른쪽 설정하도록!
+ 
+ 
+ */

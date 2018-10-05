@@ -208,7 +208,7 @@ extension MainViewController: UITableViewDelegate {
         }
         self.destinationStationName = "\(stationName)"
         
-        self.destinationLabel.text = "To: \(stationName)(\(stationNameEnglish))"
+        self.destinationLabel.text = "\(stationName)(\(stationNameEnglish))"
         
         self.cameraEnablingButton.isEnabled = true
         self.searchController.isActive = false
