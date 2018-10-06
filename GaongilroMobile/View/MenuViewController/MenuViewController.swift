@@ -27,8 +27,12 @@ class MenuViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         super.prepare(for: segue, sender: sender)
         
-        if let cell = sender as? MenuCollectionViewCell, let indexPath = self.collectionView.indexPath(for: cell) {
-            if indexPath.item != 0 {
+        if let cell = sender as? MenuCollectionViewCell, let indexPath = self.collectionView.indexPath(for: cell), let vc = segue.destination as? MainViewController {
+            if indexPath.item == 0 {
+                vc.wayFindingMode = .Subway
+            } else if indexPath.item == 3 {
+                vc.wayFindingMode = .Toilet
+            } else if indexPath.item != 0 {
                 showConfirmationAlert(alertTitle: "Coming Soon", alertMessage: "준비중입니다.")
             }
         }

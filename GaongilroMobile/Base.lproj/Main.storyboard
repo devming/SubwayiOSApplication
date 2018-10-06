@@ -265,6 +265,7 @@
                             <constraint firstItem="KeR-NT-VeA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5Kr-5d-rAR"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Zkc-GE-nvr" secondAttribute="trailing" constant="16" id="AvV-Da-9pH"/>
                             <constraint firstItem="Zkc-GE-nvr" firstAttribute="top" secondItem="KeR-NT-VeA" secondAttribute="bottom" constant="20" id="Fi3-Ym-csW"/>
+                            <constraint firstItem="Zkc-GE-nvr" firstAttribute="top" secondItem="blU-F9-4uy" secondAttribute="bottom" priority="999" constant="10" id="HtO-j3-36g"/>
                             <constraint firstItem="blU-F9-4uy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="KWL-hP-lGP"/>
                             <constraint firstItem="KeR-NT-VeA" firstAttribute="top" secondItem="blU-F9-4uy" secondAttribute="bottom" constant="8" id="T5y-6c-KHc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="KeR-NT-VeA" secondAttribute="trailing" constant="8" id="VXT-Bw-iA8"/>
@@ -290,6 +291,8 @@
                         <outlet property="cameraEnablingButton" destination="KaO-aO-LkP" id="AU4-uY-Tdd"/>
                         <outlet property="departureLabel" destination="Z85-Ma-wqD" id="uyY-r5-sX5"/>
                         <outlet property="destinationLabel" destination="MlC-dc-32q" id="fis-0Q-CKB"/>
+                        <outlet property="helpBarButton" destination="OyJ-uO-hoQ" id="pSb-zM-l5g"/>
+                        <outlet property="labelStackView" destination="KeR-NT-VeA" id="aRJ-oh-Xgb"/>
                         <outlet property="leftImage" destination="V0i-Gs-Qla" id="jlv-Cc-9bP"/>
                         <outlet property="previewView" destination="blU-F9-4uy" id="Nna-f8-fE1"/>
                         <outlet property="rightImage" destination="1Kz-Im-Jtg" id="Iwn-RB-aQg"/>

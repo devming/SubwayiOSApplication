@@ -8,14 +8,18 @@
 
 import Foundation
 
+enum Direction: String {
+    case NONE
+    case LEFT
+    case RIGHT
+}
+
 struct Shortest {
     let startStation: String
     let direction: Direction
-    
-    enum Direction: String {
-        case NONE
-        case LEFT
-        case RIGHT
-    }
 }
 
+struct ToiletShortest {
+    let toiletNumber: Int
+    let direction: Direction
+}

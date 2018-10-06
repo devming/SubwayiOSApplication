@@ -24,12 +24,17 @@ class MainViewController: UIViewController {
     @IBOutlet weak var searchTableView: UITableView!
     @IBOutlet weak var searchView: UIView!
     
+    // 화장실일 경우 없앨 녀석들
+    @IBOutlet weak var labelStackView: UIStackView!
+    @IBOutlet weak var helpBarButton: UIBarButtonItem!
+    
     var sceneView: ARSCNView?
     var scanner: MTBBarcodeScanner?
     var destinationStationName = ""
     var onOffFlag = true
     let searchController = UISearchController(searchResultsController: nil)
     var shortestPathInfo: Shortest?
+    var toiletShortestPathInfo: ToiletShortest?
     var filteredSubwayList: SubwayLine?
     
     var imageNodeObject: SCNPlane?          // 이미지 오브젝트 내용물
@@ -37,9 +42,19 @@ class MainViewController: UIViewController {
     let defaultLeftImagePosition = SCNVector3(-0.6, 0.0, -0.6)
     let defaultRightImagePosition = SCNVector3(0.6, 0.0, -0.6)
     
+    var wayFindingMode = WayFindingMode.None
+    
     enum Position {
         case Left
         case Right
+    }
+    
+    enum WayFindingMode {
+        case Subway
+        case Toilet
+//        case Bus
+//        case Restaurant
+        case None
     }
     
     @IBAction func onOffTapped(_ sender: Any) {
@@ -48,26 +63,17 @@ class MainViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Setup the Search Controller
-        self.searchController.searchResultsUpdater = self
-        self.searchController.obscuresBackgroundDuringPresentation = false
-        self.searchController.searchBar.placeholder = "검색"
-        navigationItem.searchController = self.searchController
-        definesPresentationContext = true
         
-        self.scanner = MTBBarcodeScanner(previewView: self.previewView)
-        
-        getJsonData()
-        
-        self.searchView.translatesAutoresizingMaskIntoConstraints = false
-        let leading = NSLayoutConstraint(item: self.searchView, attribute: .leading, relatedBy: .equal, toItem: self.view.safeAreaLayoutGuide.owningView, attribute: .leading, multiplier: 1.0, constant: 0)
-        let trailing = NSLayoutConstraint(item: self.searchView, attribute: .trailing, relatedBy: .equal, toItem: self.view.safeAreaLayoutGuide.owningView, attribute: .trailing, multiplier: 1.0, constant: 0)
-        let top = NSLayoutConstraint(item: self.searchView, attribute: .top, relatedBy: .equal, toItem: self.view.safeAreaLayoutGuide.owningView, attribute: .top, multiplier: 1.0, constant: 0)
-        let bottom = NSLayoutConstraint(item: self.searchView, attribute: .bottom, relatedBy: .equal, toItem: self.view.safeAreaLayoutGuide.owningView, attribute: .bottom, multiplier: 1.0, constant: 0)
-        self.view.addSubview(self.searchView)
-        self.view.addConstraints([leading, trailing, top, bottom])
-        self.searchView.isHidden = true
-        
+        switch wayFindingMode {
+        case .Subway:
+            setupSearchView()
+        case .Toilet:
+            self.labelStackView.isHidden = true
+            self.helpBarButton.isEnabled = false
+            self.searchView.isHidden = true
+        case .None:
+            break
+        }
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -163,7 +169,16 @@ extension MainViewController {
                     guard let urlValue = code.stringValue else {
                         return
                     }
-                    let urlDestination = "\(urlValue)/\(self.destinationStationName)"
+                    var urlDestination = ""
+                    switch self.wayFindingMode {
+                    case .Subway:
+                        urlDestination  = "\(urlValue)/\(self.destinationStationName)"
+                    case .Toilet:
+                        urlDestination  = "\(urlValue)"
+                    case .None:
+                        return
+                    }
+                    
                     guard let encodedUrl = urlDestination.addingPercentEncoding(withAllowedCharacters: NSCharacterSet.urlQueryAllowed),
                         let url = URL(string: encodedUrl) else {
                             return
@@ -190,43 +205,16 @@ extension MainViewController {
                             return
                         }
                         
-                        let json = JSON(value)
-                        let stationName = json["stationName"].stringValue
-                        guard let direction = Shortest.Direction(rawValue: json["direction"].stringValue) else {
-                            self.showConfirmationAlert(alertTitle: "Error", alertMessage: "Direction Parsing Error")
-                            self.stopIndicator()
-                            return
-                        }
-                        
-                        self.shortestPathInfo = Shortest(startStation: stationName, direction: direction)
-                        guard let toGo = self.shortestPathInfo else {
-                            self.showConfirmationAlert(alertTitle: "Error", alertMessage: "toGo is nil")
-                            self.stopIndicator()
-                            return
-                        }
-                        
-                        DispatchQueue.main.async { [weak self] in
-                            self?.departureLabel.text = "\(toGo.startStation)"
+                        switch self.wayFindingMode {
+                        case .None:
+                            self.toiletResponse(value: value)
+                            break
+                        case .Subway:
+                            self.subwayResponse(value: value)
+                            break
+                        case .Toilet:
                             
-                            switch self?.shortestPathInfo?.direction {
-                            case .LEFT?:
-                                self?.leftImage.image = UIImage(named: "ic_red_left")
-                                self?.rightImage.image = UIImage(named: "ic_gray_right")
-                                
-                                if let left = self?.leftImage.image {
-                                    self?.makeARImage(image: left, position: .Left)
-                                }
-                            case .RIGHT?:
-                                self?.leftImage.image = UIImage(named: "ic_gray_left")
-                                self?.rightImage.image = UIImage(named: "ic_red_right")
-                        
-                                if let right = self?.rightImage.image {
-                                    self?.makeARImage(image: right, position: .Right)
-                                }
-                            default:
-                                break
-                            }
-                            
+                            break
                         }
                         
                         self.stopIndicator()
@@ -236,6 +224,82 @@ extension MainViewController {
                 self?.showConfirmationAlert(alertTitle: "Error", alertMessage: "Unable to start scanning")
             }
         })
+    }
+    
+    func subwayResponse(value: Any) {
+        let json = JSON(value)
+        let stationName = json["stationName"].stringValue
+        guard let direction = Direction(rawValue: json["direction"].stringValue) else {
+            self.showConfirmationAlert(alertTitle: "Error", alertMessage: "Direction Parsing Error")
+            self.stopIndicator()
+            return
+        }
+        
+        self.shortestPathInfo = Shortest(startStation: stationName, direction: direction)
+        guard let toGo = self.shortestPathInfo else {
+            self.showConfirmationAlert(alertTitle: "Error", alertMessage: "toGo is nil")
+            self.stopIndicator()
+            return
+        }
+        
+        DispatchQueue.main.async { [weak self] in
+            self?.departureLabel.text = "\(toGo.startStation)"
+            
+            switch self?.shortestPathInfo?.direction {
+            case .LEFT?:
+                self?.leftImage.image = UIImage(named: "ic_red_left")
+                self?.rightImage.image = UIImage(named: "ic_gray_right")
+                
+                if let left = self?.leftImage.image {
+                    self?.makeARImage(image: left, position: .Left)
+                }
+            case .RIGHT?:
+                self?.leftImage.image = UIImage(named: "ic_gray_left")
+                self?.rightImage.image = UIImage(named: "ic_red_right")
+                
+                if let right = self?.rightImage.image {
+                    self?.makeARImage(image: right, position: .Right)
+                }
+            default:
+                break
+            }
+            
+        }
+    }
+    
+    func toiletResponse(value: Any) {
+        let json = JSON(value)
+        let toiletNumber = json["toiletNumber"].intValue
+        guard let direction = Direction(rawValue: json["direction"].stringValue) else {
+            self.showConfirmationAlert(alertTitle: "Error", alertMessage: "Direction Parsing Error")
+            self.stopIndicator()
+            return
+        }
+        
+        self.toiletShortestPathInfo = ToiletShortest(toiletNumber: toiletNumber, direction: direction)
+        
+        DispatchQueue.main.async { [weak self] in
+            
+            switch self?.toiletShortestPathInfo?.direction {
+            case .LEFT?:
+                self?.leftImage.image = UIImage(named: "ic_red_left")
+                self?.rightImage.image = UIImage(named: "ic_gray_right")
+                
+                if let left = self?.leftImage.image {
+                    self?.makeARImage(image: left, position: .Left)
+                }
+            case .RIGHT?:
+                self?.leftImage.image = UIImage(named: "ic_gray_left")
+                self?.rightImage.image = UIImage(named: "ic_red_right")
+                
+                if let right = self?.rightImage.image {
+                    self?.makeARImage(image: right, position: .Right)
+                }
+            default:
+                break
+            }
+            
+        }
     }
     
     func makeARImage(image: UIImage, position: Position) {
@@ -268,6 +332,28 @@ extension MainViewController {
         //                                    node.removeFromParentNode()
         //                                }
         self.previewView?.scene.rootNode.addChildNode(imageNode)
+    }
+    
+    func setupSearchView() {
+        // Setup the Search Controller
+        self.searchController.searchResultsUpdater = self
+        self.searchController.obscuresBackgroundDuringPresentation = false
+        self.searchController.searchBar.placeholder = "검색"
+        navigationItem.searchController = self.searchController
+        definesPresentationContext = true
+        
+        self.scanner = MTBBarcodeScanner(previewView: self.previewView)
+        
+        getJsonData()
+        
+        self.searchView.translatesAutoresizingMaskIntoConstraints = false
+        let leading = NSLayoutConstraint(item: self.searchView, attribute: .leading, relatedBy: .equal, toItem: self.view.safeAreaLayoutGuide.owningView, attribute: .leading, multiplier: 1.0, constant: 0)
+        let trailing = NSLayoutConstraint(item: self.searchView, attribute: .trailing, relatedBy: .equal, toItem: self.view.safeAreaLayoutGuide.owningView, attribute: .trailing, multiplier: 1.0, constant: 0)
+        let top = NSLayoutConstraint(item: self.searchView, attribute: .top, relatedBy: .equal, toItem: self.view.safeAreaLayoutGuide.owningView, attribute: .top, multiplier: 1.0, constant: 0)
+        let bottom = NSLayoutConstraint(item: self.searchView, attribute: .bottom, relatedBy: .equal, toItem: self.view.safeAreaLayoutGuide.owningView, attribute: .bottom, multiplier: 1.0, constant: 0)
+        self.view.addSubview(self.searchView)
+        self.view.addConstraints([leading, trailing, top, bottom])
+        self.searchView.isHidden = true
     }
 }
 
