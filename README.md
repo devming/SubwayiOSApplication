@@ -13,6 +13,6 @@
 
 본 앱은 졸업 논문 연구용 iOS앱입니다.
 
-아래 영상은 본 앱의 시연영상입니다.
+아래에서 제공하는 유튜브 영상은 본 앱의 시연영상입니다. 클릭하시면 유튜브에서 시청하실 수 있습니다.
 
-<iframe width="854" height="480" src="https://youtu.be/moIpDFw4l84" frameborder="0" allowfullscreen></iframe>
+[![Watch the video](https://github.com/devming/SubwayiOSApplication/tree/master/img/sampleimg.png)](https://youtu.be/moIpDFw4l84)
