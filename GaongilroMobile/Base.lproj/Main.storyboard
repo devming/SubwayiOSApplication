@@ -215,19 +215,28 @@
                                 <rect key="frame" x="8" y="96" width="359" height="442"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KaO-aO-LkP">
-                                        <rect key="frame" x="149.66666666666666" y="191" width="60" height="60"/>
+                                        <rect key="frame" x="289" y="372" width="60" height="60"/>
                                         <state key="normal" image="ic_camera"/>
                                         <connections>
                                             <action selector="onOffTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sWs-KP-OBV"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" AR View " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UKb-2Z-rlT">
+                                        <rect key="frame" x="277" y="9.9999999999999982" width="72" height="20.333333333333329"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.30302868150684931" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.61505062430000002" green="0.82531098290000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <gestureRecognizers/>
                                 <constraints>
-                                    <constraint firstItem="KaO-aO-LkP" firstAttribute="centerX" secondItem="blU-F9-4uy" secondAttribute="centerX" id="8sl-Tv-YzT"/>
+                                    <constraint firstItem="UKb-2Z-rlT" firstAttribute="trailing" secondItem="KaO-aO-LkP" secondAttribute="trailing" id="6IQ-hm-WoY"/>
+                                    <constraint firstAttribute="trailing" secondItem="KaO-aO-LkP" secondAttribute="trailing" constant="10" id="AGD-rH-UdZ"/>
+                                    <constraint firstAttribute="bottom" secondItem="KaO-aO-LkP" secondAttribute="bottom" constant="10" id="U2t-YF-ldb"/>
+                                    <constraint firstItem="UKb-2Z-rlT" firstAttribute="top" secondItem="blU-F9-4uy" secondAttribute="top" constant="10" id="ZVK-rN-tOc"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" priority="999" constant="180" id="jUL-eP-f2w"/>
-                                    <constraint firstItem="KaO-aO-LkP" firstAttribute="centerY" secondItem="blU-F9-4uy" secondAttribute="centerY" id="nrJ-6E-BrW"/>
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="KeR-NT-VeA">
@@ -289,6 +298,7 @@
                     <connections>
                         <outlet property="activityIndicator" destination="Lma-3f-Sjz" id="nvt-XV-hZn"/>
                         <outlet property="cameraEnablingButton" destination="KaO-aO-LkP" id="AU4-uY-Tdd"/>
+                        <outlet property="cameraLabel" destination="UKb-2Z-rlT" id="HRt-13-AIp"/>
                         <outlet property="departureLabel" destination="Z85-Ma-wqD" id="uyY-r5-sX5"/>
                         <outlet property="destinationLabel" destination="MlC-dc-32q" id="fis-0Q-CKB"/>
                         <outlet property="helpBarButton" destination="OyJ-uO-hoQ" id="pSb-zM-l5g"/>

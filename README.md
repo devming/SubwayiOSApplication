@@ -13,4 +13,6 @@
 
 본 앱은 졸업 논문 연구용 iOS앱입니다.
 
-기회가 된다면 지하철에 설치해보고 싶네요 ㅎㅎ
+아래 영상은 본 앱의 시연영상입니다.
+
+<iframe width="640" height="360" src="https://youtu.be/moIpDFw4l84" frameborder="0" gesture="media" allowfullscreen=""></iframe>

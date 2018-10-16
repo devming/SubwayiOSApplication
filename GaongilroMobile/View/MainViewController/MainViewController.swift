@@ -23,6 +23,7 @@ class MainViewController: UIViewController {
     @IBOutlet weak var cameraEnablingButton: UIButton!
     @IBOutlet weak var searchTableView: UITableView!
     @IBOutlet weak var searchView: UIView!
+    @IBOutlet weak var cameraLabel: UILabel!
     
     // 화장실일 경우 없앨 녀석들
     @IBOutlet weak var labelStackView: UIStackView!
@@ -44,6 +45,9 @@ class MainViewController: UIViewController {
     
     var wayFindingMode = WayFindingMode.None
     
+    let codeScanningString = " QR Code Scanning... "
+    let arViewString = " AR View "
+    
     enum Position {
         case Left
         case Right
@@ -59,26 +63,41 @@ class MainViewController: UIViewController {
     
     @IBAction func onOffTapped(_ sender: Any) {
         self.onOffFlag = toggleScanning(flag: self.onOffFlag)
+        self.cameraLabel.text = self.codeScanningString
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.cameraLabel.text = self.arViewString
         
         switch wayFindingMode {
         case .Subway:
             setupSearchView()
+            self.navigationItem.title = "지하철역"
         case .Toilet:
+            self.cameraEnablingButton.isEnabled = true
             self.labelStackView.isHidden = true
             self.helpBarButton.isEnabled = false
             self.searchView.isHidden = true
+            self.scanner = MTBBarcodeScanner(previewView: self.previewView)
+            self.navigationItem.title = "화장실"
         case .None:
             break
         }
+        self.previewView.session.run(ARWorldTrackingConfiguration())
+        //        self.previewView.debugOptions = [ARSCNDebugOptions.showFeaturePoints, ARSCNDebugOptions.showWorldOrigin]
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        self.cameraEnablingButton.isEnabled = !self.destinationStationName.isEmpty
+        switch wayFindingMode {
+        case .Subway:
+            self.cameraEnablingButton.isEnabled = !self.destinationStationName.isEmpty
+        case .Toilet:
+            break
+        case .None:
+            break
+        }
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -117,6 +136,7 @@ extension MainViewController {
             self?.cameraEnablingButton.isHidden = false
             self?.scanner?.stopScanning()
             self?.activityIndicator.stopAnimating()
+            self?.cameraLabel.text = self?.arViewString
             UIApplication.shared.isNetworkActivityIndicatorVisible = false
         }
     }
@@ -174,7 +194,9 @@ extension MainViewController {
                     case .Subway:
                         urlDestination  = "\(urlValue)/\(self.destinationStationName)"
                     case .Toilet:
-                        urlDestination  = "\(urlValue)"
+                        self.destinationStationName = "상계"
+                        urlDestination  = "\(urlValue)/\(self.destinationStationName)"
+//                        urlDestination  = "\(urlValue)"
                     case .None:
                         return
                     }
@@ -207,20 +229,20 @@ extension MainViewController {
                         
                         switch self.wayFindingMode {
                         case .None:
-                            self.toiletResponse(value: value)
                             break
                         case .Subway:
                             self.subwayResponse(value: value)
                             break
                         case .Toilet:
-                            
+                            //                            self.toiletResponse(value: value)
+                            self.subwayResponse(value: value)
                             break
                         }
-                        
                         self.stopIndicator()
                     }
                 }
             } catch {
+                self?.cameraLabel.text = self?.arViewString
                 self?.showConfirmationAlert(alertTitle: "Error", alertMessage: "Unable to start scanning")
             }
         })
@@ -303,8 +325,6 @@ extension MainViewController {
     }
     
     func makeARImage(image: UIImage, position: Position) {
-        self.previewView.session.run(ARWorldTrackingConfiguration())
-//        self.previewView.debugOptions = [ARSCNDebugOptions.showFeaturePoints, ARSCNDebugOptions.showWorldOrigin]
         
         let material = SCNMaterial()
         material.isDoubleSided = true
