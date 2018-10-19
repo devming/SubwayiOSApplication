@@ -240,22 +240,24 @@
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="KeR-NT-VeA">
-                                <rect key="frame" x="152.33333333333334" y="546" width="70.333333333333343" height="80"/>
+                                <rect key="frame" x="8" y="546" width="359" height="80"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="269" verticalHuggingPriority="251" text="출발지" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.10000000000000001" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z85-Ma-wqD">
-                                        <rect key="frame" x="0.0" y="0.0" width="70.333333333333329" height="26.666666666666668"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="269" verticalHuggingPriority="251" text="출발지" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.10000000000000001" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z85-Ma-wqD">
+                                        <rect key="frame" x="0.0" y="0.0" width="359" height="26.666666666666668"/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⬇︎" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6qg-Jw-THm">
-                                        <rect key="frame" x="0.0" y="26.666666666666629" width="70.333333333333329" height="26.666666666666671"/>
+                                        <rect key="frame" x="0.0" y="26.666666666666629" width="359" height="26.666666666666671"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="268" verticalHuggingPriority="251" text="도착지" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.10000000000000001" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MlC-dc-32q">
-                                        <rect key="frame" x="0.0" y="53.333333333333364" width="70.333333333333329" height="26.666666666666664"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="268" verticalHuggingPriority="251" text="도착지" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.10000000000000001" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MlC-dc-32q">
+                                        <rect key="frame" x="0.0" y="53.333333333333364" width="359" height="26.666666666666664"/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -277,13 +279,13 @@
                             <constraint firstItem="Zkc-GE-nvr" firstAttribute="top" secondItem="blU-F9-4uy" secondAttribute="bottom" priority="999" constant="10" id="HtO-j3-36g"/>
                             <constraint firstItem="blU-F9-4uy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="KWL-hP-lGP"/>
                             <constraint firstItem="KeR-NT-VeA" firstAttribute="top" secondItem="blU-F9-4uy" secondAttribute="bottom" constant="8" id="T5y-6c-KHc"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="KeR-NT-VeA" secondAttribute="trailing" constant="8" id="VXT-Bw-iA8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KeR-NT-VeA" secondAttribute="trailing" constant="8" id="VXT-Bw-iA8"/>
                             <constraint firstItem="Lma-3f-Sjz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Yqp-j8-alh"/>
                             <constraint firstItem="Zkc-GE-nvr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="gFQ-i6-Yxj"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Zkc-GE-nvr" secondAttribute="bottom" constant="32" id="kDZ-4R-feS"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="blU-F9-4uy" secondAttribute="trailing" constant="8" id="lHA-c6-q0u"/>
                             <constraint firstItem="Lma-3f-Sjz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rwl-hU-vAt"/>
-                            <constraint firstItem="KeR-NT-VeA" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="sk0-bg-nHf"/>
+                            <constraint firstItem="KeR-NT-VeA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="sk0-bg-nHf"/>
                             <constraint firstItem="blU-F9-4uy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="uyd-ZN-Jpt"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

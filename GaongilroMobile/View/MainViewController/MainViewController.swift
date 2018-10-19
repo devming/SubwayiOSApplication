@@ -85,6 +85,7 @@ class MainViewController: UIViewController {
             break
         }
         self.previewView.session.run(ARWorldTrackingConfiguration())
+        
         //        self.previewView.debugOptions = [ARSCNDebugOptions.showFeaturePoints, ARSCNDebugOptions.showWorldOrigin]
     }
     
@@ -218,6 +219,9 @@ extension MainViewController {
                         if !response.result.isSuccess {
                             self.showConfirmationAlert(alertTitle: "Error", alertMessage: "Network Error")
                             self.stopIndicator()
+                            print("Error Value : \(response.result.value)")
+                            print("Error Msg (response.result.error): \(response.result.error)")
+                            print("Error Msg (response.error): \(response.error)")
                             return
                         }
                         
